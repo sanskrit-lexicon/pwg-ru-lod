@@ -1,0 +1,36 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/mAnasa> a ontolex:LexicalEntry ;
+  rdfs:label "mānasa"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/mAnasa> ;
+  pwglex:key2 "mAnasa/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mAnasa/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mAnasa/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mAnasa/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मानस /mānasa/ 1. 1) духовный 2) мысленный 2. n. 1) мысль 2) дух- душа 3) сердце 4) назв. озера в Гималаях, являющегося местом паломничества"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mAnasa/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 47; VI, 15, 37; X, 6; XVII, 16; прил. принадлежащий манасу, мысли, духовный (X, 6); душевное качество, сердце, душа. (V) Разумный; как творец, 182, 11 и сл.; 183, 2; 187, 23; 193, 32; символическое море, где в чашечке лотоса скрывался Индра, 344, 26, 28, 30. (VI) мыслительный, разумный; мыслительные силы, разумность; название озера вблизи Кайласы, в небесной роще Нандана."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

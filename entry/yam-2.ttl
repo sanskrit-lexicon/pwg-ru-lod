@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/yam-2> a ontolex:LexicalEntry ;
+  rdfs:label "yam"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/yam> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yam-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yam-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yam-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yam-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "यम् /yam/ (P. pr. /yachati/ — I- fut. /yaṁ-syati/- pf. /yayāma/- aor. /ayaṁsīt/- pp. /yata/) 1) проверять 2) предлагать 3) препятствовать 4) поднимать 5) идти 6) показывать 7) держать 8) укрощать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yam-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "यम्\t/yam/\t\t/ям/\tyam (yachati 1, pp. yata, ger. °yamya; c. yamayati, pp. yamita) держать, давать, c. сдерживать. — ā pp. продолговатый. — nirā протягивать. — ud поднимать. — samud id.; p. начинать, готовиться, собираться, намѣреваться, думать (о чемъ). — upa med. и act. брать въ жены, жениться. — ni у-, сдерживать, усмирять, обуздывать; pp. см. отд. — pra давать; выдавать замужъ. saṁpra id. — sam подвязывать (волосы); обуздывать. — [ ζημία].\tс. 256"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yam-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IV, 28; V, 25, 26, 28; VI, 10, 12, 19, 45; XII, 11, 14; XVIII, 52; гл. держать, укреплять, носить, поддерживать, тормозить; p. p. yata сдержанный, умеренный, малый; med. умиротвориться, подчиниться, остаться верным; ud I, 20, 45; поднять, возносить (I, 20); p. p. udyata samud I, 22; то же; предлагать, предполагать; samudyata стоящий в сознании, в мысли, предполагающийся, готовящийся; ni I, 44; III, 7, 8, 41; IV, 30; VI, 15, 26; VII, 20; VIII, 2; XVIII, 7, 9, 23, 47, 51; сдерживать; ставить; ограничивать, подавлять, укреплять, отказывать; niyatāhāra ограниченный в пище (IV, 30); niyatam нар. определённо, конечно, достоверно, постоянно, правильно (I, 44); niyata определённый, твёрдо установленный, постоянный, достоверный, неизменный, правильный (III, 8; XVIII, 7, 9); vini VI, 18, 24; укрощать, подавлять (VI, 24), вытягивать; saṁni XII, 4; XVIII, 57; твёрдо держать, притягивать, стягивать, укрощать (XII, 4); pra IX, 26; растягивать, распростирать, давать, снабжать (IX, 26); в вин. приносимая вещь, в дат., родит. или locat. одаряемое лицо; sam II, 61; III, 6; IV, 27, 39; VI, 14, 36; VIII, 12; стягивать, сдерживать, притягивать (II, 61; X, 29); p. p. samyata связанный, привязанный; med. закрывать (для себя), VIII, 12; samyata =udyata; готовый."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

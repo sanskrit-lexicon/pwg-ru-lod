@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/avasTA> a ontolex:LexicalEntry ;
+  rdfs:label "avasthā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/avasTA> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/fri/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अवस्था I /avasthā/ (формы см. स्था) 1) лишаться чего-л. (Abl. ) 2) спускаться в (Acc. ) 3) останавливаться 4) быть налицо- присутствовать 5) оставаться 6) перен. застывать в (Instr. ) 7) доставаться кому-л. (Dat. ) 8) вступать в (Loc. ) 9) достигать чего-л. (Acc. ) 10) становиться кем-л., чем-л. (Acc. ) 11) начинать(ся)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "अवस्था II /avasthā/ f. 1) положение, состояние 2) условие, обстоятельство"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "अवस्था\t/avasthā/\t/avasthA/\t/авастха/\tavasthā f. состояніе, положеніе.\tс. 201"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/avasTA/dict/fri/4> a ontolex:LexicalSense ;
+  skos:definition "+ava (avasthā); итти вниз, уходить, разобщаться, быть лишенным чего-нибудь; med. оставаться, проживать, жить, продолжать, присутствовать; стоять неподвижно, останавливаться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

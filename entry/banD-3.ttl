@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/banD-3> a ontolex:LexicalEntry ;
+  rdfs:label "bandh"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/banD> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/banD-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/banD-3/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/banD-3/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/banD-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "बन्ध् /bandh/ (U. pr. /badhnāti/ /badhnīte/ — /X- fut. /bandhiṣyati/ /bandhiṣyate/- pf. /ba-bandha/ /bedhe/- p. /badhyate/- pp. /baddha/- ger. /baddhvā/- inf. /banddhum/ /bandhitum/) 1) связывать- повязывать 2) одеваться 3) касаться 4) укреплять, закреплять"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/banD-3/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "बन्ध्\t/bandh/\t\t/бандх/\tbandh (badhnāti, p. badhyatē, pp. baddha, ger. baddhvā, inf. banddhum и bandhitum; pf. babandha) при-, связывать; p. связывать себя, быть связаннымъ (чѣмъ), приниматься (о плодахъ, росткахъ и пр.), обнаруживать, имѣть (baddhaph° 168, 15 въ см. благодаря внутренней мощи или судя по обнаруживающейся плодовитости). — ni id. — prati привязывать. — [гот. bindan „binden“, ср. πεῖομα, πενθερός, лат. offendimentum, offendix, лит. bẽndras, banda].\tс. 246"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/banD-3/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) III, 9; IV, 14; XIV, 6; XVI, 12; гл. связывать, пленять, anu XV, 2; XVIII, 25; то же; иметь последствием, выявлять, обнаруживать, преследовать; ni IV, 22, 41; V, 12; IX, 9; XIV, 5, 7; XVIII, 17, 60; связывать, укреплять, заковывать, удерживать, образовывать."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

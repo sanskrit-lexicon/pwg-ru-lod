@@ -1,0 +1,55 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/BU-2> a ontolex:LexicalEntry ;
+  rdfs:label "bhū"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/BU> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/fri/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/smirnov/6> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "भू II /bhū/ 1. 1) существующий 2) возникающий 3) принадлежащий 2. f. 1) возникновение 2) земля, почва 3) мир 4) страна, земля"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "भू I /bhū/ (Р., редко A., pr. /bhavati/ /bha-vate/ — I- fut. /bhaviṣyati/ /bhaviṣyate/- pf. /babhūva/ /babhūve/- aor. /abhūt/- pp. /bhūta/) P. 1) быть 2) делаться, происходить- А. 1) достигать, доходить 2) добывать, получать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "भू\t/bhū/\t/bhU/\t/бху/\tbhū (bhavati, °tē, p. bhūyatē, pp. bhūta, ger. bhūtvā, °bhūya, pn. bhavitavya, inf. bhavitum; f. bhaviṣyati, periphr. bhavitā; pf. babhūva; aor. abhūt, precat. bhūyāt, съ отриц. mā bhūt; c. bhāvayati, ger. °bhāvya; pn. bhāvya см. отд.) быть, дѣлаться, происходить; pp. сдѣлавшійся, настоящій, бывшій, прошедшій, съ śvas предстоящій, 3. sg. imp. bhavatu пусть будетъ, — такъ, ладно, хорошо, ну; c. производить — anu, N. 2, 9 anubhūyatām 3. sg. imp. p. = anvīyatām, см. подъ i. — abhi нападать, стѣснять, преслѣдовать. — pari пренебрегать, презирать. — pra имѣть силу, власть (надъ собою съ gen.). — vi c. догадываться, узнавать. — sam происходить; c. дорожить, уважать, оказывать честь, привѣтствовать. — [φύω, лат. fui, fīo, гот. bauan „bauen“, нѣм. bin, лит. buti, цсл. byti „быть“].\tс. 249"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "भू\t/bhū/\t/bhU/\t/бху/\tbhū f. земля.\tс. 249"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II bhū; возникающий, возникший; f. мир, земля, край, место"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BU-2/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(II-2) BHŪ 1 I, 11, 44, 46; II, 12, 20, 25, 34, 35, 45, 47, 63; III, 11, 12, 14, 30; IV, 7, 12; VI, 2, 17, 42, 46; VII, 26; VIII, 6, 19; IX, 31, 33; X, 5, 34; XI, 12, 32, 33, 46, 49, 50; XII, 7; XIV, 3, 10, 17, 21; XV, 13, 14; XVI, 3, 13; XVII, 2, 3, 7; XVIII, 12, 57, 65, 69; гл. bhavati, babhūva быть, становиться, случаться, присутствовать (II, 63; XIV, 17), возникать part. praes. bhavant, p. fut. bhaviṣyant; caus. bhavayati творить (III, 11), образовывать (VIII, 6); abhi I, 40, 41; XIV, 10; приобретать, достигать, посещать (в смысле наказывать, I, 40); ud III, 15; V, 23; X, 27; возникать, проявляться, подниматься, вставать; caus. воспитывать, порождать, samud III, 14, 15, 37; XIV, 7, 20; выходить, возникать; pra VI, 24; VIII, 18, 19; XIII, 16; XVI, 9; XVIII, 41; выходить, умножаться, усиливаться; valere приобретать ценность; prabhavant мощный, владыка, повелитель; с дат. nom. ag. мочь, воздействовать (XVI, 9), способствовать; sam II, 34; IV, 6, 8, 42; XIII, 19; XIV, 4, 5; XVI, 8, 17; соединяться, сходиться, воздействовать, возникать, рождаться, уважать, почитать (II, 34), превозноситься (XVI, 17). (II-2) BHŪ 2 XVIII, 69; прил. становящийся; на конце сложного слова: svayambhū самосущий эпитет Вишну; ж. р. возникновение, земля, bhūvi на земле."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

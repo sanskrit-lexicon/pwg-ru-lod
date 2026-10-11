@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/div-4> a ontolex:LexicalEntry ;
+  rdfs:label "div"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/div> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "दिव् II /div/ 1. m., f. небо 2. m., n. 1) день 2) излучение- сияние- Instr. दिवा a) adv. днём б) (о — ) день- Instr. pl. द्युभिस् adv. днём, при свете дня- Loc. दिवे दिवे день за днём- ежедневно- Acc. दिवं गम् (या) умереть (букв. отправиться на небо)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "दिव् I /div/ (P. pr. /dīvyati/—IV- pf. /dide-va/- aor. /adevīt/- pp. /dyūta/, /dyūna/- p. /diviate/) 1) играть 2) излучать- сиять 3) развлекаться- праздно проводить время 4) праздновать что-л.- веселиться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "दिव्\t/div/\t\t/див/\tdiv (dyu, dyō, им. dyāus) m. f. небо, m. n. день; divā instr. adv. днемъ; divē-divē loc. adv. ежедневно.— [Zεύς, лат. diēs, Jovis, Jūpiter; ср. подъ dēva].\tс. 229"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/div-4/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) DIV 2 XI, 12, 20; XVIII, 40; locat. divi и dyavi; в Ведах м. р., редко женского, впоследствии всегда женского; небо; персонификация дочь Праджапати; в Ведах есть и мужская персонификация; один из Васу; Небо отец, Земля мать Dyāvāpṛthivi, двойств. ч. (XI, 20); день, свет, огонь."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

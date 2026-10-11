@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/manas-2> a ontolex:LexicalEntry ;
+  rdfs:label "manas"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/manas> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मनस् /manas/ n. 1) дух, душа 2) ум, разум 3) замысел 4) желание, намерение- मनः कर् а) решаться на что-л. б) намереваться делать что-л. (Loc, Dat., inf.)- मनो धा обдумывать что-л.- मनसिकर् а) принимать во внимание б) принимать к сердцу в) вспоминать г) обдумывать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "मनस्\t/manas/\t\t/манас/\tmanas n. мысль, умъ, духъ, душа, сердце; manaḥpūta M. 46 очищенный духомъ т. е. чистый по образу мыслей. — [μέυος].\tс. 251"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "manas n.; мысль, разум, орган восприятия и познания, замысел, желание"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/manas-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 30; II, 55, 56, 60, 67; III, 6, 7, 40, 42; V, 11, 13, 19, 28; VI, 12, 14, 24, 25, 26, 27, 34, 35, 37, 45; VII, 1, 4; VIII, 7, 10, 12; IX, 13; X, 22; XI, 45, 49; XII, 2, 8, 14; XV, 7, 9; XVII, 11, 16; XVIII, 33, 52; ср. р. мысль как широкое обозначение душевных способностей: представления, восприятия, изъявления, желания; сердце как вместилище этих способностей, дух, душа, мышленье, воспоминанье, желанье, влеченье; в философских системах орган познавания, осмысливающий среду ум; он есть сила познания, синтезирующая деятельность «органов чувств» (индрий); манас не есть дух; традиционные философские школы (за исключением ньяя) не считают манас бессмертным. (II-1) (Manas) ум, способность осмысливания впечатлений, воспринятых через органы чувств, и способность ответа на эти впечатления через действующие индрии. Манас переживает воспринятое чувствами, которые сами не осознают воспринимаемого, но являются лишь простыми передатчиками, поэтому манас есть и центр эмоций, «сердце» в психологическом, но не в физическом смысле. (III) психический центр, сосредоточие индрий, воспринимающих и действующих психических органов; рассудок; “сердце”, как эмоциональный психический центр в психологической системе Санкхья (см. также введение к Санатсуджатапарван). (IV) “рассудок”, психический орган, объединяющий индрии и подчинённый буддхи (разуму); “сердце” как эмоциональный центр (но не как физический орган). Манаса название горы. (V) рефлекторный центр, управляющий индриями; ум, сердце в психологическом, но не в анатомическом смысле; центр эмоций; третья, иногда первая ступень (таттва) проявления непроявленной пракрити (по системе Санкхьи), м. в системе таттв, 194, 12 и сл.; 246, 2 и сл.; 276, 16 и сл.; м. обуздывается йогой, 195, 8; 206, 21; м. воспринимает, а буддхи решает, 205, 10 и сл.; 219, 34; 287, 13 и сл.; м. качество саттвы, 210, 34; м. творческий принцип, 211, 1 и сл.; 247, 13; 248, 1 и сл.; м. во время сна, 216, 6 и сл.; м. растворяется в непроявленном, 233, 13; 341, 30; м. орган познания, 313, 17; 322, 102; м. поглощается Аханкарой, 314, 12 (см. индрии, знание, суть, таттва)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

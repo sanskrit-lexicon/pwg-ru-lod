@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/bali> a ontolex:LexicalEntry ;
+  rdfs:label "bali"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/bali> ;
+  pwglex:key2 "bali/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "बलि /bali/ m. 1) налог 2) подношение, дар 3) жертва, жертвоприношение (пищей) 4) nom. pr. демон, царь дайтьев- см. दैत्य"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "बलि\t/bali/\t\t/бали/\tbali m. подаяніе; жертвенная пища, приносимая такъ наз. существамъ (особ. домовымъ).\tс. 246"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "bali m.; подать (королю), плата, дань, подарок, жертва богам"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/bali/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(III) “Приношение, дар”, имя одного дайтья, сына Вирочаны, завладевшего тремя мирами. К Бали пришёл Вишну в образе карлика и просил дать ему столько земли, сколько он сможет отмерить тремя шагами. Получив согласие, Вишну перешагнул через три мира, низвергнул Бали в подземное царство, властелином которого тот стал. Имя брата Сугривы; Бали отнял у Сугривы царство и был убит Рамой. (V) “Сильный”; имя дайтья, побеждённого Индрой, сына Вирочаны, 180, 3; 223; 224; 227; 341, 79. (VI) имя дайтья, побеждённого Индрой."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

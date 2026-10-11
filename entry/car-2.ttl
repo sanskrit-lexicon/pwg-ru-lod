@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/car-2> a ontolex:LexicalEntry ;
+  rdfs:label "car"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/car> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/car-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/car-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/car-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/car-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "चर् /car/ (P pr. /carati/ — I- fut. /cariṣy-ati/- pf. /cacāra/- aor. /acārīt/- pp. /carita/) 1) ходить, бродить 2) странствовать 3) действовать- заниматься чем-л. (Instr. ) 4) жить 5) следовать- миновать 6) делать, производить"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/car-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "चर्\t/car/\t\t/чар/\tcar (carati, pp. carita и cīrṇa; pf. cacāra; c. cārayati) идти, странствовать, бродить, пастись, водиться, жить; вы-, исполнять, соблюдать, совершать, дѣлать; съ bhikṣām или bhāikṣam просить милостыни. — ā совершать, дѣлать. — samā id., поступать, соблюдать. — vi расходиться, прохаживаться, бродить, странствовать, жить; c. мѣшкать, медлить, — sam идти, съ gen. переходить (отъ одного на другого 159, 23). — [πέλομαι, лат. colō etc., ср. подъ cakra].\tс. 220-221"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/car-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 64, 67, 71; III, 36; V, 27; VIII, 11; двигаться, бродить (II, 67 следуя предметам чувств); с прич., иногда с absolut. описательно, чаще всего о длительной деятельности (II, 71); жить, быть, выполнять (III, 36); ā III, 19; IV, 23; XIV, 21; приближаться, приходить, исполнять, практиковать (III, 21; IV, 23); samā III, 9, 26; делать, выполнять (III, 9); nis VI, 26; выходить, исходить (VI, 26); vyabhi XIII, 10; XIV, 26; XVIII, 33; переставать, прекращать, неуспевать, терпеть неудачу."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

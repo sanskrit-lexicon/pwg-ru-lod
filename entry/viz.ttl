@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/viz> a ontolex:LexicalEntry ;
+  rdfs:label "viṣ"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/viz> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "विष् II /viṣ/ (U. pr. /viveṣṭi/ /viviṣe/ —III- pf. /viveṣa/ /viveṣe/- aor. /aviṣṭat/ /avikṣata/) 1) делать- действовать 2) течь (о воде) 3) служить 4) управлять 5) есть, поедать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "विष् I /viṣ/ (P. pr. /veṣati/ —I- fut. /vekṣ-yati/- pf. /viveṣa/- aor. /avikṣat/- pp. /viṣṭa/ ) брызгать, кропить"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "विष् III /viṣ/ f. кал, экскременты"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viz/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VIŚ 1 VIII, 11; IX, 21; XI, 21, 27, 28, 29; XVIII, 55; гл. viśati, veṣṭa veṣṭum распускаться, вступать, входить (но по смыслу XI, 29 восходить), садиться, попасть (XI, 21; XVIII, 55); ā I, 28; II, 1; VIII, 10; XI, 14; XV, 13, 17; входить, вступать, садиться; p. p. āviṣṭa в активном смысле вошедший, проникший, посторонний; в пассивн. обитаемый, пораженный, обладаемый, охваченный; samā XVIII, 10; то же, направляться, приходить, мочь, превозмогать; p. p. samāviṣṭa охваченный, побеждённый, наполненный (sattva, XVIII, 10); upa I, 47; VI, 12; приблизиться (с вин.), опускаться, садиться; p. p. upāviśat I, 47; опустившийся, севший; располагаться, склоняться (к закату); предаваться чему-н.; ni XII, 8; med. возвращаться домой, войти, лечь, расположиться, прибегать к защите, осесть (то есть выстроить дом, жениться); p. p. niviṣṭa успокоившийся, обоснованный, направленный (взор, мысль, сознание XII, 8 с locat.); pra II, 70; XI, 54; войти, вступить, спрятаться, исчезнуть; p. p. praviṣṭa вошедший, проникший, занятый; saṁni XV, 15; обращаться; p. p. saṁniviṣṭa расположившийся, покоящийся, содержащийся в (XV, 15). (II-2) VIŚ 2 XVIII, 41; ж. р. оседлость, обитель, дом, род, племя, народ, смерд; третья варна, позднее названная vaiśya (см. это слово)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

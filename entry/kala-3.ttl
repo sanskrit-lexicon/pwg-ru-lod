@@ -1,0 +1,60 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kAla-3> a ontolex:LexicalEntry ;
+  rdfs:label "kāla"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kAla> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/fri/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/smirnov/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/smirnov/7> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "во время чего-л., в काल -kāla"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "काल II /kāla/ m. 1) точное время, срок 2) время- период, эпоха 3) время года 4) время принятия пищи (два раза в день) 5) половина дня 6) час 7) судьба 8) смерть 9) грам. время"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "काल I /kāla/ 1. 1) чёрный- тёмный 2) тёмно-синий 2. m. 1) чёрный или тёмно-синий цвет 2) зрачок 3) назв. многих растений 4) nom. pr.—эпитет Шивы- см. शिव 2 1)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "काल\t/kāla/\t/kAla/\t/кала/\tkāla m. время, извѣстное вр., срокъ; S. 1, 5 время ѣды (всего два въ день: утромъ и вечеромъ); ib. 4, 32 въ то время, въ эту минуту.\tс. 213"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II kāla m.; время, подходящее время, возможность, время (полдень, час), судьба, смерть, бог смерти, конец"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(V) “космическое время, времяисчисление”, 210, 14; 211, 12; 221, 11; 223; 224; 225, 10, 14; 227, 29 и сл.; 231, 9 и сл.; 313, 1 и сл. (см. также кала)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAla-3/dict/smirnov/7> a ontolex:LexicalSense ;
+  skos:definition "(II-2) KĀLA 2 IV, 2, 38; VIII, 7, 10, 23, 27; X, 30; XI, 32; м. р. урочное время; время как миропорядок, судьба, смерть. Кала персонификация Времени и Судьбы, сын Дхрувы, Полярной звезды; kālena со временем (IV, 38); очень часто эпитет Шивы, реже Вишну, напр., XI, 32. (II-1) (Kāla) время, редко эпитет Вишну (в гл. XI), часто Шивы, как разрушительной силы мироздания. (III) “время”, эпитет Шивы, реже Вишну (ср. Бхагавадгита XI, 32); смерть, символ смерти и разрушения. (IV) “время”, смерть; одна из форм Шивы (реже Вишну). (V) “чёрный”; “гонитель”; “время”; один из частых эпитетов Шивы. К. как божество, всё разрушающее, 196, 6; 199, 16; 224, 5, 19 и сл.; 227, 34 и сл.; 232, 42; К.=Рудре, 344, 113; океан К., 321, 8. (VI) чёрный, мрачный; время, смерть; эпитет Шивы, супруга Кали, очень редко (например, “Бхагавадгита”, XI, 30) эпитет Вишну; название криницы. (VII) “чёрный”, “мрачный”, “время”, “смерть” эпитет Шивы, супруга Кали; К. символ смерти и разрушения. Очень редко этот эпитет применяется к Вишну."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

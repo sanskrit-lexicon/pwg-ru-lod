@@ -1,0 +1,60 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pad-2> a ontolex:LexicalEntry ;
+  rdfs:label "pad"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pad> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/fri/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/smirnov/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/smirnov/7> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पद् I /pad/ (A. pr. /padyate/—IV- fut. /pat-syate/- pf. /pede/- aor. /apādi/- pp. /panna/- ger. /patvā/- inf. /pattum/) 1) идти- доходить, достигать 2) падать- выпадать (на долю) 3) отпадать 4) обрушиваться 5) погибать 6) поворачиваться, обращаться к кому-л. (Acc. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "पद् II /pad/ m. 1) нога 2) шаг 3) четверть"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "पद्\t/pad/\t\t/пад/\tpad (padyatē 4, 2. sg. conj. padyāsāi, pp. panna; f. patsyatē; pf. pēdē; c. pādayati, pp. pādita, ppfa. pāditavant, ger. °pādya) попадать, идти; попадаться, гибнуть; c. губить. — ā попадать; садиться, всходить на (съ acc.: āpadyāsāi 2. sg. conj.). — vyā c убивать. — ud происходить, производиться, c. родить. — upa достигать, доставаться, сбываться, оказываться вѣрнымъ (171, 20 оно видно, 166, 15 все вѣрно); pp. одаренный, исполненный, обладающій. — nis происходить, произрастать. — pra прибѣгать къ к. нб. — anupra слѣдовать, S. 5, 24 pp. съ acc. въ знач. act. (sc. santu: должны ступить на или избрать). — prati получать обратно; соглашаться, М. 74 подвергаться; приниматься за что, совершить обрядъ; c. считать, принимать (что за что). — sam = съ upa. — [цсл. padą „паду“].\tс. 238"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "पद्\t/pad/\t\t/пад/\tpad m. шагъ, нога; padbhyām пѣшкомъ [ср. pada].\tс. 238"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II pad m.; нога, шаг, четвертая часть"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(V) – число ног закона сообразно юге, 231, 23."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pad-2/dict/smirnov/7> a ontolex:LexicalSense ;
+  skos:definition "(II-2) гл. падать, идти, гибнуть, достигать; ā VII, 14; XVI, 20; приближаться, достигать, получать; upa II, 3, 32; VI, 39; XIII, 18; XVIII, 7; достигать, присутствовать, являться, соответствовать; pra II, 7; IV, 11; VII, 14, 15, 19, 20; XV, 4; вступать, посещать, искать защиты (II, 7; IV, 11; VII, 14, 15, 19); prati XIV, 14; вступать, приходить в состояние, найти; viprati II, 53; направляться к гибели, метаться; теряться, становиться в противоречие с самим собой (II, 53); anupra IX, 21; вступать, появляться, следовать; sam V, 18; XIII, 30; удаваться, становиться, возникать, совпадать, присоединяться."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

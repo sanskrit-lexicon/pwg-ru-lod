@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/ahiMsA> a ontolex:LexicalEntry ;
+  rdfs:label "ahiṃsā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/ahiMsA> ;
+  pwglex:key2 "a/hiMsA" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/kna/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/smirnov/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/kna/1> a ontolex:LexicalSense ;
+  skos:definition "अहिंसा\t/ahiṃsā/\t/ahiMsA/\t/ахинса/\tahiṅsā f. неповрежденіе, неистребленіе (М. 75 sc. животныхъ, ср. ib. 60).\tс. 203"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "ahiṃsā f.; непричинение обиды"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 5; XIII, 7;XVI, 2; XVII, 14; ж. р. непричинение вреда, страдания, невреждение (X, 5), неуязвимость. (V) см. невреждение."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ahiMsA/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(V) освобождённый не вредит ничему живому, 189, 12; закон н. непреложен, 271, 21 и сл.; 273, 5; н. выше всех добродетелей, 245, 19; н. наивысший дар, 263, 35 и сл.; н. достигается совершенство, 273, 5."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

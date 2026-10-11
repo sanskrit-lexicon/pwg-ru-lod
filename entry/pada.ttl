@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pAda> a ontolex:LexicalEntry ;
+  rdfs:label "pāda"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pAda> ;
+  pwglex:key2 "pA/da" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पाद /pāda/ m. 1) нога 2) ножка (напр. стола) 3) шаг 4) луч 5) дно, грунт 6) корень (дерева) 7) подножие (горы) 8) ось 9) основа 10) четверть- четвёртая часть 11) см. पद 7)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "पाद\t/pāda/\t/pAda/\t/пада/\tpāda m. шагъ, нога; лучъ. — [ср. подъ pada].\tс. 240"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "pāda m.; нога, нижняя часть, корень, луч, четверть, стих, глава, нога в качестве меры, т. е. стопа"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAda/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) XI, 23; XIII, 13; м. р. нога, колонна, корень, луч, пядь (мера)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

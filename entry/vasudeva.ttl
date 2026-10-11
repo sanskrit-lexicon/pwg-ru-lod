@@ -1,0 +1,36 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vAsudeva> a ontolex:LexicalEntry ;
+  rdfs:label "vāsudeva"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vAsudeva> ;
+  pwglex:key2 "vAsudeva/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vAsudeva/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vAsudeva/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vAsudeva/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "वासुदेव /vāsudeva/ m. patr. Сын Васудевы — эпитет Кришны- см. कृष्ण 2 3)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vAsudeva/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VII, 19; X, 37; прил. чтущий Васу как богов; patron. Кришны. (II-1) (Vāsudeva) «тот, чей бог Васу», поклонник Васу; имя царя из рода Вришни, отца Кришны; родовое имя Кришны. (III) “тот, чей бог Васу”, поклонник Васу; имя царя из рода Вришни, отца Кришны, родовое имя Кришны. (IV) “Васу-бог”, поклонник Васу; имя царя из рода Вришни, отца Кришны. (V) тот, чей бог Васу; поклонник Васу; эпитет Вишну, 341, 32; мистическое объяснение слова, 343, 41. (VI) 1) поклонник бога Васу; имя раджи вришнийцев, отца Кришни; 2) васудэва относящийся к поклоннику Васу, ему принадлежащий. (VII) “тот, чей бог Васу”, поклонник Васу; имя царя из рода Вришни, отца Кришны; родовое имя Кришны, являющегося воплощением бога Вишну."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

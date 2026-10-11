@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/nArada> a ontolex:LexicalEntry ;
+  rdfs:label "nārada"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/nArada> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "नारद /nārada/ m. nom. pr. божественный мудрец, посредник между богами и людьми, к-рый нисходит с небес на землю, чтобы возвестить людям о свершающемся на небесах, а затем рассказать богам о происходящем на земле"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "नारद\t/nārada/\t/nArada/\t/нарада/\tnārada m. nom. pr. мудреца.\tс. 235"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "nārada m., n. pr.; риши, посол богов"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArada/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 13, 26; м. р. имя прославленного мифического риши; Нарада часто фигурирует наряду с Парватой, оба они дэвариши; они часто бывают посредниками между богами и людьми (X, 13, 26). (II-1) (Narada) «нард», учитель богов (дэвариши), самый популярный из легендарных мудрецов, изобретатель струнного музыкального инструмента «вина» (род лиры), великий бхакта, поклонник Вишну (о нём подробнее см. «Путешествие Бхагавана», Повесть о Матали, III вып. этой серии и отдел «Нараяния» в «Мокшадхарме», XII кн.). Нарада часто соединяется с Парватой в одну пару. (I) имя божественного риши (дэвариши), одного из популярнейших, легендарных мудрецов, упоминаемых в эпосе. (III) имя знаменитого риши, учителя богов (дэва-риши), потомка Канвы. (IV) имя знаменитого дэва-риши (учителя богов. потомка Канвы). (V) имя знаменитого дэва-риши (учителя богов, потомка Канвы), великого бхакты; один из популярнейших образов эпоса, Н. учитель благонравия, 193, 7; мир справедливо славит Н., 230, 2, 3; Н. утешает раджу, 257, 11; Дадхичи видит Н. на небе с богами, 285, 16; Н. сын Парамештхина, сына Брамы, 347, 1, 6; Н. возвестил Нараянию, 207, 47; 336; 341, 18; Н. имя одного гандхарва, 285, 7. (VI) имя “божественного” риши из рода Канвы (Канва глухой один из наиболее знатных ришей). Н. приписывается изобретение индийской лютни вины. Нарада один из любимых мифологических образов. Он странствует по свету, узнаёт новости и сообщает их богам (ср. “Наль”, I вып., гл. 3), устраивает семейные дела раджей (ср. “Супружеская верность”, I вып. этой серии, гл. 2). Н. приписывается создание нескольких ведических гимнов. Нараяния безоговорочно называет Н. проповедником вишнуизма. Н. же был одним из тех трёх ришей, которых “Махабхарата” называет виновниками гибели вришнийцев, оскорблённые невинной детской шуткой, в которой участвовал и сын Кришны, эти три риши проклинают весь народ. Для подкрепления проклятья риши спаивают вришнийцев и устраивают безобразную братоубийственную свалку, в которой гибнут все мужчины вришнийцы. (VII) “нард”; учитель богов (дэвариши), наиболее популярный из легендарных мудрецов. Изобретатель струнного музыкального инструмента “вины” (род лиры); почитается как сын Брамы и считается посредником между миром богов и людей."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

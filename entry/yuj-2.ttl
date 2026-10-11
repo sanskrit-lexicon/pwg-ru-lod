@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/yuj-2> a ontolex:LexicalEntry ;
+  rdfs:label "yuj"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/yuj> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "युज् II /yuj/ 1. 1) связанный с чем-л. 2) снабжённый чем-л. 3) одарённый чем-л. (Instr., —о) 4) чётный 5) парный 2. m. попутчик- товарищ"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "युज् I /yuj/ (U. pr. /yunakti/ /yuṅkte/ — VII- fut. /yokṣyati/ /yokṣyate/- pf. /yuyoja/ /yuyuje/- aor. /ayaukṣīt/ /ayukta/- p. /yujyate/- pp. /yukta/) 1) впрягать, запрягать 2) приводить в действие 3) укреплять- прикреплять 4) сосредоточивать (напр. мысли) на чём-л. (Loc. ) 5) связывать- соединять кого-л., что-л. (Acc.) чем-л. (Instr. ) 6) окружать себя кем-л. 7) быть участником чего-л. (Acc. ) 8) делиться с кем-л. (Loc, Gen.) чем-л. (Acc. ) 9) представлять себе, воображать 10) поручать- приказывать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "युज्\t/yuj/\t\t/юдж/\tyuj (yunakti, yuṅktē, p. yujyatē, °ti S. 3, 10 pass. съ оконч. act., pp. yukta; pf. yuyōja; c. yōjayati) за-, напрягать, соединять, примѣнять, снабжать, обращать мысли на одинъ пунктъ, сосредоточиваться, М. 12 брать (для себя); na yujyatē не слѣдуетъ, нельзя, не подобаетъ, na yuktam id.; pp. связанный, соединенный (S. 3, 12, т. е. намъ подъ стать: ровня съ ровней дружится), снабженный, сопровождаемый, сопряженный съ, съ (S. 3, 16), пристойный, сложный; предающійся одной мысли (цѣли). — ni принуждать, назначать, поручать, довѣрять. — sam снабжать, pp. снабженный, обладая, полный; c. соединять съ ч. нб., надѣлять чѣмъ нб. — [ζεύγνῡμι, лат. jungo, лит. jungiu].\tс. 257"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yuj-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 38, 39, 50, 51, 61, 66; III, 26; IV, 18; V, 6, 7, 8, 12, 21, 23; VI, 8, 10, 12, 14, 15, 17, 18, 19, 23, 29, 47; VII, 1, 17, 18, 22, 30; VIII, 8, 10, 14; IX, 4, 28, 34; X, 7, 10; XII, 2; XVII, 17, 26; XVIII, 28, 51; гл. расстилать, напрягать (в смысле побуждать к действию и тормозить его), употреблять, готовиться (XVII, 26; II, 38, 50), с объектом в дат. пад. yuddhaya, yogaya; запрягать (I, 14), возлагать (оружие), сосредоточиваться (с act. и med., VI, 15; X, 28; IX, 34 locat.); p. p. yukta собранный, внимательный, погруженный во внимание, в дело (I, 14; II, 61; VIII, 8, 14; XVIII, 28), сосредоточенный; yuktatam IV, 47; привязанный, соединенный, сопряженный, причастный (II, 50), снабженный; yathā yuktaр находящийся в таком положении; pass. вступать в соединение (с вин.), быть причастным, связывать кого-н. (с locat. и род.), приобщать (с вин.), снабжать, приказывать, соответствовать, быть соразмерным; yukta собранный, соразмерный, правильный, правый (VI, 17); causat. направлять, напрягать, употреблять, связывать; abhi IX, 22; приготовлять себе дорогу (med.), act. выражает повторность действия; med. привлекать, приглашать, желать, требовать; abhiukta обжалованный; твёрдый в деле, знаток, опытный, бывалый; ni III, 1, 36; XVIII, 59; привязывать, направлять внимание, останавливать, вовлекать (XVIII, 59); causat. напрягать, устанавливать, вынуждать (III, 1); pra III, 36; XVII, 26; med. в исключит. случаях act. приводить в движенье, бросать, метать, садить, употреблять (XVII, 26), приказывать (III, 36), act. соответствовать; vi II, 64; V, 26; отрешать, разрешать, отделять, viukta отделенный; aviukta неотделимый, неотделенный; гибнуть, освобождаться от тела; samā XV, 14; приготовиться, ополчиться, столкнуться, соприкасаться (дополн. в instr.); в сложных словах впереди (XV, 14)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

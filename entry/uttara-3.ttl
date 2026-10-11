@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/uttara-3> a ontolex:LexicalEntry ;
+  rdfs:label "uttara"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/uttara> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/fri/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "उत्तर /uttara/ cpv. 1. 1) более высокий 2) более поздний чем (Abl. ) 3) северный- севернее чего-л. (Abl. ) 4) следующий, будущий- дальнейший 5) лучший 6) превосходящий 7) победоносный 2. n. 1) поверхность 2) покров 3) грам. последний компонент сложного слова 4) ответ 5) возражение, противоречие 6) превосходство 7) остаток 8) следствие, результат 9) лицо, гредставляющее отсутствующего свидетеля- Acc. उत्तरम् adv. дальше- потом, затем- Instr. उत्तरेण adv. а) севернее б) левее чего-л. (Acc., Abl., Gen., —о)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "उत्तर\t/uttara/\t\t/уттара/\tuttara (compar.) высшій, лучшій, дальнѣйшій, слѣдующій; сѣверный, instr. adv. къ сѣверу; — n. возраженіе, отвѣтъ. — [ὕστερος].\tс. 207"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "I uttara; верхний, более высокий, лучший; дальнейший, следующий, будущий; выдающийся; левый, северный"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/fri/4> a ontolex:LexicalSense ;
+  skos:definition "II uttara n.; верхняя часть, поверхность, покрывало; ответ, защита, превосходство; остаток (в арифм.); последний член сложного слова; название последней книги Рамаяны; север"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/uttara-3/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VI, 11, 27; прил. (от ud) верхний, северный, левый (север во время молитвы на восток находится слева), задний, следующий, превосходящий, победный, лучший; ср. р. крыша; часто на конце сл. прил. (VI, 11). (IV) “возвышенный”, северный; м. р. имя раджи. В ж. р., по переводу Роя, имя дочери Вираты, жены Абхиманью, снохи Арджуны и Субхадры. БПС не даёт этому слову значения женского имени."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

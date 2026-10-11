@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/sidDa> a ontolex:LexicalEntry ;
+  rdfs:label "siddha"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/sidDa> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "सिद्ध /siddha/ (pp. от सिध् ) 1. 1) точный, меткий 2) осуществлённый, выполненный 3) удачливый, преуспевающий 4) наличный 5) приготовленный, готовый 6) сваренный 7) полученный, заработанный 8) неизменный, постоянный 9) исцеляемый 10) основанный, учреждённый 11) хорошо известный 12) обладающий сверхъестественной волшебной силой 13) подвластный 14) сведущий в (Dat.,—o) 2. m. 1) провидец- волшебник, маг 2) назв. класса полубогов, обладающих сверхъестественной силой и обитающих между землёй и солнцем 3. n. сверхъестественная сила"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "सिद्ध\t/siddha/\t\t/сиддха/\tsiddha pp. отъ 1. и 2. sidh.\tс. 279"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "siddha (pp. < II sidh) ; осуществленный, исполненный, одаренный сверхъестественными способностями, совершенный, сверхъестественный, действительный, признаваемый, правильный, известный, славный; m. сидха (сверхъестественное существо)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sidDa/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 48; III, 4; IV, 12, 22, 38; VII, 3; X, 26; XI, 22, 36; XVI, 14 (прич. от siddh); прил. попавший, удавшийся, доказанный, достигший (высших целей, совершенства, метапсихических способностей), ясновидец, маг, блаженный; м. р. совершенный, как особый класс полубогов, к которому принадлежат Капила, Вьяса и др. X, 26; они обладают метапсихическими силами и способностью летать; (см. также сиддхи). (III) “достигший”, название блаженных в мире Индры. (V) класс богов, 208, 22. (VI) достижение, достигший, совершенный; особый класс небожителей. (VII) “достигший”, “преуспевший”; разряд полубогов, обитающих в небесных сферах между Луной и Солнцем; название совершенных, блаженных в мире Индры."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

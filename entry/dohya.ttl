@@ -1,0 +1,112 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/dohya> a ontolex:LexicalEntry ;
+  rdfs:label "dohya"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/dohya> ;
+  pwglex:key2 "do/hya" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/0>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/0>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/1> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/0> a ontolex:LexicalSense ;
+  skos:definition "{#do/hya#}¦ (от <hom>1.</hom> {#duh#})"@ru ;
+  pwglex:sourceGloss "{#do/hya#}¦ (von <hom>1.</hom> {#duh#})"@de ;
+  pwglex:senseTag "0" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> 1〉 <lex>adj.</lex> годный для доения <ls>P. 6,1,214</ls>. <ls>KĀŚ.</ls> к <ls>P. 3,1,109</ls>. <ls>VOP. 26,19</ls>."@ru ;
+  pwglex:sourceGloss "<div n=\"1\"> 1〉 <lex>adj.</lex> {%zu melken%} <ls>P. 6,1,214</ls>. <ls>KĀŚ.</ls>_zu_<ls>P. 3,1,109</ls>. <ls>VOP. 26,19</ls>."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80__xc5__x9a__x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_3_x2c_1_x2c_109>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_6_x2c_1_x2c_214>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VOP_x2e__x2d_26_x2c_19> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2〉 <lex>m.</lex> (!) дойная корова <ls>YĀJÑ. 2,177</ls>.\n<div n=\"v\">— <ab>Vgl.</ab> {#duhya, duHKadohya, suKa˚#}."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 <lex>m.</lex> (!) {%Milchkuh%} <ls>YĀJÑ. 2,177</ls>.\n<div n=\"v\">— <ab>Vgl.</ab> {#duhya, duHKadohya, suKa˚#}."@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_2_x2c_177> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/0> a ontolex:LexicalSense ;
+  skos:definition "{#do/hya#}¦"@ru ;
+  pwglex:sourceGloss "{#do/hya#}¦"@de ;
+  pwglex:senseTag "0" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 1〉 <lex>Adj.</lex> годный для доения <ls>MAITR. S. 1,6,1</ls> = <ls>ĀPAST. ŚR. 5,8,7</ls>."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 1〉 <lex>Adj.</lex> {%zu melken%} <ls>MAITR. S. 1,6,1</ls> = <ls>ĀPAST. ŚR. 5,8,7</ls>."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/MAITR_x2e__x2d_S_x2e__x2d_1_x2c_6_x2c_1>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc4__x80_PAST_x2e__x2d__xc5__x9a_R_x2e__x2d_5_x2c_8_x2c_7> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2〉 <lex>n.</lex> (<ab>Comm.</ab>) животное, дающее молоко."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 <lex>n.</lex> (<ab>Comm.</ab>) {%ein Thier, das Milch giebt%}."@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/dohya/tr/dohya/1> a ontolex:LexicalSense ;
+  skos:definition "{#dohya#} [Ved , unsp] [dohyā (f)] годный для доения. AV(P) 9.16,1 . [dhenu.] Renou 1957 (1) : 88 (s.v. dohyā )"@ru ;
+  pwglex:sourceGloss "{#dohya#} [Ved , unsp] [ dohyā (f)] fit to be milked. AV(P) 9.16,1 . [ dhenu . ] Renou 1957 (1) : 88 (s.v. dohyā )"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

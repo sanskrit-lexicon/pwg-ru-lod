@@ -1,0 +1,115 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kzuDA> a ontolex:LexicalEntry ;
+  rdfs:label "kṣudhā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kzuDA> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/0>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/addendum_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/0>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/0> a ontolex:LexicalSense ;
+  skos:definition "{#kzuDA#}¦ (от 1. или <hom>2.</hom> {#kzuD#}) <lex>f.</lex>"@ru ;
+  pwglex:sourceGloss "{#kzuDA#}¦ (von 1. oder <hom>2.</hom> {#kzuD#}) <lex>f.</lex>"@de ;
+  pwglex:senseTag "0" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> 1) <ab>dass.</ab> <ls>H. ś. 94</ls>. {#kzuDayA pIqyamAnaH#} <ls>N. 9,12</ls>. {#paripIqyate#} <ls>PAÑCAT. 88,4</ls>. {#kzuDASAnti#} <ls>BHARTṚ. 2,23</ls>. {#kzuDArdita#} <ls>HIḌ. 2,3</ls>. {#kzuDArta#} <ls n=\"HIḌ.\">5</ls>. <ls>M. 10,107</ls>. <ls n=\"M. 10,\">18</ls>. {#kzuDAtura#} <ls>GĀR. P. 116</ls> в <ls>ŚKDR.</ls> {#kzuDAkara#} <ls>DHŪRTAS. 90,11</ls>."@ru ;
+  pwglex:sourceGloss "<div n=\"1\"> 1〉 <ab>dass.</ab> <ls>H. ś. 94</ls>. {#kzuDayA pIqyamAnaH#} <ls>N. 9,12</ls>. {#paripIqyate#} <ls>PAÑCAT. 88,4</ls>. {#kzuDASAnti#} <ls>BHARTṚ. 2,23</ls>. {#kzuDArdita#} <ls>HIḌ. 2,3</ls>. {#kzuDArta#} <ls n=\"HIḌ.\">5</ls>. <ls>M. 10,107</ls>. <ls n=\"M. 10,\">18</ls>. {#kzuDAtura#} <ls>GĀR. P. 116</ls>_im_<ls>ŚKDR.</ls> {#kzuDAkara#} <ls>DHŪRTAS. 90,11</ls>."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "<ab>dass.</ab> — сокращение, тождественное «то же» (отсылка к значению корня 1. или 2., указанному в заголовке статьи); передаётся как немецкая лексикографическая аббревиатура и не раскрывается."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BHART_xe1__xb9__x9a__x2e__x2d_2_x2c_23>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DH_xc5__xaa_RTAS_x2e__x2d_90_x2c_11>, <https://w3id.org/sanskrit-lexicon/repwg/citation/G_xc4__x80_R_x2e__x2d_P_x2e__x2d_116>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HI_xe1__xb8__x8c__x2e__x2d_2_x2c_3>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HI_xe1__xb8__x8c__x2e__x2d_5>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d__xc5__x9b__x2e__x2d_94>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_10_x2c_107>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_10_x2c__x2d_18>, <https://w3id.org/sanskrit-lexicon/repwg/citation/N_x2e__x2d_9_x2c_12>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_88_x2c_4>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a_KDR_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> — 2) <ab>myst.</ab> <ab>Bez.</ab> буквы {#ya#} <ls>Ind. St. 2,316</ls>."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 <ab>myst.</ab> <ab>Bez.</ab> {%des Buchstabens%} {#ya#} <ls>Ind. St. 2,316</ls>."@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "мистическое обозначение буквы (мантрическое употребление слога/буквы), а не обычное лексическое значение."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Ind_x2e__x2d_St_x2e__x2d_2_x2c_316> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/addendum_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "{#kzuDA#}¦ 1) <ab>Z.</ab> 3 читай 108 <ab>st.</ab> 18."@ru ;
+  pwglex:sourceGloss "{#kzuDA#}¦ 1〉 <ab>Z.</ab> 3 lies 108 <ab>st.</ab> 18."@de ;
+  pwglex:senseTag "addendum-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:differentia "Корректура к цитате в значении 1 основной статьи: <ab>Z.</ab> (Zeile/строка) 3 — читать «108» вместо «18» (метка <ab>st.</ab>)."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/0> a ontolex:LexicalSense ;
+  skos:definition "{#kzuDA#}¦ <lex>f.</lex>"@ru ;
+  pwglex:sourceGloss "{#kzuDA#}¦ <lex>f.</lex>"@de ;
+  pwglex:senseTag "0" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> — 1) <ab>dass.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 1〉 <ab>dass.</ab>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "<ab>dass.</ab> — то же сокращение «то же», отсылающее к значению 1 основной статьи PWG."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzuDA/tr/kzu_x5f_d_x5f_a/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> — 2) мистическое <ab>Bez.</ab> звука {#ya#}."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 mystische <ab>Bez.</ab> {%des Lautes%} {#ya#}."@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "В PW уточнено «звука» (des Lautes) вместо «буквы» (des Buchstabens) у PWG — мистическое обозначение слога/звука, а не графемы."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:33Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

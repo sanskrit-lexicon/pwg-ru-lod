@@ -1,0 +1,51 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/jIvita> a ontolex:LexicalEntry ;
+  rdfs:label "jīvita"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/jIvita> ;
+  pwglex:key2 "jIvita/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "जीवित /jīvita/ (pp. от जीव् ) 1. 1) живой 2) оживлённый 2. n. 1) живое существо 2) жизнь, образ жизни 3) продолжительность жизни 4) продовольствие"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "जीवित\t/jīvita/\t/jIvita/\t/дживита/\tjīvita pp. отъ jīv; — n. жизнь.\tс. 223"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "jīvita; живущий, воскрешенный; n. жизнь, существование"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 9, 32; прил. (прич. от jīv) живой, оживлённый; ср. р. живое существо, жизнь."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jIvita/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(V) ж. зарождается и гибнет вместе с телом, 174, 23; 224, 7; 332, 20; цель ж. освобождение, 299, 13; в ж. мало счастья и много горя, 331; 332, 16."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

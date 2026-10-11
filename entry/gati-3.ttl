@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/gati-3> a ontolex:LexicalEntry ;
+  rdfs:label "gati"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/gati> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "गति /gati/ f. 1) движение, ход- течение 2) путь, дорога 3) причина, основание 4) счастье 5) переселение души 6) уход, отбытие 7) способ, манера 8) положение, состояние 9) отношение 10) защита"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "गति\t/gati/\t\t/гати/\tgati f. движеніе, ходъ, путь; причина, основаніе; счастье; переселеніе души; S. 5, 47 въ см.: отъ по истинѣ добрыхъ зависитъ ходъ всего, что есть и будетъ (порядокъ мыслей: небо, земля и жизнь : все); M. 61 переселеніе душъ, 73 благоуспѣшность, 88 съ parama высшее счастье, блаженство; mandagati 154, 27 bah. медленно двигающійся впередъ (ср. abhinnagati). — (βάσις , лат. con-ventio, гот. ga-qumps „Zusammen-kunft“]. 3\tс. 217"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "gati f.; ходьба, приход; дорога, путь, способ, результат, удача"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gati-3/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 43; IV, 17, 29; VI, 37, 40, 45; VII, 18; VIII, 13, 15, 21, 26; IX, 18, 20, 32; XII, 5; XIII, 28; XVI, 20, 22, 23; ж. р. хождение, уход, продвижение, достижение (II, 43), путь (VIII, 26), выход (IV, 29), восход, начало, состояние (IV, 17), счастье, перевоплощение, отдельные состояния круга перевоплощений (VI, 45), способ."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

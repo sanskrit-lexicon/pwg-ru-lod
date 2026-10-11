@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kali-3> a ontolex:LexicalEntry ;
+  rdfs:label "kali"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kali> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kali-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kali-3/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kali-3/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kali-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "कलि /kali/ m. 1) сторона игральной кости с одним очком 2) см. कलियुग - 3) ссора- раздор"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kali-3/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "kali m.; спор, раздор, четвертый (худший) век, сторона кости с единицей"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kali-3/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(I) чёрный. Название последнего мирового периода; название стороны игральной кости с одним очком. Название злого духа, олицетворяющего страсть к игре в кости. В женском роде имя страшной богини “жены Шивы”; сила Шивы. (IV) “чёрный”, м. р. имя злого духа, соблазняющего играть в кости (ср. “Наль”, вып. I); название последнего мирового периода (см. Юга). Дурйодхана воплощение Кали; в ж. р. имя жены Шивы, Дурги. (V) “Чёрная”; “гонительница”; одна из форм силы (шакти) Шивы, мифологически символизируемая как жена Шивы богиня Ума, Дурга, Парвати. По одним сказаниям, она дочь Химавата, по другим Дакши, 285, 33 (см. также Парвати, Ума). (VI) чёрная; имя богини, супруги Шивы, её называют также Умой (Лён) и Парвати (Горная), так как по одному сказанию, она дочь Химавата (Гималая), а по другому Дакши. Так как она есть сила (шакти) Шивы, то её называют Дурга. В позднем шактизме символика богини Кали-Дурги принимает выраженный половой характер. (VII) см. Дурга."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

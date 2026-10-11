@@ -1,0 +1,286 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/catur> a ontolex:LexicalEntry ;
+  rdfs:label "catur"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/catur> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/dict/kna/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/dict/smirnov/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/PW>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_7>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_8>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_9>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_10>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_11>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_12>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_13>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_14>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_15>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_16>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_17>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_18>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_19> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/dict/kna/1> a ontolex:LexicalSense ;
+  skos:definition "चतुर्\t/catur/\t\t/чатур/\tcatur см. catvar.\tс. 220"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IV,13; X, 6; XI, 46; четыре."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/1> a ontolex:LexicalSense ;
+  skos:definition "{#catur#}¦ выступает как ослабленная основа в склонении и в производных от {#catvar#}, а также в начале <ab>compp.</ab>; см. <ab>s.</ab> {#catvar#} . adv. <lex>adv.</lex> см. <ab>s. u.</ab> {#catus#} ."@ru ;
+  pwglex:sourceGloss "{#catur#}¦ erscheint als geschwächtes Thema in der Declination und in Ableitungen von {#catvar#}, so wie auch am Anfange von <ab>compp.</ab>; <ab>s.</ab> {#catvar#} . Das <lex>adv.</lex> <ab>s. u.</ab> {#catus#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/PW> a ontolex:LexicalSense ;
+  skos:definition "{#catur#}¦ <ab>s.</ab> {#catvar#}."@ru ;
+  pwglex:sourceGloss "{#catur#}¦ <ab>s.</ab> {#catvar#}."@de ;
+  pwglex:senseTag "PW" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Katre 1968f (1) : 230] {#catur#} [Śā , Ling] прил. mfn четырежды. Pāṇ 5.4.18 . Katre 1968f (1) : 230"@ru ;
+  pwglex:sourceGloss "{#catur#} [Śā , Ling] Adj mfn four times. Pāṇ 5.4.18 . Katre 1968f (1) : 230"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. cátur)] {#caturadhyāyī#} [Gen , unsp] сущ. f. «состоящая из четырех adhyāya», название AVPrā. Śaunaka. MW : 384 (s.v. cátur )"@ru ;
+  pwglex:sourceGloss "{#caturadhyāyī#} [Gen , unsp] Subst f ‘consisting of four Adhyāyas,’ N of Śaunaka’s AVPrā. MW : 384 (s.v. cátur )"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. catúr)] {#caturaśra#} [Gen , unsp] прил. mf(ā)n четырехугольный. KātyŚS , KauśS , Pāṇ v, 4, 120 , Hariv 12378 . сущ. m четырехугольная фигура. W(MW) . MW : 384 (s.v. catúr )"@ru ;
+  pwglex:sourceGloss "{#caturaśra#} [Gen , unsp] Adj mf(ā)n quadrangular. KātyŚS , KauśS , Pāṇ v, 4, 120 , Hariv 12378 . Subst m a quadrangular figure. W(MW) . MW : 384 (s.v. catúr )"@de ;
+  pwglex:senseTag "NWS-3" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_4> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. catúr)] {#cáturaṅga#} [Gen , unsp] прил. mfn имеющий 4 члена (или конечности). ṚV x, 92, 11 , ŚB xii . сущ. n вид шахмат (для 4 партий). Tithyād . MW : 384 (s.v. catúr )"@ru ;
+  pwglex:sourceGloss "{#cáturaṅga#} [Gen , unsp] Adj mfn having 4 limbs (or extremities). ṚV x, 92, 11 , ŚB xii . Subst n a kind of chess (played by 4 parties). Tithyād . MW : 384 (s.v. catúr )"@de ;
+  pwglex:senseTag "NWS-4" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_5> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. cátur)] {#caturbhadra#} [Gen , unsp] прил. mfn (четырехкратно, т.е.) чрезвычайно благоприятный. Hemādri . сущ. n 4 предмета человеческих желаний, а именно dharma , kāma , artha , bala . Lex(MW) . или первые три с mokṣa . W(MW) . или kīrti , āyus , yaśas , bala . Mbh xiii, 5657 . или dharma , jñāna , vairāgya , aiśvarya . Mbh vii, 2182, Sch. . или dāna , jñāna , śaurya , bhoga или vitta . Mbh , Hit i, 6, 58 . MW : 384 (s.v. cátur )"@ru ;
+  pwglex:sourceGloss "{#caturbhadra#} [Gen , unsp] Adj mfn (4 times, i.e.) extremely auspicious. Hemādri . Subst n 4 objects of human wishes. viz. dharma , kāma , artha , bala . Lex(MW) . or the first 3 with mokṣa . W(MW) . or kīrti , āyus , yaśas , bala . Mbh xiii, 5657 . or dharma , jñāna , vairāgya , aiśvarya . Mbh vii, 2182, Sch. . or dāna , jñāna , śaurya , bhoga or vitta . Mbh , Hit i, 6, 58 . MW : 384 (s.v. cátur )"@de ;
+  pwglex:senseTag "NWS-5" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "mixed" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_6> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#caturbhāga#} [Śā , Med] четвертая часть. Hoernle 1893-1912 (I) 8.105 . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturbhāga#} [Śā , Med] fourth part. Hoernle 1893-1912 (I) 8.105 . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-6" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_7> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#caturbhāgasthita#} [Śā , Med] сохранивший лишь четвертую часть, сведенный до одной четверти (первоначального количества). Hoernle 1893-1912 (I) 9.126 . [ о декокте. ] Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturbhāgasthita#} [Śā , Med] having the fourth part remaining over, reduced to one-fourth (of its original quantity). Hoernle 1893-1912 (I) 9.126 . [ said of decoction. ] Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-7" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_8> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#caturbhāgāvaśeṣa#} [Śā , Med] сущ. Hoernle 1893-1912 (II) 35.178 ; = caturbhāgasthita . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturbhāgāvaśeṣa#} [Śā , Med] Subst Hoernle 1893-1912 (II) 35.178 ; caturbhāgasthita . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-8" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_9> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#caturbhāgāvaśeṣita#} [Śā , Med] Hoernle 1893-1912 (II) 35.166 ; = caturbhāgasthita . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturbhāgāvaśeṣita#} [Śā , Med] Hoernle 1893-1912 (II) 35.166 ; caturbhāgasthita . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-9" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_10> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#caturbhāgāvaśiṣṭa#} [Śā , Med] Hoernle 1893-1912 (III) 182.28 ; = caturbhāgasthita . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturbhāgāvaśiṣṭa#} [Śā , Med] Hoernle 1893-1912 (III) 182.28 ; caturbhāgasthita . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-10" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_11> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#caturguṇa#} [Śā , Med] сущ. четырехкратное количество. Hoernle 1893-1912 (II) 30.76 . прил. mfn четырехкратный. Hoernle 1893-1912 (I) 5.58 . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturguṇa#} [Śā , Med] Subst fourfold quantity. Hoernle 1893-1912 (II) 30.76 . Adj mfn fourfold. Hoernle 1893-1912 (I) 5.58 . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-11" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_12> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. catúr)] {#caturindriya#} [Gen , unsp] прил. mfn обладающий 4 чувствами (класс животных). Jain(MW) . MW : 384 (s.v. catúr )"@ru ;
+  pwglex:sourceGloss "{#caturindriya#} [Gen , unsp] Adj mfn having 4 senses (a class of animals). Jain(MW) . MW : 384 (s.v. catúr )"@de ;
+  pwglex:senseTag "NWS-12" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_13> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. cátur)] {#caturmahārāja#} [Gen , unsp] сущ. m pl: 4 великих царя или хранителя нижнего из 6 чувственных небес. W(MW) . MW : 384 (s.v. cátur )"@ru ;
+  pwglex:sourceGloss "{#caturmahārāja#} [Gen , unsp] Subst m pl: the 4 great kings or guardians of the lowest of the 6 sensuous heavens. W(MW) . MW : 384 (s.v. cátur )"@de ;
+  pwglex:senseTag "NWS-13" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_14> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 384 (s.v. cátur)] {#caturmahārājakāyika#} [Gen , unsp] сущ. m pl: (= cāt °) «принадлежащий к свите 4 великих царей или хранителей нижнего из 6 чувственных небес», название класса божеств. Buddh(MW) . MW : 384 (s.v. cátur )"@ru ;
+  pwglex:sourceGloss "{#caturmahārājakāyika#} [Gen , unsp] Subst m pl: (= cāt °) ‘belonging to the attendance of the 4 great kings or guardians of the lowest of the 6 sensuous heavens,’ N of a class of deities. Buddh(MW) . MW : 384 (s.v. cátur )"@de ;
+  pwglex:senseTag "NWS-14" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_15> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 385 (s.v. cátur)] {#caturthī#} [Gen , unsp] сущ. f [подразумевается vibhakti ] окончание 4-го падежа, дательного падежа. Pāṇ . ср. caturtha (pw). MW : 385 (s.v. cátur )"@ru ;
+  pwglex:sourceGloss "{#caturthī#} [Gen , unsp] Subst f [scil. vibhakti ] the termination of the 4th case, dative case. Pāṇ . s.a. caturtha (pw). MW : 385 (s.v. cátur )"@de ;
+  pwglex:senseTag "NWS-15" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_16> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 1327 (s.v. catur)] {#caturviṃśatyakṣara#} [Gen , unsp] прил. mfn имеющий 24 слога. JU . MW : 1327 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#caturviṃśatyakṣara#} [Gen , unsp] Adj mfn having 24 syllables. JU . MW : 1327 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-16" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_17> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#catuṣpala#} [Śā , Med] сущ. четыре pala . Hoernle 1893-1912 (II) 36.194 . прил. mfn состоящий из четырех pala . Hoernle 1893-1912 (II) 41.295 . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#catuṣpala#} [Śā , Med] Subst four pala . Hoernle 1893-1912 (II) 36.194 . Adj mfn consisting of four pala . Hoernle 1893-1912 (II) 41.295 . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-17" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_18> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 270 (s.v. catur)] {#catuṣpātra#} [Śā , Med] состоящий из четырех pātra . Hoernle 1893-1912 (II) 41.290 . Hoernle 1908 : 270 (s.v. catur )"@ru ;
+  pwglex:sourceGloss "{#catuṣpātra#} [Śā , Med] consisting of four pātra . Hoernle 1893-1912 (II) 41.290 . Hoernle 1908 : 270 (s.v. catur )"@de ;
+  pwglex:senseTag "NWS-18" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/catur/tr/catur/NWS_x2d_19> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Karashima 2012 : 240 (s.v. catur - diśaṃ)] {#caturdiśam#} [Buddh , unsp] во все четыре стороны. AbhisDh § 62.2.49B5 . Karashima 2012 : 240 (s.v. catur - diśaṃ )"@ru ;
+  pwglex:sourceGloss "{#caturdiśam#} [Buddh , unsp] in alle vier Ecken. AbhisDh § 62.2.49B5 . Karashima 2012 : 240 (s.v. catur - diśaṃ )"@de ;
+  pwglex:senseTag "NWS-19" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

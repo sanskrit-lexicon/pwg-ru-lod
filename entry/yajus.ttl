@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/yajus> a ontolex:LexicalEntry ;
+  rdfs:label "yajus"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/yajus> ;
+  pwglex:key2 "ya/jus" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "यजुस् /yajus/ n. 1) см. यज्ञ 2)- 2) жертвенное изречение, формула"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "यजुस्\t/yajus/\t\t/яджус/\tyajus n. жертвенная формула, изреченіе.\tс. 255"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "yajus n.; жертвенная формула"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yajus/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IX, 17; ср. р. священный трепет, почитание, жертвоприношение, посвятительные формулы, техническое название для литургических слов, отличающихся от гимнов (ṛc) и песен (saman), IX, 17. Яджурведа Веда яджусов, то есть литургических формул. (II-1) (Yajus) «жертвоприношение». Название третьей Веды (Яджурведа), трактующей о подробностях свершения ритуалов. Этот памятник разделяется на два: так называемая «Белая» и «Чёрная» Яджурведа. В этой Веде указываются обязанности третьего разряда жрецов (адхварью), занятых материальной частью обрядов. Разделение этой Веды на «белую» и «чёрную» понимается в том смысле, что «белая» часть приведена в порядок, тогда как «чёрная» часть не отредактирована (ср. Deussen, Sechzig Upanishad’s, стр. 211). (V) жертвоприношение; название третьей Веды (Яджурведа), трактующей о подробностях свершения ритуалов. Различают “Белую” и “Чёрную” Яджурведу, в последней много формул колдовского характера, то есть направленных на причинение “вреда”, “порчи” и пр., 344, 71; Яджнавалкья получает от Сурьи я., 320, 5 и сл. (см. также Ḍṭда)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

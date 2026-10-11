@@ -1,0 +1,35 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kunti-2> a ontolex:LexicalEntry ;
+  rdfs:label "kunti"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kunti> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kunti-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kunti-2/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kunti-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "कुन्ति /kunti/ m. pl. назв. народа"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kunti-2/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 16; 1) м. р. мн. название народа; единств. царь этого народа, именуемый Кунтибходжа; 2) ж. р. эпитет Притхи, дочери Шура, приёмной дочери Кунти или Кунтибходжа; Кунти одна из жён Панду. Панду убил на охоте одного риши в тот момент, когда тот в образе оленя сочетался со своей женой, принявшей образ самки оленя. Умирая, риши проклял своего убийцу и сказал, что тот умрёт подобной же смертью, то есть в момент сочетания с женой. После этого Панду не прикасался к своим жёнам. Притха, по приказанию своего мужа, зачала от Дхармы (Ямы) старшего своего сына Юдхиштхиру, от Ваю второго, Бхимасену, от Индры Арджуну. До своего брака Кунти имела сына Карну от бога Солнца. (II-1) (Kunti) эпитет Притхи, по народу, к которому она принадлежала. К. была приёмной дочерью царя народа Кунти. См. также КУНТИБХОДЖА. (I) мать трёх старших братьев Пандавов; женское имя. (III) м. р. имя народа, его царя, также именуемого Кунтибходжа; ж. р. эпитет Притхи, матери трёх старших Пандавов, приёмной дочери Кунтибходжи. До замужества она зачала Карну от бога Солнца, о чем рассказано в “Путешествии Бхагавана”; после замужества, по воле своего мужа, находившегося под проклятием брамина и боявшегося поэтому сближения с женой, Кунти зачала Юдхиштхиру от бога Дхармы, Бхимасену от бога Ветра, Арджуну от Индры. (IV) имя народа и его царя (также Кунтибходжа). Имя по отцу Притхи (Широкой), матери трёх старших Пандавов, которых по воле мужа зачала от разных богов (Дхармы, Ветра, Индры); до замужества она зачала от Солнца Карну, которого бросила. (V) жена Панду, мать трёх старших Пандавов, 265, 24; 343, 33. (VI) название племени; имя дочери раджи этого народа, ставшей женой Панду. Из боязни исполнения проклятия брамина, убитого Панду, в момент супружеской встречи брамина с женой (супруги приняли вид оленей), Панду не входил к жене. По воле супруга Кунти зачала от Дхармы, Ваю и Индры трёх сыновей: Юдхиштхиру, Бхимасену и Арджуну. (VII) м. р. имя народа, его царя, именуемого также “Кунтибходжа”; ж. р. эпитет Притхи, матери трёх старших Пандавов, приёмной дочери Кунтибходжи. До замужества она зачала Карну от бога Солнца, после замужества, по воле своего мужа, находившегося под проклятием брамина и не входившего к жене, К. зачала Юдхиштхиру от бога Дхармы, Бхимасену от бога Ветра (Ваю) и Арджуну от Индры."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

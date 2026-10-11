@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/rAma> a ontolex:LexicalEntry ;
+  rdfs:label "rāma"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/rAma> ;
+  pwglex:key2 "rAma/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "राम /rāma/ 1. 1) тёмный- чёрный 2) милый- прекрасный 2. m. 1) вид оленя 2) nom. pr. сын Дашаратхи, супруг Ситы. Герой эпоса «Рамаяна» и многих поэм"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "राम\t/rāma/\t/rAma/\t/рама/\trāma m. nom. pr. героя.\tс. 259"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "rāma; темный, прелестный, прекрасный; m. имя разных лиц (сына Дашаратхи)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAma/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) RĀMA 1 X, 31; прил. (того же происхождения, что и rātri ночь) тёмный, чёрный; собственное имя героя эпоса; позже эпос насчитывал трёх Рам, из них первые два воплощения Вишну; Кришна о себе, X, 31. (II-2) RĀMA 2 III, 16; V, 24; nom. act. радость, наслаждение; прил. милый, привлекательный; м. р. возлюбленный. (II-1) (Rāma) «отрадный», «чёрный», имя раджи, воплощение Вишну. О Раме см. подробней в III вып. этой серии «Сказание о Раме». (III) “Чёрный”, “вороной”. Эпос знает трех Рам: 1) сын Джамадагни, автор гимна Ригведы X, 110 или Бхарава, сын Ренуки это Парашурама, Рама с топором, брамин, противник кшатриев; по отцу его часто называют Джамадагнья; он фигурирует в эпизоде “Путешествие Бхагавана”, как один из риши, явившихся на совещание кауравов. 2) Рама герой Рамаяны, по отцу называемый Рагхава или по одному из предков Какустха. Оба эти Рамы считаются воплощением Вишну. 3) Баларама или Халаюдха (Плуг), старший брат Кришны. Этот Рама считается “частичным” воплощением Вишну. Имя Рама получило позже очень широкое распространение. (IV) “чёрный” (в смысле красавец): 1) 8-е воплощение Вишну, сын царя Дашаратхи (кшатрий); 2) Баларама, брат Кришны; 3) Парашурама, 7-е воплощение Вишну, сын Джамадагни, брамин, враг кшатриев. (V) “Радующий”, “чёрный”; 2 воплощения Вишну: а) брамин, сын Джамадагни, из рода Бхригу, Р. с топором Парашурама истребитель кшатриев, 341, 84, 104, 114; б) кшатрий, сын Дашаратхи, победитель Парашурамы и ракшаса-брамина Раваны, 341, 85, 104; 362, 15. (VI) чёрный, умиротворяющий. Древняя Индия знает трёх выдающихся Рам: 1) Рама (Парашурама Р. с топором) сын Джамадагни, брамин, ненавидел кшатриев и убивал их, где и как только мог; Р. сын Дашаратхи, любимейший из древних героев, завоеватель Ланки (Цейлона). Оба эти Рамы воплощение Вишну, его аватары; 3) Р. Халарама, Р. с плугом, младший брат Кришны, неразлучный с Вишну-Нараяной. Он змий Īṭīа или Ананта, образующий ложе Вишну в молочном океане. (VII) см. Баларама. (VIII) “отрадный”, “чёрный” (в смысле красавец”); имя старшего брата Кришны. Его зовут также “Баларама” (“чёрный богатырь”), “Баладэва” (“сильный бог”) и “Санкаршана” (“перетащенный”), так как зачатый в лоне Дэваки, матери Кришны, он был перемещён в лоно Рохини, другой жены Васудэвы, отца Кришны и Рамы. Он считается частичным воплощением Вишну."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

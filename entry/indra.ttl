@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/indra> a ontolex:LexicalEntry ;
+  rdfs:label "indra"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/indra> ;
+  pwglex:key2 "i/ndra" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "इन्द्र /indra/ m. 1. nom. pr. владыка небесной сферы, бог грозы и бури, владыка богов в ведический период 2. (—o) 1) царь, глава 2) первый среди..., лучший из..."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "इन्द्र\t/indra/\t\t/индра/\tindra m. богъ Индра (глава боговъ); царь.\tс. 206"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "indra m.; \"сильный\", имя бога; -° самый лучший, передний"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indra/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IX, 20; м. р. бог, стоящий, по ведическим верованиям, во главе богов второго круга (среднего, воздушного пространства). Главное его проявление борьба со злыми духами, которых он разгоняет громовыми стрелами. Ему приписывается ряд подвигов. Первоначально это национальный бог арийского племени, постепенно он вытесняет Варуну и приобретает главенствующее значение. Он легендарный отец Арджуны. Переносно: первый в своём роде, глава, царь. (II-1) (Indra) «властитель». Имя раджи богов в эпический период. Громовник, аналогичен Зевсу греков. (I) имя царя богов, “Владыка Тридцатки”; как нарицательное употребляется в смысле “царь, владыка”, например, “Раджендра” “Индра царей” царь царей. (III) “Владыка”, главный бог индийского пантеона в период Эпоса. Тип громовержца. У него есть много эпитетов, из которых важнейшие: Тысячеокий, Васава, (то есть потомок Васу), Шакра, супруг Шачи, убийца Балы, Вритры, владыка тридцати богов и пр. (IV) главный бог позднего ведического пантеона, в эпический период. И–а, хотя и оставался “владыкой тридцати богов”, однако по существу уже был второстепенным богом, подчинённым браманической троице в одном из её аспектов. Индра громовник и борется с демонами туч (асурами). Постепенно имя стало нарицательным и приобрело смысл “владыка, царь”. Раджи часто титулуются “Индра народа”. (V) “Властитель”, “Правитель”; имя царя богов индуистского пантеона; одно из олицетворений неба (“тысячеокий”); персонификация настолько рыхла, что трудно провести чёткую границу между понятием И., как имени собственного, и как нарицательного существительного, обозначающего известную ступень космической иерархии: тексты говорят о множестве бывших и будущих И.; И. в образе шакала беседует с Кашьяпой, 180, 4 и сл.; И. царей эпитет раджи, 199, 49; И. беседует с Бали, 223, 12 и сл.; 224; 225; 227; И. владыка 30 богов, 200, 9; бывшие и будущие И., 224, 55 и сл.; 227, 40, 50; Гаутама наказывает И., 344, 18; бегство и возвращение И., 344, 26 и сл. (VI) властитель; собственное имя главного бога арьев в ведический период. И. называют “Властителем Тридцатки” (богов). Постепенно слава И. тускнеет; уже в поздневедическое время в гимнах проскальзывает насмешка над И. Знаменитый гимн Ригведы (X, 119) изображает И. пьяным от приносимой ему в жертву сомы (ритуальный хмельной напиток). В поздневедический период, когда образ Митра-Варуны бледнел (олицетворение дневного и ночного неба), И. стали понимать, как ночное небо, о чём свидетельствует эпитет “Тысячеокий”; но исконно И. понимался как громовник, владеющий чудесным луком Гандива (сделанный из дерева Ганди), радугой, мечущий стрелы ваджра (громовые стрелы). Дружина И. маруты (ветры). Предводительствуя ею, он сражался с данавами тучами. И. называют Шатакрату, то есть принесшим 100 жертв по ритуалу крату. Эпитет И. Васава указывает, что этот бог относился к классу богов васу. В эпический период в связи с возрастанием по существу неарийских богов Вишну и Рудры авторитет И. упал ещё ниже. “Махабхарата” изображает И. трусливым и не очень твёрдым морально. И. считается отцом Арджуны."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

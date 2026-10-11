@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/muh> a ontolex:LexicalEntry ;
+  rdfs:label "muh"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/muh> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muh/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muh/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muh/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muh/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मुह् /muh/ (P. pr. /muhyati/ — IV- fut. /mohiṣyati/, /mokṣyati/- pf. /mumoha/- aor. /amuhat/- pp. /mugdha/, /mūḍha/) 1) падать в обморок 2) ошибаться 3) быть дураком"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muh/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "मुह्\t/muh/\t\t/мух/\tmuh (muhyati, pp. mugdha и mūḍha; c. mōhayati, pp. mōhita) заблуждаться, pp. заблудшій, неопытный, глупый, наивный, невинный; с. вводить въ заблужденіе, обманывать. — vyā c. обманывать.\tс. 254"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muh/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 13; III, 2; IV, 16; V, 15; VII, 13, 15, 25; VIII, 27; IX, 11, 12; XIV, 8, 15; XV, 5; XVII, 19; гл. заблуждаться, ошибаться, становиться беспомощным; p. p. mūḍha и mohita заблудший, неопытный, глупый, безумный, ошеломленный (VII, 15, 25; IX, 11; XIV, 15; XVII, 19); vi II, 72; III, 6, 27, 32, 40; VI, 38; XI, 49; XV, 10; XVI, 15; потерять рассудок, впасть в заблужденье (II, 72; XI, 49); vimūḍhātman (III, 6, 27); ср. vimoha; caus. ввести в заблуждение, одурачить (III, 40); sam II, 7; III, 29; V, 20; X, 3; XV, 19; то же; прич. saṁmoha введенный в заблужденье, замороченный (III, 19); dharma saṁmuḍha cetāsa неясно видящий дхарму (II, 7), ошеломленный."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

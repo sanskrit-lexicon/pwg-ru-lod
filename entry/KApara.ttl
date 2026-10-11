@@ -1,0 +1,49 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/KApara> a ontolex:LexicalEntry ;
+  rdfs:label "khāpara"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/KApara> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/KApara/tr/_x5f_k_x5f_apara/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/KApara/tr/_x5f_k_x5f_apara/1_x20__x28_PW_x29_> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/KApara/tr/_x5f_k_x5f_apara/1> a ontolex:LexicalSense ;
+  skos:definition "{#KApara#}¦ <lex>m.</lex> <ab>pl.</ab> <ab>N. pr.</ab> народа\n<ls>Verz. d. Oxf. H. 340,a,32.</ls>"@ru ;
+  pwglex:sourceGloss "{#KApara#}¦ <lex>m.</lex> <ab>pl.</ab> <ab>N. pr.</ab> eines Volkes\n<ls>Verz. d. Oxf. H. 340,a,32.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Verz_x2e__x2d_d_x2e__x2d_Oxf_x2e__x2d_H_x2e__x2d_340_x2c_a_x2c_32_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/KApara/tr/_x5f_k_x5f_apara/1_x20__x28_PW_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#KApara#}¦ <lex>m.</lex> <ab>Pl.</ab> <ab>N. pr.</ab> народа."@ru ;
+  pwglex:sourceGloss "{#KApara#}¦ <lex>m.</lex> <ab>Pl.</ab> <ab>N. pr.</ab> eines Volkes."@de ;
+  pwglex:senseTag "1 (PW)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

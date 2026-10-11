@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/svar> a ontolex:LexicalEntry ;
+  rdfs:label "svar"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/svar> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/fri/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "स्वर् II /svar/ (P. pr. /svarati/ — I- fut. /svari-ṣyati/- pf. /sasvāra/- aor. /asvd_rīt/, /asvārṣīt/) 1) издавать звуки- звучать 2) воспевать, восхвалять 3) сиять"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "स्वर् III /svar/ n. 1) солнце 2) солнечный свет, блеск 3) небо"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "स्वर् I /svar/ (P. pr. /svarayati/ — X- pf. /svarayāñcakāra/- aor. /asasvarat/) 1) придираться 2) ругать- порицать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "स्वर्\t/svar/\t\t/свар/\tsvar indecl. священное слово (собств. свѣтъ, небо, солнце). — [см. подъ sūrya].\tс. 284"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/svar/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II svar n.; солнце, свет, небесный свод, небо, одна из трех vyāhṛti"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

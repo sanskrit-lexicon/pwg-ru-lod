@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/jan-2> a ontolex:LexicalEntry ;
+  rdfs:label "jan"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/jan> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jan-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jan-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jan-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jan-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "जन् /jan/ (A. pr. /jāyate/ — IV- fut. /jani-ṣyate/- pf. /jajñe/- aor. /ajani/, /ajaniṣṭa/- p. /janyate/, /jāyate/- ger. /janitvā/- pp. /jāta/ ) родиться, рождаться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jan-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "जन्\t/jan/\t\t/джан/\tjan (jāyatē 4, pp. jāta; f. janiṣyatē; 3. sg. med. aor. ajījanata; pf. jajāna, med. jajñē; c. janayati, f. janayiṣyati, pp. janita) рождать, рождаться, дѣлаться, происходить, образоваться, расти; c. производить, рождать, приживать, вызвать къ жизни. — pra распложаться, размножаться, родить. — sam id. — [γίγνομαι, лат. gignō, ср. γυνή, βavā, гот. kuni, др.-в.-нѣм. kind „Kind“, цсл. žena „жена“].\tс. 222"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jan-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 29, 41; II, 12, 20, 26, 27, 51; III, 5, 26; IV, 5, 12, 32; V, 22; VII, 28; X, 6, 11; XIII, 21; XIV, 12, 13, 17; XVII, 2; XVIII, 37, 40, 42, 43, 44, 48, 60; гл. рожать, причинять, делать, доставлять; p. p. jata рождённый; abhi II, 62; VI, 41; XIII, 23; XVI, 3, 4, 5; от рождения быть предопределённым к чему-н., родиться для чего-н. (XVI, 3, 4, 5), рождаться, возникать (II, 62), возрождаться VI, 41; upa II, 62, 65; XIV, 2, 11; вступать, возникать, проявляться (II, 62), возрождаться (XIV, 2); sam I, 12; II, 62; XIII, 26; XIV, 9, 17; рождаться, возникать (II, 62; XIII, 26); causat. порождать, причинять, воспитывать (I, 12); pra X, 28; родить."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

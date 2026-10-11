@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/ram-2> a ontolex:LexicalEntry ;
+  rdfs:label "ram"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/ram> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ram-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ram-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ram-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ram-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "रम् /ram/ (А. pr. /ramate/ — I- fut. /raṁ-syate/- pf. /reme/- aor. /araṁsīt/- pp. /rata/) 1) играть 2) радоваться 3) отдыхать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ram-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "रम्\t/ram/\t\t/рам/\tram (ramati, °tē, pp. rata; pf. rarāma, rēmē) act. останавливать, med. pass. радоваться, тѣшиться, услаждаться; pp. (съ loc.) находящій удовольствіе въ, угождающій кому. — vi act. переставать. — [ἠρέμα, ἔραμαι, лит. rimti].\tс. 258"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ram-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 42; III, 17; V, 22, 25; X, 9; XII, 4; XVIII, 36, 45; ramate ramati (в переходном значении и по метрическим соображениям) останавливать, закреплять; act., med. услаждаться; med. покоиться, пребывать с удовольствием у (с locat.), med. (и act. по метрическим соображениям) стоять, пребывать у (с locat.), услаждаться (без дополн., X, 9); p. p. rata радостный, удовлетворенный; caus. ramayati удовлетворять; upa II, 35; VI, 20, 25; act. как непереходн., med. как переходн. пребывать в покое, прекращать деятельность, покоиться (VI, 20), оказаться (II, 35); adhi XVIII, 45; med. удерживаться, покоиться, услаждаться; p. p. abhirata наслаждающийся, удовлетворенный, всецело чему-н. преданный, занимающийся привычным занятием (XVIII, 45)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

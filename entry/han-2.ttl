@@ -1,0 +1,55 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/han-2> a ontolex:LexicalEntry ;
+  rdfs:label "han"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/han> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/fri/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/smirnov/6> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "убивающий, уничтожающий हन् -han"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "हन् /han/ (P. pr. /hanti/ — II- pf. /jaghā-na/- aor. /ajīghanat/- pp. /hata/) 1) бить 2) убивать 3) портить- вредить"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "हन्\t/han/\t\t/хан/\than (hanti, 3. pl. ghnanti, 2. sg. imp. jahi; p. hanyatē, pp. hata, ger. °hatya, inf. hantum, pn. hantavya) гнать, бить, убивать, истреблять, уничтожать, подавлять; pp. 173, 11 (пыль) поднявшаяся отъ. — apa прогонять, устранять. — abhi ударять, pp. пораженный, постигнутый. — ud pp. uddhata возбужденный, полный чего.— ni убивать, уничтожать. — prati останавливать, преграждать, удалять, устранять. — [θείνω, ἐπεφνον, φόνος, лит. genu, цсл. ženą, gnati „гнать“].\tс. 285"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "॰हन्\t/-han/\t\t/-хан/\t°han (им. m. °hā, f. °ghnī) убивающій, убійца, balavṛtrahan убійца демоновъ Bala и Vṛtra, прозв. бога Индры (ср. °niṣūdana N. 2, 23 id.).\tс. 285"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II han (-⁰) ; убивающий; убийца, разоритель"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/han-2/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 31, 35, 36, 37, 45, 46; II, 5, 6, 19, 20, 21, 37; XI, 34; XVI, 14; XVIII, 17; hanti, ghanat, ghanati, ahan, ahanati, p. p. hata бить, убивать (XVI, 14), уничтожать; p. p. hata уничтоженный, убитый, погибший; особенно часто ставится в начале слова; abhi I, 13; ударять, поражать; upa I, 38; II, 7; III, 24; то же, воткнуть, укрепить; p. p. upahata убитый, попорченный, поврежденный (I, 38); ni I, 36; XI, 33; вбивать, толкать, ускорять, низвергать, разрушать; pra III, 41; рассекать, отсекать."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

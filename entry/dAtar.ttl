@@ -1,0 +1,41 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/DAtar> a ontolex:LexicalEntry ;
+  rdfs:label "dhātar"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/DAtar> ;
+  pwglex:key2 "DAta/r" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/DAtar/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/DAtar/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/DAtar/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/DAtar/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "धातर् /dhātar/ m. 1) основатель, создатель 2) хранитель 3) nom. pr. Творец — эпитет Брахмы и его сына"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/DAtar/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "dhātar m.; основатель, творец, содержатель"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/DAtar/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) (=Dhatar) VIII, 9; IX, 17; X, 33; м. р. творец, основоположник, податель; собственное имя одного бога, олицетворяющего эти понятия; подобно Tvaṣṭar, Prajapati, он полагает жизненное семя, а потому имеет отношение к зачатию, беременности, посылает здоровье, имущество; в послеведический период Дхатар является творцом и устроителем мира (X, 33); это имя употребляется и как неопределённое выражение понятия творческого божества. (III) “Основоположник”, “управитель”, мало персонифицированное божество наряду с Тваштаром (Творец), Праджапати (Владыка существ) и др. (IV) “благой”, творец, слабо персонифицированная идея творческой силы природы. (V) “Миродержец”, “творец”, 207, 33. (VI) творец, создатель, слабоперсонифицированное понятие, творческая сила природы."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

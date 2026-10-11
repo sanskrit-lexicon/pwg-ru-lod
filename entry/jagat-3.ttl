@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/jagat-3> a ontolex:LexicalEntry ;
+  rdfs:label "jagat"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/jagat> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/fri/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "जगत् /jagat/ 1. 1) идущий 2) подвижный, деятельный 3) живой- полный жизни 2. m. pl. люди 3. n. 1) люди и животные 2) земля 3) мир, вселённая 4) du. небо и подземное пространство"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "जगत्\t/jagat/\t\t/джагат/\tjagat n. міръ, свѣтъ, люди и проч. [отъ gam].\tс. 222"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "jagat (particip. < gam) ; движущийся; m. pl. люди"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/fri/4> a ontolex:LexicalSense ;
+  skos:definition "+jagat n.; все существующее (люди, животные), земля, мир"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jagat-3/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VII, 5, 6, 13; VIII, 26; IX, 4, 10, 17; X, 15, 42; XI, 7, 13, 25, 30, 36; XV, 12; XVI, 8, 9; ср. р. (от gam идти) движущееся, живое, люди и звери; зачастую только о животных в отличие от людей; позднее мир вообще, вселенная."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

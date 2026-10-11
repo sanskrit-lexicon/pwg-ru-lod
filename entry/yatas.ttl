@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/yatas> a ontolex:LexicalEntry ;
+  rdfs:label "yatas"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/yatas> ;
+  pwglex:key2 "ya/tas" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "यतस् /yatas/ 1. Abl. от य - 2. adv. оттого что, потому что"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "यतस्\t/yatas/\t\t/ятас/\tyatas adv. откуда, отчего, вслѣдствіе того что, такъ какъ, потому что, ибо; куда, yatō yatas куда ни; гдѣ; съ тѣхъ поръ какъ, yataḥ prabhṛti id.\tс. 255"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "yatas adv. rel.; из чего, откуда, с какого времени, куда, потому что, так что"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yatas/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VI, 26; XIII, 3; нар. откуда, почему, отчего, потому что; yato—yatas куда ни, где, с тех пор, как (VI, 26)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

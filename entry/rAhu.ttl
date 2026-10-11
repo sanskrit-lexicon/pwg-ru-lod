@@ -1,0 +1,36 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/rAhu> a ontolex:LexicalEntry ;
+  rdfs:label "rāhu"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/rAhu> ;
+  pwglex:key2 "rAhu/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAhu/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAhu/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAhu/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "राहु /rāhu/ м. 1) захватчик 2) nom. pr. демон, к-рый проглатывает солнце и луну, вызывая этим затмение"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/rAhu/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(III) “Захватчик”, злой дух воровски вкусивший амриты и ставший поэтому бессмертным; его изобличили Солнце и Луна, тогда Вишну отсек ему голову; бессмертная голова Раху пытается ради мести поглотить Солнце и Луну, отчего и бывают затмения. Ж. р. имя жены Джамадагни, матери Парашурамы (см. Рама). (IV) злой дух затмения. Когда боги добыли амриту, напиток бессмертия, асура Раху тайком испил амриту и стал бессмертным; но Солнце и Луна заметили воровство и сказали Вишну, который отсёк голову Раху; с тех пор бессмертная голова Раху, желая отомстить, гоняется за Солнцем и Луной, пытаясь их проглотить; так древние индийцы объясняли затмения. (V) “Захватчик”; имя асура, которого обезглавил Вишну за попытку своровать амриту; асура уже глотнул амриту, но она ещё не успела пройти по его пищеводу, когда Вишну снёс ему голову, поэтому голова, хоть и отрубленная, осталась жива, а тело погибло. Момент кражи проследили Солнце и Луна и сообщили о ней Вишну. Из мести голова гоняется за Солнцем и Луной, заглатывает их, но не может удержать: они из неё выскакивают (мифологическое объяснение затмения), 190, 8; 193, 30; 203, 22; 286, 103. (VI) захватчик. Во время пахтанья молочного океана из него вышла амрита. Р. украдкой хлебнул её, но был замечен Солнцем и Луной. Они сообщили о краже Вишну, который отрубил дайтье голову, ставшую бессмертной, но в туловище амрита не успела проникнуть. С тех пор бессмертная голова Раху гоняется за Солнцем и Луной, но только заглатывает их, а удержать не может (миф, объясняющий затмение). (VII) “захватчик”, “поглотитель”, имя одного дайтьи, которому приписывалась власть вызывания затмений. Во время пахтания богами молочного океана, из него вышла амрита. Р. хлебнул её, украдкой, но был замечен Солнцем и Луной. Они сообщили о краже Вишну, который в наказание отрубил Р. голову, ставшую бессмертной, но в туловище амрита не успела проникнуть. С тех пор, бессмертная голова Р. гоняется за Солнцем и Луной, но, догнав, только захватывает их, а удержать не может."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

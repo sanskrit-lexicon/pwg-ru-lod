@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/atas> a ontolex:LexicalEntry ;
+  rdfs:label "atas"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/atas> ;
+  pwglex:key2 "a/tas" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अतस् /atas/ 1. Abl. от अस्माद् 2. adv. 1) потом, затем- अतः पर следующий затем, потом 2) потому- अतो ऽर्थात् на этом основании, поэтому 3) отсюда, начиная с этого (места, времени)- अत ऊध्र्वम् с этих пор- впредь"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "अतस्\t/atas/\t\t/атас/\tataѕ отсюда, поэтому.\tс. 194"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "atas adv.; отсюда, поэтому, дальше, потом"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/atas/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) нар. 1) =ablat. от idam: а) со значением существительного: от такого, от этого, отсюда, atas para (как и param): исходя из этого, находясь за этим, anya от этого отличаясь; б) со значением прилагательного ato’rthāh на таком основании; 2) о месте; отсюда, с этого места; 3) о времени: тогда, с тех пор, отныне, впоследствии (XII, 8), atas urbhvam выше этого момента, позже; 4) на основании, вследствие этого, поэтому, оттого."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

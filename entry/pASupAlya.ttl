@@ -1,0 +1,87 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pASupAlya> a ontolex:LexicalEntry ;
+  rdfs:label "pāśupālya"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pASupAlya> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1_x20__x28_Nachtrag_x20_PWG_x29_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1_x20__x28_PW_x29_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1_x20__x28_SCH_x29_> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पाशुपाल्य /pāśupālya/ n. скотоводство"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "पाशुपाल्य\t/pāśupālya/\t/pAzupAlya/\t/пашупалья/\tpāśupālya n. скотоводство.\tс. 241"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1> a ontolex:LexicalSense ;
+  skos:definition "{#pASupAlya#} (от {#paSupAla#}) <lex>n.</lex> — скотоводство <ls>AK. 2,9,2</ls>. <ls>H. 864</ls>. <ls n=\"H.\">888</ls>. <ls>YĀJÑ. 1,119</ls>. <ls>MBH. 12,10794</ls>. <ls n=\"MBH.\">13,6442</ls>. <ls>KĀM. NĪTIS. 2,14</ls>. <ls n=\"KĀM. NĪTIS. 2,\">20</ls>. <ls>VĀYU-P.</ls> у <ls>MUIR, Sanskrit Texts I, 31</ls> <ls>MĀRK. P. 28,6</ls>. <ls n=\"MĀRK. P.\">50,76</ls>. <ls>DAŚAK.</ls> в <ls>BENF. Chr. 182,20</ls>."@ru ;
+  pwglex:sourceGloss "{#pASupAlya#}¦ (von {#paSupAla#}) <lex>n.</lex> {%Viehzucht%} <ls>AK. 2,9,2</ls>. <ls>H. 864</ls>. <ls n=\"H.\">888</ls>. <ls>YĀJÑ. 1,119</ls>. <ls>MBH. 12,10794</ls>. <ls n=\"MBH.\">13,6442</ls>. <ls>KĀM. NĪTIS. 2,14</ls>. <ls n=\"KĀM. NĪTIS. 2,\">20</ls>. <ls>VĀYU-P.</ls>_bei_<ls>MUIR, Sanskrit Texts I, 31</ls> <ls>MĀRK. P. 28,6</ls>. <ls n=\"MĀRK. P.\">50,76</ls>. <ls>DAŚAK.</ls>_in_<ls>BENF. Chr. 182,20</ls>."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "'скотоводство' выбрано как корпусный эквивалент для отвлечённого имени деятельности."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AK_x2e__x2d_2_x2c_9_x2c_2>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BENF_x2e__x2d_Chr_x2e__x2d_182_x2c_20>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DA_xc5__x9a_AK_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_864>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_888>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_M_x2e__x2d_N_xc4__xaa_TIS_x2e__x2d_2_x2c_14>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_M_x2e__x2d_N_xc4__xaa_TIS_x2e__x2d_2_x2c__x2d_20>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_12_x2c_10794>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_6442>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MUIR_x2c__x2d_Sanskrit_x2d_Texts_x2d_I_x2c__x2d_31>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_28_x2c_6>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_50_x2c_76>, <https://w3id.org/sanskrit-lexicon/repwg/citation/V_xc4__x80_YU_x2d_P_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_1_x2c_119> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1_x20__x28_Nachtrag_x20_PWG_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#pASupAlya#} добавь: {%пасение скота%} и <ls>KATHĀS. 114,97</ls>."@ru ;
+  pwglex:sourceGloss "{#pASupAlya#}¦ füge {%das Hüten des Viehes%} und <ls>KATHĀS. 114,97</ls> hinzu."@de ;
+  pwglex:senseTag "1 (Nachtrag PWG)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "к основному значению 'скотоводство' добавляется конкретное 'пасение скота'."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_114_x2c_97> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1_x20__x28_PW_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#pASupAlya#} <lex>n.</lex> — пасение скота, скотоводство <ls>CARAKA. 1,11</ls>."@ru ;
+  pwglex:sourceGloss "{#pASupAlya#}¦ <lex>n.</lex> {%das Hüten des Viehes, Viehzucht%} <ls>CARAKA. 1,11</ls>."@de ;
+  pwglex:senseTag "1 (PW)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/CARAKA_x2e__x2d_1_x2c_11> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pASupAlya/tr/pASupAlya/1_x20__x28_SCH_x29_> a ontolex:LexicalSense ;
+  skos:definition "{%pāśupālya%} n. также Y p. 13, Z. 8."@ru ;
+  pwglex:sourceGloss "{%pāśupālya%}¦ n. auch Y p. 13, Z. 8."@de ;
+  pwglex:senseTag "1 (SCH)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-25T14:40:34Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

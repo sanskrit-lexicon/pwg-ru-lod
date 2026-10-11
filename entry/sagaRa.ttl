@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/sAgara> a ontolex:LexicalEntry ;
+  rdfs:label "sāgara"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/sAgara> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "सागर /sāgara/ m. 1) море- океан 2) pl. сыновья Сагары- см. सगर 2)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "सागर\t/sāgara/\t/sAgara/\t/сагара/\tsāgara m. море.\tс. 279"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "sāgara m.; море (будто бы выкопанное сыновьями Сагары); сыновья Сагары"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(V) (“Сагара”) имя раджи, 290, 2; водные существа гибнут в о., 179, 14; Брахмо сравнивается с о., 224, 48; эпитет Вишну обитель о., 286, 5; все реки идут к о., 297, 39."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sAgara/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 24; XII, 7; м. р. море (X, 24) образ бесконечности, продления, опасности. (VI) море, океан; имя раджи, 60 000 сынов которого были сожжены гневом Капилы, Бхагиратха, потомок Сагары, великой аскезой добился низведения Ганги с неба на землю. Один из сыновей С. хулиганил и обижал горожан. Долго терпели горожане и, наконец, пошли к царю и пожаловались. Царь незамедлительно выгнал сына. Эпизод важен для характеристики тогдашних социально-политических отношений."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

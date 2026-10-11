@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/viDi> a ontolex:LexicalEntry ;
+  rdfs:label "vidhi"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/viDi> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/fri/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "विधि II /vidhi/ m. 1) приверженец 2) почитатель 3) служитель"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "विधि I /vidhi/ m. 1) предписание 2) способ- манера 3) правило 4) закон 5) поведение 6) дело 7) обряд, церемония, ритуал 8) судьба 9) творец"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "विधि\t/vidhi/\t\t/видхи/\tvidhi m. постановленіе, правило, законъ; образъ дѣйствія; судьба.\tс. 266"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/fri/4> a ontolex:LexicalSense ;
+  skos:definition "vidhi m.; предписание, правило, закон, средство, способ, поведение, действие, дело, обряд, сотворение, творец, судьба"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/viDi/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) XVI, 23; XVII, 13; м. р. распорядок, положительное предписание, правило, закон (XVI, 23), дело, судьба, божественное явление, время. (V) закономерность; нравственный закон; одно из 30 “особых свойств”, 322, 112. (Ред.) 179, 30. Закономерность протекания – Дейссен придаёт слишком фаталистический смысл высказыванию, переводя vidhi через Schicksal. Слово видхи выражает закономерность причинно-следственного ряда, а не случайности “слепого рока”. Перевод терминов видхи и дайва требует особой осторожности, ибо неправильная их передача может сильно исказить смысл подлинника. Европейская мысль слишком долго находилась под влиянием греческой философии, где так сильна была идея “слепого рока”, “мойры”, поэтому в европейских языках термины, выражающие идею рока, первично носили алогический и экзогенный характер. Так, sort, sorta есть слепой жребий, внутренне не обоснованный, алогичный, Schicksal – нечто экзогенное, извне посланное человеку (глагол schicken – посылать). В русском языке первичное значение слова “рок” есть закономерное течение времени, год (укр. “рiк”, годовой цикл солнечного сияния). Санскритский корень ruc уже гораздо ближе к идее закономерности видхи, равно и слово “судьба” выражает не чисто экзогенное ниспослание чьего-то произвола, но разумное суждение о том, чего достоин данный человек; в слово “судьба” вносится тот же разумно-нравственный момент, что и в санскритское слово vidhi (от dha – мыслить, судить). Под влиянием культуры, внеположной русскому языку, слова “рок”, “судьба” приобрели значение, свойственное греческой философии и европейским языкам. Значение слов “доля”, “удел” подверглось меньшему смысловому уплощению, но приобрело несколько отрицательный эмоциональный тон (примечание Б.Л. Смирнова к соответствующей шлоке (V) выпуска – прим. ред.). (Ред.) см. также Дайва"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kumAra-2> a ontolex:LexicalEntry ;
+  rdfs:label "kumāra"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kumAra> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "कुमार /kumāra/ m. 1) ребёнок, мальчик 2) сын 3) царевич 4) nom. pr. эпитет Сканды, бога войны- см. स्कन्द 5)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "कुमार\t/kumāra/\t/kumAra/\t/кумара/\tkumāra m. дитя, мальчикъ, юноша, сынъ; ◦rī f. дѣвушка (невѣста).\tс. 214"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "kumāra m.; ребенок, сын, мальчик, юноша; принц; n. pr."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kumAra-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(III) “юноша”, “сын”, “княжич”, эпитет Сканды, бога войны, сына Агни. Тексты говорят о “четырех Кумарах”, хранителях сторон света. (V) “отрок”, “юноша”, “княжич”; эпитет Сканды, а также четырёх сыновей Брамы, хранителей сторон света, 329, 8 и сл. (Ред.) см. также Каумара."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/as-4> a ontolex:LexicalEntry ;
+  rdfs:label "as"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/as> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अस् I /as/ (P. pr. /asti/—II- pf. /āsa/- ppr. /sant/- в др. временах употр. формы гл. भु) 1) быть, иметь место 2) происходить, случаться 3) принадлежать кому-л. 4) быть свойственным кому-л. (Gen. ) 5) находиться где-л. (Loc. ) 6) служить, быть поводом к чему-л. (Dat. ) 7) становиться, делаться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "अस् II /as/ (P. pr. /asyati/—IV- pf. /āsa/- aor. /āsthat/- pp. /asta/) 1) стрелять в кого-л., во что-л. (Loc, Dat., Gen.) из чего-л. (Abl. ) 2) метать, бросать чём-л. (Acc.) в кого-л. (Loc, Dat., Gen. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "अस्\t/as/\t\t/ас/\t1. as (asti, 3. pl. santi, conj. asati, impf. āsīt, pf. āsa; ppr. sant см. и отд. Отъ aѕ образуются только формы praes., impf. и pf., остальныя отъ bhū) быть, существовать, являться. — [ἐστι, лат. est, цсл. jestъ etc.].\tс. 201-202"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "अस्\t/as/\t\t/ас/\t2. as (asyati, съ предлогами и aѕati; ger. °asya) бросать. — abhi заниматься, изучать. — ni пустить, класть, ставить. — saṁni от-, сбрасывать, снимать; M.94 сл. отказаться отъ всѣхъ дѣлъ, чтобы предаваться созерцательной жизни. — pra бросать. — ѕam соединять, pp. pl. „всѣ вмѣстѣ“.\tс. 202"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/as-4/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) AS 1 быть, существовать, мн. ч. присутствовать, происходить, случаться; 3 лицо ед. ч. asti, santi; imperat. asāni; imperf. āsam (asit); perf. āsa p. pr. sant. От as образуется только imperfektum и perf., остальные формы от bhu. (II-2) AS 2 гл. (asayati) бросать, метать; abhi изучать, заниматься; samni III, 30; IV, 41; VI, 2; XII, 6; XVIII, 57; отбрасывать, опускать, откладывать, отказываться; в V, 13 без объекта: отказываться от земных влечений, чтобы вполне предаться созерцательной жизни; vyud VIII, 51; распространяться, проистекать, отвергать, покидать (XVIII, 51). (II-2) AS 3 см. tad."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

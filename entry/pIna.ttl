@@ -1,0 +1,108 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pIna> a ontolex:LexicalEntry ;
+  rdfs:label "pīna"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pIna> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/PW_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पीन /pīna/ толстый, упитанный"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "pīna (pp. < pī) ; надутый, вздутый, толстый, полный, округлый"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/1> a ontolex:LexicalSense ;
+  skos:definition "{#pIna#}¦ см. <ab>s. u.</ab> {#pI#} ."@ru ;
+  pwglex:sourceGloss "{#pIna#}¦ <ab>s. u.</ab> {#pI#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/PW_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "{#pIna#}¦ <ab>s. u.</ab> <hom>2.</hom> {#pI#}."@ru ;
+  pwglex:sourceGloss "{#pIna#}¦ <ab>s. u.</ab> <hom>2.</hom> {#pI#}."@de ;
+  pwglex:senseTag "PW-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 630] {#pīna#} [Gen , unsp] сущ. m. (с {#sveda#}) обильное потоотделение. Suś"@ru ;
+  pwglex:sourceGloss "[NWS: MW : 630] {#pīna#} [Gen , unsp] Subst m (with sveda ) profuse perspiration. Suś"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 630 (s.v. pīna)] {#pī (=pw pī 2)#} [Gen , unsp] [ {#pīna#} ] опухший, вздутый, полный, округлый, толстый, крупный, тучный, мясистый, тучный мускулистый. Mbh , Kāvya(MW) . MW : 630 (s.v. pīna )"@ru ;
+  pwglex:sourceGloss "[NWS: MW : 630 (s.v. pīna)] {#pī (=pw pī 2)#} [Gen , unsp] [ pīna ] swelling, swollen, full, round, thick, large, fat, fleshy, corpulent muscular. Mbh , Kāvya(MW) . MW : 630 (s.v. pīna )"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "цепочка синонимов сохранена той же кардинальности, что и в английском источнике (11 слов)."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Ensink 1964 : 113 (s.v. pīna)] [Reg , unsp] [ {#pīna#} ] тучный, сильный. Is Indon 18, 1 . полный, округлый. STB, S. 94, Z. 16 . Ensink 1964 : 113 (s.v. pīna )"@ru ;
+  pwglex:sourceGloss "[NWS: Ensink 1964 : 113 (s.v. pīna)] [Reg , unsp] [ pīna ] fat, strong. Is Indon 18, 1 . full, round. STB, S. 94, Z. 16 . Ensink 1964 : 113 (s.v. pīna )"@de ;
+  pwglex:senseTag "NWS-3" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "точка разделяет два разных цитатных источника, сохранена."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pIna/tr/p_x5f_ina/NWS_x2d_4> a ontolex:LexicalSense ;
+  skos:definition "[NWS: MW : 630 (s.v. pīna)] {#pīnatva#} [Gen , unsp] сущ. n. тучность, полнота, плотность, компактность. Kāvya(MW) . MW : 630 (s.v. pīna )"@ru ;
+  pwglex:sourceGloss "[NWS: MW : 630 (s.v. pīna)] {#pīnatva#} [Gen , unsp] Subst n fatness, corpulency, compactness, denseness. Kāvya(MW) . MW : 630 (s.v. pīna )"@de ;
+  pwglex:senseTag "NWS-4" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

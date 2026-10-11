@@ -1,0 +1,70 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vA-2> a ontolex:LexicalEntry ;
+  rdfs:label "vā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vA> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/kna/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/kna/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/fri/7>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/fri/8>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/smirnov/9> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "वा IV /vā/ см. वन् I"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "वा III /vā/ (U. pr. /vayati/ /vayate/ — IV- fut. /vayiṣyati/ /vayiṣyate/- aor. /ūyāt/, /avāsīt/ /avās-ta/, /vāsīṣṭa/- pp. /uta/) 1) ткать 2) плести 3) соединять, связывать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "वा II /vā/ (Р. pr. /vāti/ —II- fut. /vasyati/- pf. /vavau/- aor. /avāsīt/) 1) дуть 2) веять 3) идти 4) распространяться 5) уставать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/koch/4> a ontolex:LexicalSense ;
+  skos:definition "वा I /vā/ pcl. 1) или 2) как 3) пожалуй 4) же 5) иногда- ~ . . . वा . . . или ... или- यदि वा . . . ~ ли ... или- न वा . . . ~, न. . . ~ ни ... ни- को ~ na - के ~ न кто же не ...- каждый, все"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/kna/5> a ontolex:LexicalSense ;
+  skos:definition "वा\t/vā/\t/vA/\t/ва/\t1. vā или, же, иногда expl.; vā — vā или — или, либо — либо; na — vā ни — ни. — [ἢ].\tс. 264"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/kna/6> a ontolex:LexicalSense ;
+  skos:definition "वा\t/vā/\t/vA/\t/ва/\t2. vā (vāti) вѣять. — и pra id. —[ἄησι, лат. ventus, гот. waian, winds „wehen, Wind“, лит. vėjas, цел. vějati, větrъ „вѣять, вѣтеръ“].\tс. 264"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/fri/7> a ontolex:LexicalSense ;
+  skos:definition "I vā pcl. conj., encl.; или; как (cf. iva); право (cf. eva)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/fri/8> a ontolex:LexicalSense ;
+  skos:definition "II vā < vai pcl.; vā u < vai u, q. v.;"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vA-2/dict/smirnov/9> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VĀ 1 II, 6, 37; нескл. или; na—vā ни—ни. (II-2) VĀ 2 гл. (vāti) веять; nis VI, 19; веять, гаснуть, быть тихим, спокойным; nirvāṇa погашенный, свободный от жара, успокоенный. (II-2) VĀ 3 гл. (vāyati) ткать, плести; p. p. uta; pra VII, 7; вплетать, нанизывать; p. p. prota нанизанный, вплетённый."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

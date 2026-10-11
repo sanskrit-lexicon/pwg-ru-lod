@@ -1,0 +1,101 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pfTvI> a ontolex:LexicalEntry ;
+  rdfs:label "pṛthvī"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pfTvI> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/1_x20__x28_PWG_x29_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/1_x20__x28_PW_x29_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पृथ्वी /pṛthvī/ f. 1) Земля, земной шар 2) мир, свет, вселенная 3) земля, почва"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/1_x20__x28_PWG_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#pfTvI#}¦ см. <ab>s. u.</ab> {#pfTu#} ."@ru ;
+  pwglex:sourceGloss "{#pfTvI#}¦ <ab>s. u.</ab> {#pfTu#} ."@de ;
+  pwglex:senseTag "1 (PWG)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/1_x20__x28_PW_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#pfTvI/#}¦ <ab>s. u.</ab> {#pfTu/#}."@ru ;
+  pwglex:sourceGloss "{#pfTvI/#}¦ <ab>s. u.</ab> {#pfTu/#}."@de ;
+  pwglex:senseTag "1 (PW)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "{#pṛthvī#} [Ved]: «плоская поверхность (между двумя углами)». Caland 1928, p. 112 . Renou 1934 : 315"@ru ;
+  pwglex:sourceGloss "{#pṛthvī#} [Ved]: „surface plane (entre deux angles)“. Caland 1928, p. 112"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[Buddh] [Pṛthvī] см. Pṛthivī. BHSD : 353"@ru ;
+  pwglex:sourceGloss "[Buddh] [Pṛthvī] see Pṛthivī"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "[Epigr]: «одна». Sircar 1965, Kap. 7, 1.2 . Sircar 1966 : 264"@ru ;
+  pwglex:sourceGloss "[Epigr]: „one“. Sircar 1965, Kap. 7, 1.2"@de ;
+  pwglex:senseTag "NWS-3" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pfTvI/tr/pf_x5f_tv_x5f_i/NWS_x2d_4> a ontolex:LexicalSense ;
+  skos:definition "{#pṛthvīja#} [Gen] сущ. m. «земнорожденный», название дерева. A(MW) . название планеты Марс. A(MW) . n. вид соли. Lex(MW) ; gaḍalavaṇa . MW : 647 (s.v. pṛthvī )"@ru ;
+  pwglex:sourceGloss "{#pṛthvīja#} [Gen] Subst m ‘earth-born’, a tree. A(MW) . N of the planet Mars. A(MW) . n a species of salt. Lex(MW) ; gaḍalavaṇa . MW : 647 (s.v. pṛthvī )"@de ;
+  pwglex:senseTag "NWS-4" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "mixed" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

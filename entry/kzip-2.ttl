@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kzip-2> a ontolex:LexicalEntry ;
+  rdfs:label "kṣip"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kzip> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzip-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzip-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzip-2/dict/kna/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzip-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "क्षिप् II /kṣip/ f. палец"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzip-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "क्षिप् I /kṣip/ (P. pr. /kṣipyati/—IV- U. pr. /kṣipati/ /kṣipate/—VI- fut. /kṣepsyati/ /kṣeps-yate/- pf. /cikṣepa/ /cikṣipe/- aor. /akṣaipsīt/ /akṣi-pta/) 1) бросать, кидать 2) ронять 3) сбрасывать 4) поднимать 5) направлять 6) разрушать 7) губить 8) терять, утрачивать 9) миновать, проходить (о времени) 10) произносить (слова)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kzip-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "क्षिप्\t/kṣip/\t/kSip/\t/кшип/\tkṣip (kṣipati, °tē 6; pp. kṣipta, ger. °kṣipya) бросать. — ā набросать, задѣвать, осмѣивать N. 3, 13 (какъ-бы осмѣивая). — ni оставлять, передавать (на попеченіе съ loc.). — pra бросать на. — sam складывать, класть. — [ср. лат. dissipare].\tс. 216"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+

@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/puru-2> a ontolex:LexicalEntry ;
+  rdfs:label "puru"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/puru> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puru-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puru-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puru-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puru-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पुरु /puru/ 1. многочисленный, обильный 2. adv. 1) много 2) часто 3. m. nom. pr. царь из Лунной династии, младший сын Яяти, родоначальник династии Пауравов, в к-рой были рождены Кауравы и Пан-давы. Обменял свою молодость на старость своего отца- см. ययाति, पौरव 2 2) , कौरव, पाण्डव"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puru-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "पुरु\t/puru/\t\t/пуру/\tpuru m. nom. pr. царя. — [ср. adj. puru много = πολύς, гот. filu „viel“].\tс. 242"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puru-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(III) “Человек”, название народа; имя древнего царя, сына Яяти от Шармиштхи. (VI) слово родственно слову “пуруша” человек, душа; имя древнего царя, сына Яяти, брата Яду. Яду родоначальник ядавов, к которым принадлежал Кришна; название горы. (VII) “человек”, имя младшего сына Яяти от Шармашитхи. От него знаменитый род Пуру. Кауравы и Пандавы принадлежали к этому роду. Брат Пуру, Яду родоначальник ядавов, к которым принадлежит Кришна."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vivasvant> a ontolex:LexicalEntry ;
+  rdfs:label "vivasvant"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vivasvant> ;
+  pwglex:key2 "vi/vasvant" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "विवस्वन्त् /vivasvant/ 1. ярко сияющий, сверкающий 2. m. солнце 3. m. nom. pr. Лучезарный — эпитет Сурьи- см. सूर्य"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "विवस्वन्त्\t/vivasvant/\t\t/вивасвант/\tvivasvant лучезарный, nom. pr. бога солнца.\tс. 266"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "vivasvant m.; сияющий; m. эпитет солнца"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vivasvant/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IV, 1, 4; прил. (от vas 2+vi) зажигающийся, лучезарный; имя бога восходящего света, дня, солнца (в эпосе он называется Адитьем); позднее солнце вообще (IV, 1, 4). (II-1) (Vivasvant) «светоносный», «сияющий», «пламенеющий»; одна из ипостасей Солнца. (I) “светозарный”; имя бога Солнца, особенно утреннего, восходящего (ср. Гар-Эм-Хути или Ра-Гарехт египтян). (III) “светоносный”; утреннее Солнце (ср. Гар-эм-хути египтян), один из Адитьев, отец Ямы-Дхармы; позднее Солнце вообще. (IV) “сияющий”, солнце, бог Солнца; “сын Вивасвана” эпитет Ямы (Дхармы) и Карны. (V) одна из персонификаций Солнца, 199, 30; 336, 37; 344, 32; 350, 51; 361, 1. (VI) “Озаритель”, “Светодатель”, “Утренеющий”; утреннее Солнце, как божество, подобно Ра Гар-эм-хути, но не Деннице, Люциферу, которому в индуизме соответствует Шукра утренняя звезда, планета Венера."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

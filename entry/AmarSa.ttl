@@ -1,0 +1,79 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/AmarSa> a ontolex:LexicalEntry ;
+  rdfs:label "āmarśa"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/AmarSa> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/PW>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/NWS_x2d_2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "आमर्श /āmarśa/ m. прикосновение"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/1> a ontolex:LexicalSense ;
+  skos:definition "{#AmarSa#}¦ <lex>m.</lex> {%прикосновение, созвучие%}: {#hOtrAmarSa#}\n<ls>ĀŚV. ŚR. 8,13,32.</ls>"@ru ;
+  pwglex:sourceGloss "{#AmarSa#}¦ <lex>m.</lex> {%Berührung, Anklang%}: {#hOtrAmarSa#}\n<ls>ĀŚV. ŚR. 8,13,32.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "corpus candidate «пребывание» ('sojourn, abiding') does not match PWG's own gloss 'Berührung, Anklang' (contact/resonance) — the German-attested pair governs, corpus candidate rejected as off-sense."@ru ;
+  pwglex:evidenceGrade gr:approved ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc4__x80__xc5__x9a_V_x2e__x2d__xc5__x9a_R_x2e__x2d_8_x2c_13_x2c_32_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/PW> a ontolex:LexicalSense ;
+  skos:definition "{#AmarSa#}¦ <lex>m.</lex> {%прикосновение, созвучие%}."@ru ;
+  pwglex:sourceGloss "{#AmarSa#}¦ <lex>m.</lex> {%Berührung, Anklang%}."@de ;
+  pwglex:senseTag "PW" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "{#āmarśa#} [Gen, unsp] Subst m «контакт, близость, сходство». ĀśvŚS ii, 2, 13, 32 [NWS: MW : 147]"@ru ;
+  pwglex:sourceGloss "{#āmarśa#} [Gen, unsp] Subst m contact. nearness, similarity. ĀśvŚS ii, 2, 13, 32 [NWS: MW : 147]"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/AmarSa/tr/_x5f_amar_x5f_sa/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[Jin, unsp] (2. H. 12. Jh., Gujarat) Subst m «размышление, рассмотрение». TriṣaŚaPuC 1. 2. 150 [NWS: TŚPC 1 : 459]"@ru ;
+  pwglex:sourceGloss "[Jin, unsp] (2. H. 12. Jh., Gujarat) Subst m consideration. TriṣaŚaPuC 1. 2. 150 [NWS: TŚPC 1 : 459]"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

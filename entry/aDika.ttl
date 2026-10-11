@@ -1,0 +1,87 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/Adika> a ontolex:LexicalEntry ;
+  rdfs:label "ādika"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/Adika> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/1> a ontolex:LexicalSense ;
+  skos:definition "{#Adika#}¦ <ab>s. u.</ab> {#Adi#}."@ru ;
+  pwglex:sourceGloss "{#Adika#}¦ <ab>s. u.</ab> {#Adi#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "{#ādika#} [Ved, unsp] [ifc (Bhvr)] ādi. ityādi: «так начинающийся». <ls n=\"ṚV. 1,165,11\">ṚV(Sā) I 165, 11</ls> [NWS: Windisch 1883 : 106]"@ru ;
+  pwglex:sourceGloss "{#ādika#} [Ved, unsp] [ifc (Bhvr)] ādi . ityādi : so beginnend. ṚV(Sā) I 165, 11 [NWS: Windisch 1883 : 106]"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "bahuvrīhi-type ifc.-derivative of ādi (=и тому подобное), possessive sense 'so beginnend' rendered explanatorily."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_165_x2c_11_x2d__xe1__xb9__x9a_V_x28_S_xc4__x81__x29__x2d_I_x2d_165_x2c__x2d_11> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[Śā, Med] [ifc] «начинающийся с». Hoernle 1893-1912 (I) 5.47 [NWS: Hoernle 1908 : 249]"@ru ;
+  pwglex:sourceGloss "[Śā, Med] [ifc] beginning with. Hoernle 1893-1912 (I) 5.47 [NWS: Hoernle 1908 : 249]"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "[Buddh, unsp] Adj mfn «первый, начальный». Śikṣās 356.6 [NWS: BHSD : 93]"@ru ;
+  pwglex:sourceGloss "[Buddh, unsp] Adj mfn first, initial. Śikṣās 356.6 [NWS: BHSD : 93]"@de ;
+  pwglex:senseTag "NWS-3" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Adika/tr/_x5f_adika/NWS_x2d_4> a ontolex:LexicalSense ;
+  skos:definition "[Reg, unsp] Adj mfn «первый (?)». STB, S. 87, Z. 15. (ifc) «начинающийся с». WiPa Ed(F), 8,23 [NWS: Ensink 1964 : 24]"@ru ;
+  pwglex:sourceGloss "[Reg, unsp] Adj mfn first (?). STB, S. 87, Z. 15 . (ifc) beginning with. WiPa Ed(F), 8,23 [NWS: Ensink 1964 : 24]"@de ;
+  pwglex:senseTag "NWS-4" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "hedge '(?)' in the source (uncertain reading) preserved verbatim, per VEDIC/hedge-preservation rule."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

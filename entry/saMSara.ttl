@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/saMsAra> a ontolex:LexicalEntry ;
+  rdfs:label "saṃsāra"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/saMsAra> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/saMsAra/dict/kna/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/saMsAra/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/saMsAra/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/saMsAra/dict/kna/1> a ontolex:LexicalSense ;
+  skos:definition "संसार\t/saṃsāra/\t/saMsAra/\t/сансара/\tsaṁsāra m. круговое теченіе жизни (переселеніе душъ).\tс. 273"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/saMsAra/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "saṃsāra m.; блуждание, круговорот жизни, жизнь"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/saMsAra/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IX, 3; XII, 7; XVI, 19; прил. переселяющийся, перевоплощающийся; м. р. прохождение, перевоплощение, повторное существование, круговорот жизни; в сочетании с mṛtyu, IX, 3; XII, 7. (II-1) (Samsāra) «проистечение», мировой поток жизни. Пракрити в её проявлении. Пуруша, попав в этот поток, уносится им до тех пор, пока у него не появятся сила и желание выбраться из потока «на тот берег». Сказано, что мудрые переплывают С. на корабле знания. Вишну-Кришна говорит, что он извлекает преданных ему (бхакт) из С. силой любви. (IV) поток жизни, круговорот миропроявления. (V) “Проистечение”, мировой поток, круговорот жизни, основанный на бесконечности причинно-следственного ряда. Санкхья считает реальной материальную причину ряда природу, пракрити, а также изменение материальной причины, а значит и исполнительную причину (ср. формулу: глина, горшечник и горшок реальны). Освобождение заключается в том, чтобы понять, что “горшечник” относится также к пракрити и не отождествляется с “Я”, Атманом, который есть “познающий поле”. Сказано, что мудрые переплывают с. на корабле знания. Вишну-Кришна говорит, что он извлекает преданных ему (бхакт) из с. силой любви; освободившийся от с. не возвращается вновь, 195, 3; 271, 26, 33; женщины продляют ткань с., 213, 7; 217, 37; колесо с., 281, 59; существа погружены в с., пока истощатся плоды их дел, 292, 18, 19; надо напрягать все силы, чтобы освободиться от уз с., 295, 20; 331, 58."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

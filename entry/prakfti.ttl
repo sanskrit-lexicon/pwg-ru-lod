@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/prakfti> a ontolex:LexicalEntry ;
+  rdfs:label "prakṛti"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/prakfti> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prakfti/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prakfti/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prakfti/dict/fri/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prakfti/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "प्रकृति /prakṛti/ f. 1) природа- натура 2) характер, прав 3) филос. первопричина мира объектов 4) pl. полит. основы государства или государственные факторы"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prakfti/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "प्रकृति\t/prakṛti/\t/prakRti/\t/пракрити/\tprakṛti f. источникъ, начало, причина; природа; pl. подданные, граждане, министры.\tс. 243"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prakfti/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "prakṛti f.; первоначальное естественное состояние или форма, естественный характер или черты, природа, основные составные части или факторы (в государстве — король, министры, подданные), материя, из которой что-нибудь делается, материал, основа слова (грам.)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

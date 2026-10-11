@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vart> a ontolex:LexicalEntry ;
+  rdfs:label "vart"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vart> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vart/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vart/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vart/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vart/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "वर्त् /vart/ (A. pr. /vartate/ — I- fut. /varts-yate/, /vartiṣyate/- pf. /vavarta/- aor. /avart/) 1) вертеться 2) существовать 3) случаться 4) проживать 5) занимать место"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vart/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "वर्त्\t/vart/\t\t/варт/\tvart (vartatē, °ti, pp. vṛtta, ger. °vṛtya, inf. vartitum; f. vartiṣyatē; c. vartayati, pp. vartita, inf. vartayitum) вертѣться, двигаться впередъ, происходить, проходить (о врем.), случаться, находиться, существовать, быть, водиться, жить, M. 56 pp. послѣ устраненія; c вертѣть, проводить время, жить. — ati отвращать, устранять. — vyati проходить (о врем.). — anu слѣдовать, приходить, попадать; руководствоваться, жить по. — abhi направляться, приближаться. — vyā расходиться, раздѣляться. — ni от-, возвращаться, уходить, от-, переставать, исчезать, про-, заходить (о солнцѣ); c. заставлять вернуться, воз-, удерживать, обуздывать. — pratini возвращаться. — nis состояться, исполняться. — parі поворачиваться, повернуться. — vipari id., валяться. — pra происходить, начинаться, наступать, быть, c. отодвигать, двигать впередъ. — vi c. двигать, шевелить (бровями). — sam происходить, наступать, дѣлаться, быть. — [лат. vertō, гот. wairpan „werden“, лит. vẽrsti, vertýti, цсл. vrъsta, vrъtěti, vratiti „верста, вертѣть, воротить“].\tс. 263"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vart/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) III, 22, 23, 28; V, 9; VI, 6, 31; VII, 26; XIII, 23; XIV, 23; XVI, 23; гл. vartate кружиться, катиться, идти, уходить, вести определенный образ жизни, обитать, наличествовать (VI, 31), исполнять обязанности, иметь занятие (с locat. присутствовать); causat. vartayati; ati VI, 44; XIV, 21 (переходн.); проезжать, переходить, преодолевать (XIV, 21); anu III, 16, 21, 23; IV, 11; катиться за чем-н., двигаться, предоставлять; ā V, 17; VIII, 16, 23, 26 (act., переходн.) приворачивать, прикатывать; med. приходить, возвращаться (VIII, 26); p. p. āvṛtta завёрнутый, покрытый; samā VII, 25; то же; ni I, 39; VIII, 21, 25; IX, 3; XIV, 22; XV, 4, 6; возвращаться, возрождаться, перевоплощаться (VIII, 21; XV, 6); act. XV, 4; уходить из битвы, обращаться в бегство; nivṛtta karma в противоположность pravṛtta karma деятельность, лишенная личных интересов, не ожидающая ни посюсторонней, ни потусторонней награды; освобождаться, отделяться (I, 39), отказаться от битвы, уступить, замолкнуть, исчезнуть, истощиться; nivṛtta прекращённый, прошедший, исчезнувший (XVI, 22); vini II, 59; XV, 5; повернуться, обернуться; возвратиться, прекратить, исчезнуть (II, 59; XV, 5); nis XIV, 22; act. выкатить, выступить, возникнуть, развиться, завершиться, кончиться (nivṛtta готовый, завершённый, прошедший); causat. завершать, исполнять; pra I, 20; III, 16; V, 14; X, 8; XI, 32; XIV, 22; XVI, 10; XVII, 24; катиться, вращаться, направляться (XI, 32), выходить, возникать, случаться (XVII, 24) p. p. pravṛtta начатый (I, 20); действовать (V, 14); pravṛtta karma целеустремлённое действие; становиться, исполнять, вращать (V, 26), производить, начинать; vipari IX, 10; вращаться, двигаться в круге (IX, 10); abhipra IV, 20; катиться, направляться; saṁpra XIV, 22; вырываться, двигаться во вне, возникать, происходить; saṁpravṛtta возникший, происшедший (XIV, 22); sam XI, 51; обращаться, внедряться, становиться (XI, 51), возникать."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

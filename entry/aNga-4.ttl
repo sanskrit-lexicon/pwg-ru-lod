@@ -1,0 +1,60 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/aNga-4> a ontolex:LexicalEntry ;
+  rdfs:label "aṅga"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/aNga> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/kna/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/fri/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/fri/7> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अङ्ग III /aṅga/ n. 1) тело 2) член, часть тела 3) вспомогательное средство 4) дополнение- приложение 5) грам. основа"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "अङ्ग I /aṅga/ как раз- только что"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "अङ्ग II /aṅga/ m. 1) nom. pr. Анга страна, расположенная на правом берегу Ганга, со столицей Чампа 2) pl. анга народ, населяющий вышеназванную страну"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "अङ्ग\t/aṅga/\t/aGga/\t/анга/\t1. aṅga выразит. частица: именно, только, же.\tс. 194"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/kna/5> a ontolex:LexicalSense ;
+  skos:definition "अङ्ग\t/aṅga/\t/aGga/\t/анга/\t2. aṅga (°aṅga bah., f. ī) n. часть, часть тѣла, членъ, тѣлосложеніе, тѣло; отдѣлъ, прибавленіе, pl. названіе извѣстныхъ ведійскихъ дополнительныхъ сочиненій.\tс. 194"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/fri/6> a ontolex:LexicalSense ;
+  skos:definition "I aṅga pcl.; ну, право"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/aNga-4/dict/fri/7> a ontolex:LexicalSense ;
+  skos:definition "II aṅga n.; орган, тело, часть, составная часть; основа слова"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

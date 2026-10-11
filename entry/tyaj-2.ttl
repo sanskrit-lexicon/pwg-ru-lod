@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/tyaj-2> a ontolex:LexicalEntry ;
+  rdfs:label "tyaj"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/tyaj> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tyaj-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tyaj-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tyaj-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tyaj-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "त्यज् /tyaj/ (P. pr. /tyajati/—I- fut. /tyakṣy-ati/- pf. /tatyāja/- aor. /atyākṣīt/- pp. /tyakta/- ger. /tyaktvā/- inf. /tyaktum/) 1) оставлять, покидать- отказываться 2) не обращать внимания, пренебрегать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tyaj-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "त्यज्\t/tyaj/\t\t/тьядж/\ttyaj (tyajati, p. tyajyatē, aor. atyākṣīt, pp. tyakta, ger. tyaktvā, °tyajya) покидать, оставлять. — pari id. — sam id.\tс. 227"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tyaj-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 9, 33; II, 3, 48, 51; IV, 9, 20, 21; V, 10, 11, 12; VI, 24; VIII, 6, 13; XVI, 21; XVIII, 3, 5, 6, 8, 9, 11, 48, 51; гл. оставлять, отпускать, покидать, умирать (IV, 9), отдавать свою жизнь (I, 33); pari XII, 16; XIV, 25; XVIII, 66; покидать, предаваться судьбе, обстоятельствам, отдаваться (XVIII, 66)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

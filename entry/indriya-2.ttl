@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/indriya-2> a ontolex:LexicalEntry ;
+  rdfs:label "indriya"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/indriya> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "इन्द्रिय /indriya/ 1. 1) относящийся к Индре 2) подобный Индре 2. n. 1) сила Индры 2) верховная власть- сила, мощь 3) орган чувств 4) сила чувств- чувственность 5) чувственное наслаждение"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "इन्द्रिय\t/indriya/\t\t/индрия/\tindriya n. органъ чувствъ, сила чувства, чувственное наслажденіе (jitēndriya, vijitēndriya, niyatēndriya, saṁyatēndriya обуздывающій чувства, смиренный).\tс. 206"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "indriya n.; сила, выражение силы, смысл, орган чувств"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 8, 58, 60, 61, 64, 67, 68; III, 6, 7, 16, 34, 40, 41, 42; IV, 26, 27, 39; V, 7, 9, 11, 28; VI, 8, 12, 24; X, 22; XII, 4; XIII, 5, 14; XV, 7; XVIII, 33, 38; прил. посвященный Индре; ср. р. сила, чувство, орган (чувства); есть 5 воспринимающих и 5 исполнительных органов, их объединяет манас, одиннадцатый (X, 22). (IV) психофизиологические органы, числом 10; 5 воспринимающих соответствуют органам чувств, пять действующих соответствуют некоторым активным функциям организма (пищеварительной, двигательной, детородной и пр.). Центр индрий манас, который получает сигналы от воспринимающих индрий и посылает импульсы к двигательным. (V) название реактивных сил организма, его воспринимающих и ответных функций; различается 5 воспринимающих и 5 действующих и. Чаще под и. разумеют воспринимающие и., то есть чувства, теория которых тщательно разрабатывалась Санкхьей, 184, 5; 194, 7 и сл.; 203, 4 и сл.; 206, 1 и сл.; 210, 30 и сл.; 219, 21 и сл.; 276, 13 и сл.; и. освещают буддхи, как светильники, 287, 39; и. не видят манаса, 313, 17 (см. также орган, суть, тело)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/indriya-2/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(V) 276, 12 (см. также индрии, суть)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

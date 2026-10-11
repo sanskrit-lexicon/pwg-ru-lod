@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kubera-2> a ontolex:LexicalEntry ;
+  rdfs:label "kubera"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kubera> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kubera-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kubera-2/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kubera-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kubera-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "कुबेर /kubera/ m. nom. pr. в ведическую эпоху—верховный дух глубин и тьмы, позднее бог богатства и сокровищ, правитель северной страны света и глава якшей- см. यक्ष 2 2)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kubera-2/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "kubera m.; имя бога богатства и кладов, владыки демонов"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kubera-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-1) (Kuvera) сын Шивы, владыка сокровищ, покровитель купцов (вайшьев). (III) имя владыки подземных духов и сокровищ, хранитель севера, сын Вишравы, отчего часто называется по отцу Вайшравана; он изображается с тремя зубами и тремя ногами, а поэтому его имя объясняется как “урод”. Кувера покровитель касты вайшьев, купцов. (IV) бог сокровищ, владыка подземных духов (см. Гухьяка), хранитель севера; сын Вишравы, отчего по отцу называется Вайшравана; изображается с тремя зубами и тремя ногами, а потому его имя толкуется, как “урод” Кубера покровитель купцов, касты вайшьев. (V) имя бога сокровищ, сына Шивы; К. живёт уединённо в горных пещерах, где спрятаны его клады; в свою колесницу К. впрягает людей, 207, 35; 327, 31. (VI) бог сокровищ, кладов и богатств вообще; сын Вишравы, отчего зовётся Вайшраваном. Повелитель якшей, ракшасов и пещерных духов (шуров) гухьяков. Ездит на колеснице, влекомой людьми. К. изображают с тремя зубами и тремя ногами, поэтому его имени придают значение “урод”. К. покровитель торговли и купцов."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

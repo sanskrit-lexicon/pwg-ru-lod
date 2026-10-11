@@ -1,0 +1,55 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/muc-2> a ontolex:LexicalEntry ;
+  rdfs:label "muc"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/muc> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/fri/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/smirnov/6> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "выделяющий пот (о коже) मुच् -muc"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "मुच् I /muc/ (A. pr. /mocate/ — I) см. मच्"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "मुच् II /muc/ (U. pr. /muṅcati/ /muṅcate/ — VI- fut. /mokṣyati/ /mokṣyate/- pf. /mumoca/ /mumuce/- aor. /amucat/ /amukta/- pp. /mukta/) 1) терять 2) освобождать 3) оставлять 4) отказываться от (Abl. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "मुच्\t/muc/\t\t/муч/\tmuc (muñcati, °tē 6, p. mucyatē, pp. mukta, ger. muktvā; pf. mumōca, c. mōcayati, pp. mōcita) пускать, вы-, отпускать, оставлять, освобождать, развязывать, удалять; pp. M. 44. 58 освободившійся отъ міровыхъ узъ. — vinis освобождать. — prati прикрѣплять, привязывать. — vi освобождать, опускать, pp. 161, 7 лишилась.\tс. 254"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II muc (-°) ; выделяющий (капли пота)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/muc-2/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(II-2) III, 9, 13, 31; IV, 15, 16, 23; V, 28; VIII, 5; IX, 1; 28; XII, 15; XVIII, 26, 40, 66, 71; гл. освободить, выпустить; med. освобождаться: избегнуть (IV, 16); прич. mukta освобождённый, избавленный, свободный (V, 28), оставленный, покинутый; caus. mocayati освобождать, избавлять; desid. mūmukṣyati желать освободиться; vinis II, 51; pass. счастливо освободиться, избегнуть и пр.; p. p. vinirmukta; vi III, 32; IX, 28; XIV, 20; XV, 5; XVI, 22; XVIII, 35, 53; освободить, отрешить; med. освобождать (XVIII, 35, 53), развязывать для себя (напр. собственную лошадь); прич. vimukta освободившийся; pra V, 3; X, 3; отрешать, отвязывать, освобождать."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

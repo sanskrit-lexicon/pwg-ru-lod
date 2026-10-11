@@ -1,0 +1,51 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/Atman> a ontolex:LexicalEntry ;
+  rdfs:label "ātman"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/Atman> ;
+  pwglex:key2 "Atma/n" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "आत्मन् /ātman/ m. 1) дыхание 2) жизнь- существование 3) сущность, природа 4) собственное «я», сам 5) тело 6) ум, интеллект 7) филос. атман, мировая душа, высший дух"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "आत्मन्\t/ātman/\t/Atman/\t/атман/\tātman m. духъ, душа; міровая душа, высшій духъ (высшій жизненный принципъ); въ качествѣ pron. reflex. самъ, себя, свой, собственный. — [др.-в.-нѣм. ātum „Atem“].\tс. 203"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "ātman m.; дыхание, душа, сущность, тело; ātman в ед. числе употребляется также в качестве возвратного местоимения"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 43, 55, 64; III, 17, 27, 43; IV, 6, 7, 21, 27, 35, 38, 40, 42; V, 7, 11, 16, 17, 21, 25, 26; VI, 5, 6, 7, 8, 10, 11, 12, 14, 15, 18,19, 20, 25, 26, 28, 29, 32, 36, 47; VII, 18, 29; VIII, 1, 2, 3, 12; X, 20; XII, 2, 11; XIII, 7, 24, 28, 29, 32; XIV, 24; XV, 11; XVI, 9, 17, 18, 21, 22; XVII, 16, 19; XVIII, 16, 37, 39, 49, 51, 54; м. р. дыхание, душа (как принцип жизни и чувства, IX, 34); личность; возвр. мест. сам, себя, м. р. сущность, природа, качество; особая часть на конце сложных прил. (IV, 40); личность как целостное тело в противоположении отдельным органам; тело, разум; личность в психологическом смысле; высший субъективный жизненный принцип; мировая душа, вселенский дух. (III) этимологически возвратное местоимение “себя”; философски Абсолютный субъект, замкнутый в самом себе; одно из основных понятий индийской философии, объяснению которого посвящены многие места Упанишад и других философских трактатов. (IV) возвратное местоимение “себя”. Абсолютный субъект, безусловное “я” как основное понятие индийской философии, выработанное Упанишадами. В зависимости от школы несколько модифицировалось содержание этого термина, но основное его значение сохранялось во всех традиционных школах Индии. (V) возвратное местоимение “себя”, со времён Упанишад приобретшее субстанциональное значение, близкое значению “субъект” в противоположность “объекту”. Чаще всего мыслится абсолютный субъект (pneuma, ruach, дух, дыхание), но слово употребляется и в значении “эмпирическое я”. Ряд сложных слов: адхьятман, антаратман, бхутатман и другие передают разные категории этого сложнейшего философского понятия, то или иное понимание которого определяет направление той или иной школы индийской философии. Понятие “Атман” нельзя отождествлять с понятием “сознание”, так как есть школы, отрицающие сознание, как атрибут А. (например, школа Яджнавалкьи в Брих. уп.); некоторые Упанишады отождествляют А. и Брахмо. В философских текстах “Махабхараты” А., как правило, понимается как сознательный дух, отношение которого к непроявленной и проявленной пракрити различными направлениями Санкхьи понимается различно (см. суть), чаще в дуалистическом смысле. Ниже указаны основные места трактовки А. Санкхьей и Йогой, 187, 23 и сл; А. выпускает гуны, как паук паутину, 194, 50; 287, 41; обитель А., 198, 6; А. связан с телом и таттвами, 202, 1 и сл.; А. не воспринимается чувствами, 203, 4; семь А., 232, 10; два А., 236, 32, 33; погружение в А. тайна Вед, 246, 13; А. создатель гун, 248, 21; 287, 40; А. только здесь связан с гунами, 251, 15; А. не творец гун, а их созерцатель, 287, 36; А. многократно оплодотворяет пракрити, 308, 36; достижение подобия и единства с А., 309, 27, 28; А. мерой в сустав пальца, 314, 15. (VI) возвратное местоимение “себя”. Сознательное высшее “Я” единственная реальность (JAT) традиционной индийской философии. Нерасторжимая сизигия Бытие-Сознание. Подробно от этом см. “Бхагавадгиту”, “Анугиту”, “Мокшадхарму” (вып. II, IV, V этой серии)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Atman/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(V) – 200, 19; 205, 24; с. не восстанавливается после смерти, 219, 44 и сл.; с. присуще дживе, 241, 20."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

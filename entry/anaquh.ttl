@@ -1,0 +1,66 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/anaquh> a ontolex:LexicalEntry ;
+  rdfs:label "anaḍuh"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/anaquh> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/tr/anaquh/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/tr/anaquh/NWS_x20_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/tr/anaquh/NWS_x20_2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अनडुह् /anaḍuh/ m. бык"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/tr/anaquh/1> a ontolex:LexicalSense ;
+  skos:definition "{#anaquh#}¦ ослабленная форма от {#anaqvAh#} перед некоторыми падежными окончаниями, в производных и сложных словах."@ru ;
+  pwglex:sourceGloss "{#anaquh#}¦ Schwächung von {#anaqvAh#} vor einigen Casusendungen, in Ableitungen und Zusammensetzungen."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/tr/anaquh/NWS_x20_1> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Katre 1968f (1) : 26] {#anaḍuh#} [Śā., Ling] сущ. m {%бык%}, вол. Pāṇ 7.1.98 ."@ru ;
+  pwglex:sourceGloss "[NWS: Katre 1968f (1) : 26] {#anaḍuh#} [Śā, Ling] Subst m an ox, bull. Pāṇ 7.1.98 ."@de ;
+  pwglex:senseTag "NWS 1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/anaquh/tr/anaquh/NWS_x20_2> a ontolex:LexicalSense ;
+  skos:definition "[NWS: SJS 4 : 103] [Jin, unsp] сущ. m {%бык%}. PPS, S. 28, Z. 14 ."@ru ;
+  pwglex:sourceGloss "[NWS: SJS 4 : 103] [Jin, unsp] Subst m an ox. PPS, S. 28, Z. 14 ."@de ;
+  pwglex:senseTag "NWS 2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+

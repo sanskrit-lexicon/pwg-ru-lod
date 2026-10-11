@@ -1,0 +1,41 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/meru> a ontolex:LexicalEntry ;
+  rdfs:label "meru"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/meru> ;
+  pwglex:key2 "meru/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/meru/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/meru/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/meru/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/meru/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मेरु /meru/ m. назв. миф. золотой горы, по форме напоминающей цветок лотоса. На её вершине, в самом центре, находится город Брахмы, а вокруг, во все стороны света, располагается город Индры"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/meru/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "meru m.; название сказочной горы, целиком из золота"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/meru/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 23; м. р. название мифической золотой горы, находящейся позади Джамбудвипы; вокруг неё вращаются светила. (II-1) (Meru) название мифической горы, уходящей далеко в небо и погружающейся подошвой своей глубоко в бездну. Иногда представляется, что Меру поддерживает землю, иногда что Меру находится где-то в Гималаях или севернее их, иногда же Меру отождествляется с землёй, и тогда повествуется, что светила обращаются вокруг Меру, как вокруг оси. (III) название мифической горы, находящейся посреди Джамбудвипы (Индии); вокруг Меру вращаются звезды. (IV) мифическая гора, стержень земли, вокруг которого вращаются светила. (V) мифическая золотая гора, охраняемая Индрой, находящаяся в центре мира. Корень её на сотни йоджан уходит в океан, а верхняя половина высится над землёй так, что солнце, луна и звёзды то прячутся за неё, то появляются с другого края. Представление о М. сбивчиво, и легенды о ней противоречивы. Один из важнейших мифов о М. повествование о том, что суры и асуры, окрутив М. змием вечности Шешей, употребили её как скалку для пахтанья Океана. Интересно отметить, что только в самое последнее время в геологии выдвигается теория, что у гор есть “корни”, то есть что складка коры, образующая горы, приблизительно на столько же метров уходит вглубь, насколько выступает над землёй. Пребывая на М., Брама произвёл миры, 182, 39; 183, 1 и сл.; на М. Мритью совершала тапас, 259, 22; на М. Кришна Двайпаяна творил подвиг ради рождения сына, 325, 11, 12; дивная чета гор Химават и М., 335, 8; на М. пребывал Нарада, 336, 13; 338, 23 и сл.; на М. Вьяса со своими учениками изучал Веды, 342, 22; на М. творил тапас риши Стулашарира, 344, 34. (VI) мифическая золотая гора, поддерживающая Землю. За эту гору уходят Солнце, Луна и звёзды. Мифы о горе Меру противоречивы. Основным является сказание о том, как суры и асуры, пользуясь Меру, как скалкой, обмотав её змеем бесконечности Анандой, пахтали океан и как оттуда вышли прообразы всех вещей."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

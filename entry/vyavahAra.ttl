@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vyavahAra> a ontolex:LexicalEntry ;
+  rdfs:label "vyavahāra"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vyavahAra> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyavahAra/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyavahAra/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyavahAra/dict/fri/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyavahAra/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "व्यवहार /vyavahāra/ m. 1) дело, действие 2) поступок 3) работа, деятельность 4) поведение 5) обращение с кем-л. 6) обычай 7) торговля 8) судебное дело"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyavahAra/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "व्यवहार\t/vyavahāra/\t/vyavahAra/\t/вьявахара/\tvyavahāra m. поступокъ, съ kāryaḥ 155, 5 должно поступать.\tс. 269"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyavahAra/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "vyavahāra m.; действие, работа, служба, судебный разбор, спор, совершеннолетие"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

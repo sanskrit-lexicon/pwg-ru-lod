@@ -1,0 +1,66 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/havyavAha> a ontolex:LexicalEntry ;
+  rdfs:label "havyavāha"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/havyavAha> ;
+  pwglex:key2 "havyavAha/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/havyavAha/tr/havyav_x5f_aha/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/havyavAha/tr/havyav_x5f_aha/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/havyavAha/tr/havyav_x5f_aha/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/havyavAha/tr/havyav_x5f_aha/1> a ontolex:LexicalSense ;
+  skos:definition "{#havyavAha/#} ¦ <lex>adj.</lex> = {#havyavah#}. <is>Agni</is> <ls>MBH. 5,486</ls>. {#avA^qQa\\vyezi\\to ha^vyavA\\haH#} ({#˚vAha^H#} <ab>Hdschrr.</ab>) <ls>AV. 18,4,1</ls>. {#de\\vAnA^M Bi\\zajO^#} <ls>TBR. 3,1,2,11</ls>. <is>Aśvattha</is>, так как он доставляет <is>Araṇi</is>, <ls n=\"TBR.\">1,2,1,8</ls>. <lex>m.</lex> {%огонь%}, <is>Agni</is> <ls>H. 1099</ls>. <ls>RATNAM.</ls>, в <ls>ŚKDR.</ls> <ls>MBH. 1,2113</ls>. <ls n=\"MBH.\">3,15597</ls>. <ls n=\"MBH.\">14,245</ls>. <ls>Spr. (II) 7350</ls>, <ab>v. l.</ab> <ls>MĀRK. P. 62,4</ls>. <ls n=\"MĀRK. P.\">99,61</ls>."@ru ;
+  pwglex:sourceGloss "{#havyavAha/#}¦ <lex>adj.</lex> = {#havyavah#}. <is>Agni</is> <ls>MBH. 5,486</ls>. {#avA^qQa\\vyezi\\to ha^vyavA\\haH#} ({#˚vAha^H#} <ab>Hdschrr.</ab>) <ls>AV. 18,4,1</ls>. {#de\\vAnA^M Bi\\zajO^#} <ls>TBR. 3,1,2,11</ls>. der <is>Aśvattha</is>, weil er die <is>Araṇi</is> liefert, <ls n=\"TBR.\">1,2,1,8</ls>. <lex>m.</lex> {%Feuer%}, <is>Agni</is> <ls>H. 1099</ls>. <ls>RATNAM.</ls>_im_<ls>ŚKDR.</ls> <ls>MBH. 1,2113</ls>. <ls n=\"MBH.\">3,15597</ls>. <ls n=\"MBH.\">14,245</ls>. <ls>Spr. (II) 7350</ls>, <ab>v. l.</ab> <ls>MĀRK. P. 62,4</ls>. <ls n=\"MĀRK. P.\">99,61</ls>."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "mixed" ;
+  pwglex:differentia "Прилагательное — эпитет Ашваттхи («доставляющий [дрова для] жертвенного огня», т.к. из него делают араṇи), и субстантивированное m. — сам «огонь, Агни»; оба значения даны PWG слитно, без нумерации."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-28T15:21:25Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AV_x2e__x2d_18_x2c_4_x2c_1>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_1099>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_14_x2c_245>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_2113>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_3_x2c_15597>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_5_x2c_486>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_62_x2c_4>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_99_x2c_61>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RATNAM_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d__x28_II_x29__x2d_7350>, <https://w3id.org/sanskrit-lexicon/repwg/citation/TBR_x2e__x2d_1_x2c_2_x2c_1_x2c_8>, <https://w3id.org/sanskrit-lexicon/repwg/citation/TBR_x2e__x2d_3_x2c_1_x2c_2_x2c_11>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a_KDR_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/havyavAha/tr/havyav_x5f_aha/1> a ontolex:LexicalSense ;
+  skos:definition "{#havyavAha/#} ({#˚vA/ha#} <ls>AV. 18,4,1</ls>)¦\n<div n=\"1\"> — 1) <lex>Adj.</lex> = {#havyava/h#} 1). Также как <ab>Beiw.</ab> <is>Aśvattha</is>, так как он доставляет <is>Araṇi</is>."@ru ;
+  pwglex:sourceGloss "{#havyavAha/#} ({#˚vA/ha#} <ls>AV. 18,4,1</ls>)¦\n<div n=\"1\">— 1〉 <lex>Adj.</lex> = {#havyava/h#} 1〉. Auch als <ab>Beiw.</ab> des <is>Aśvattha</is>, weil er die <is>Araṇi</is> liefert."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "mixed" ;
+  pwglex:differentia "= первому значению основной статьи PWG (эпитет Агни); также употребляется как обозначение Ашваттхи, поставляющего [дрова для жертвенного огня]."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-28T15:21:25Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AV_x2e__x2d_18_x2c_4_x2c_1> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/havyavAha/tr/havyav_x5f_aha/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> — 2) <lex>m.</lex> {%огонь, бог огня%}."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 <lex>m.</lex> {%Feuer, der Gott des Feuers%}."@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Субстантивное значение — «огонь» как таковой, отождествляемый с богом Агни."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-28T15:21:25Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

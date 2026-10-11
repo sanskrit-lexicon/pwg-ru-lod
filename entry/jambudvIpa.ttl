@@ -1,0 +1,73 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/jambUdvIpa> a ontolex:LexicalEntry ;
+  rdfs:label "jambūdvīpa"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/jambUdvIpa> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/PW>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/NWS_x2d_2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/1> a ontolex:LexicalSense ;
+  skos:definition "{#jambUdvIpa#}¦ см. <ab>s.</ab> {#jambudvIpa#} ."@ru ;
+  pwglex:sourceGloss "{#jambUdvIpa#}¦ <ab>s.</ab> {#jambudvIpa#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/PW> a ontolex:LexicalSense ;
+  skos:definition "{#jambUdvIpa#}¦ <lex>m.</lex> <ab>dass.</ab> {#˚prajYapti#} <lex>f.</lex> название сочинения по <is>Jaina</is> <ls>Ind. St. 9,448</ls>."@ru ;
+  pwglex:sourceGloss "{#jambUdvIpa#}¦ <lex>m.</lex> <ab>dass.</ab> {#˚prajYapti#} <lex>f.</lex> Titel eines <is>Jaina</is>-Werkes <ls>Ind. St. 9,448</ls>."@de ;
+  pwglex:senseTag "PW" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Ind_x2e__x2d_St_x2e__x2d_9_x2c_448> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Bareau 1953 (1) : 59] {#jambūdvīpa#} [Buddh , Phil] южный материк. AbhiK III, 53 . Bareau 1953 (1) : 59"@ru ;
+  pwglex:sourceGloss "{#jambūdvīpa#} [Buddh , Phil] the southern continent. AbhiK III, 53 . Bareau 1953 (1) : 59"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/jambUdvIpa/tr/jamb_x5f_udv_x5f_ipa/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Sircar 1966 : 133 (s.v. jambudvīpa)] [Epigr , unsp] {#jambudvīpa#} . Sircar 1966 : 133 (s.v. jambudvīpa )"@ru ;
+  pwglex:sourceGloss "[Epigr , unsp] jambudvīpa . Sircar 1966 : 133 (s.v. jambudvīpa )"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

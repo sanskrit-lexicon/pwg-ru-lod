@@ -1,0 +1,35 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/arjuna-2> a ontolex:LexicalEntry ;
+  rdfs:label "arjuna"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/arjuna> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/arjuna-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/arjuna-2/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/arjuna-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अर्जुन /arjuna/ 1. светлый, белый 2. m. nom. pr. третий сын Панду и Кунти, родившийся от бога Индры, герой «Махабхараты\"- см. पाण्दु , कुन्ती , इन्द्र 1, महाभारत"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/arjuna-2/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 4, 21, 28; II, 2, 4, 45, 54; III, 1, 7, 36; IV, 4, 5, 9, 37; V, 1; VI, 16, 32, 33, 37, 46; VII, 16, 26; VIII, 1, 16, 27; IX, 19; X, 12, 32, 42; XI, 1, 15, 36, 47, 50, 51, 54; XII, 1; XIII, 1; XIV, 21; XVII, 1; XVIII, 1, 9, 34, 61, 73, 76; 1) прил. белый, светлый, серебряный; эпитет земли и восточной зари; 2) м. р. павлин; 3) эпитет Индры, имя третьего сына Панду, рождённого Индрой. (II-1) (Arjuna) «утренняя заря»; «серебристый»; «белый»; «дневной свет», эпитет Индры, имя третьего из Пандавов, по легенде сына Индры. Арджуна тесно связан с Кришной, как его ученик и шурин. Легенда, неоднократно повторяемая в Махабхарате, гласит, что в прежнем воплощении Кришна и Арджуна были двумя великими ришами, воплощением Нараяны, они подвизались в пустыне Бадараяна (ср. вып. III, «Путешествие Бхагавана»). Позднейший вишнуизм уподобляет связь Кришны и Арджуны со связью бога с его силой (шакти), олицетворяемой в виде богини. (III) “Белый”, дневной свет, утренняя заря, серебро. Имя третьего сына Панду, рождённого женой Панду, Кунти, от Индры; эпитет Индры. (IV) “белый”, серебряный, дневной свет, утренняя заря. Имя третьего Пандава, сына Индры от Кунти-Притхи. (V) “Утренняя заря”, “светлый”, “серебряный”; имя третьего из братьев Пандавов; воплощение Нары, одного из воплощений Вишну, 343, 5 и сл.; 343, 57; 344, 51. (VI) белый, серебряный, утренняя заря, дневной свет; имя третьего из братьев Пандавов. А. последний из сыновей Кунти. Наравне с двумя старшими А. по роду матери именуется Каунтея. Отец А. главный бог индийского Олимпа Индра. Частые эпитеты А. Дхананджая “Завоеватель сокровищ” и “Гудакеша” “носящий волосы сплетёнными в косы” по обычаю подвижников йогинов. (VII) “утренняя заря”, “светлый”, “серебряный”; третий сын Панду от Кунти, родившейся от бога Индры. По легенде А. тесно связан с Кришной не только как его ученик и шурин, но оба они воплощение на земле великих риши Нары-Нараяны. Позднейший вишнуизм уподобляет связь Кришны с Арджуной связи бога с его силой (шакти), олицетворяемой в виде богини. Частые эпитеты Арджуны в Эпосе: Бибхатсу, Джишну, Дхананджая, Пхальгуна, Шветашва."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

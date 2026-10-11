@@ -1,0 +1,41 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/sADana> a ontolex:LexicalEntry ;
+  rdfs:label "sādhana"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/sADana> ;
+  pwglex:key2 "sA/Dana" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sADana/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sADana/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sADana/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sADana/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "साधन /sādhana/ 1. 1) приводящий к цели 2) ведущий, направляющий 3) создающий что-л. (Gen.,—о) 4) обеспечивающий чем-л. 5) вызывающий духов 6) выражающий, обозначающий что-л. (—о ) 2. n. 1) доведение до конца 2) подчинение- укрощение 3) выполнение, исполнение 4) искупление (вины) 5) подтверждение, доказательство 6) приготовление (пищи) 7) доставание, приобретение чего-л. 8) вызывание духов 9) возвращение (долга) 10) средство, способ 11) армия, войска 12) битва, сражение 13) результат, исход 14) орудие (тж. черен.) 15) грам. суффикс"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sADana/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "sādhana n.; осуществление, проведение, средство"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sADana/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(V) то, что ведёт к совершенству, успеху, достижению намеченной цели. В религии это система обрядов для достижения общения с избранным божеством; в йоге система упражнений для достижения той или иной йогической цели, 275, 14."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

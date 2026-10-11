@@ -1,0 +1,65 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/mA-2> a ontolex:LexicalEntry ;
+  rdfs:label "mā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/mA> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/kna/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/kna/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/fri/7>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/smirnov/8> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मा IV /mā/ Acc. от अहम्"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "मा III /mā/ 1) нет 2) чтобы не- मैवम् так нет!- मा तावत् нет же"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "मा II /mā/ (Р. pr. /māti/ —II- A. pr. /mi-mīte/ — III- /māyate/ — IV- fut. /māsyati/, /masyate/- pf. /mamau/, /mame/, /maire/- aor. /amāsīt/- pp. /mita/- ger. /mitvā/, mi_tva_/, /-mā-ya/- inf. /mātum/, /mitum/) 1) мерить, измерять 2) соизмерять, сравнивать с (Instr. ) 3) доставать, дотягиваться до (Gen. ) 4) иметь место, содержаться (Loc. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/koch/4> a ontolex:LexicalSense ;
+  skos:definition "मा I /mā/ (P. pr. /mimati/ — III- pf. /mi-māya/- aor. /amīmet/) 1) звучать 2) мычать- реветь"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/kna/5> a ontolex:LexicalSense ;
+  skos:definition "मा\t/mā/\t/mA/\t/ма/\t1. mā (μη) не, чтобы не.\tс. 253"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/kna/6> a ontolex:LexicalSense ;
+  skos:definition "मा\t/mā/\t/mA/\t/ма/\t2. mā (māti 2, mimītē 3 и māyatē 4; p. mīyatē, pp. mita) мѣрить. — nis строить. — pari pp. умѣренный, въ ограниченномъ количествѣ, мало. — [μῆτις, лат. mētior, цсл. měra „мѣра“].\tс. 253"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/fri/7> a ontolex:LexicalSense ;
+  skos:definition "II mā pron., v. aham;"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mA-2/dict/smirnov/8> a ontolex:LexicalSense ;
+  skos:definition "(II-2) MĀ 1— II, 3, 47; XI, 49; нар. и союз нет, не; чаще в сопряженных предложениях, но также и в главном при выражении желания или при продолжении мысли поэтому не; с precat. да не будет; mā sma =mā с аористом или с imp. con. (II, 3). (II-2) MĀ 2— XI, 40; гл. мерить, образовывать; p. p. mita измеримый; pari XVI, 11; измерять; parimita измеренный, умеренный, ничтожный; pra XI, 41; то же; промерить."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

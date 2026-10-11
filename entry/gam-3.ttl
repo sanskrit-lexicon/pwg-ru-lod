@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/gam-3> a ontolex:LexicalEntry ;
+  rdfs:label "gam"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/gam> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gam-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gam-3/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gam-3/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gam-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "गम् /gam/ (P. pr. /gacchati/ — I- fut. /ga-miṣyati/- pf. /jagāma/- aor. /agamat/- pp. /gata/- ger. /gatvā/ - inf. /gantum/) 1) идти 2) двигаться 3) уходить 4) приходить 5) проходить, миновать (о времени) 6) достигать чего-л. (Acc. ) 7) нападать- накидываться 8) постигать, познавать 9) подвергаться чему-л.- испытывать что-л. 10) терпеть, сносить 11) в сочет. с Acc. сущ. и прил.: быть, становиться- क्रोधम् ~ становиться сердитым- сердиться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gam-3/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "गम्\t/gam/\t\t/гам/\tgam (gachati, °tē, p. gamyatē; pf. jagāma, 3. pl. jagmur, ppfa. jagmivaṅs; aor. agamat, conj. gamat; f. gamiṣyati, periphr. gantā; pp. gata, pn. gantavya и gamya, inf. gantum, ger. gatvā, °gamya и°gatya; c. gamayati) идти, у-, про-, приходить, отправляться, достигать; pp. по-, пришелъ и проч. (см. и отд.); c. заставлять идти и проч., приводить, отсылать и т. под. — adhi доходить, достигать. — anu слѣдовать за, сопровождать. — antar pp. вошедшій, скрывшійся, втайнѣ. — apa уходить. — abhi при-, подходить, посѣщать, S. 1, 25 молиться. — ava узнавать, понимать, — astam см. astam. — ā (f. periphr. āgantā) при-, подходить, идти, наступать, попадать; съ punar возвращаться. — abhyā приходить, являться. — samā приходить, навѣщать, собираться. — upa подходить. — nis у-, выходить. — vinis освобождаться, отказываться. — pari обхаживать. — prati идти на встрѣчу, пойти. — vi исчезать (см. подъ saṁkalpa). — sam сходиться, соединяться, встрѣчаться.— [βαίνω, βάσκω, лат. venio, гот. qiman „kommen“].\tс. 217-218"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/gam-3/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 3, 11, 51, 52, 55; IV, 23, 24; V, 5, 8, 17; VI, 37, 40, 47; VIII, 8, 24; X, 9; XI, 51; XII, 16; XIII, 17; XIV, 1, 15, 18; XV, 4, 5, 6, 12; XVII, 10; XVIII, 62, 73; гл. идти, приходить; уходить; p. p. gata ушедший, достигший, погибший, покоящийся (II, 55; XV, 12); adhi II, 64, 71; IV, 39; V, 6, 24; VI, 15; XIV, 19; XVIII, 49; придти, достичь, получить (II, 55; V, 6), следовать, изучать, читать; samadhi III, 4; вступать, приближаться (siddhim III, 4), antar VII, 28; войти; ava IX, 2; X, 41; посещать, входить, признавать за (с двумя вин.), считать за (X, 41); ā II, 14; III, 34; IV, 10; XIV, 2; приходить, вступать, возвращаться, проходить через, переходить; samā I, 23; сходиться, соединяться; p. p. samāgata; upasam I, 2; вступать, приходить; ni IX, 31; XVIII, 36; опуститься, успевать (IX, 31); vi II, 56; III, 30; V, 28; VI, 14, 28; XI, 1; уходить, исчезать (XI, 1)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/marut-2> a ontolex:LexicalEntry ;
+  rdfs:label "marut"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/marut> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मरुत् /marut/ m. 1) ветер 2) воздух 3) дыхание 4) nom. pr. бог ветра 5) pl. группа богов бурь и ветров, помощников Индры- см. इन्द्र 1"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "मरुत्\t/marut/\t\t/марут/\tmarut m. вѣтеръ, pl. nom. pr. божествъ, сопровождающихъ Индру.\tс. 251"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "marut m.; божество ветра, ветер; pl. боги (вообще)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/marut-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 21; XI, 6, 22; м. р. мн. ч. боги ветра, Маруты, свита Индры; Маруты именуются братьями Индры и причисляются к богам средней (воздушной) области (XI, 6, 22); это дети Марутвати, божества созвездия Маргаширши (X, 21); в ед. ч. бог ветра, ветер, воздух. (II-1) (Maruta) «бог ветра, бури». Обычно говорят о «толпе марут», иногда их насчитывают 7 или 9, или 10. Они сливаются с другим олицетворением ветра Рудрой. Иногда Рудра (если он один) называется их предводителем. Позже Рудру стали отождествлять с Шивой, а марутов с рудрами. (IV) ветер, бог ветра. Уже в более поздние ведические времена говорилось о “толпе марутов”, их начальник был Рудра (Воющий); Маруты подчинены Индре и помогают ему в борьбе с данавами (тучами). (V) “Ветер”; во множ. числе духи ветров, сопутствующие Индре, 186, 4; 198, 5; 200, 10, 11; 208, 22, 23; 285, 40; 325, 18; 344, 30. (VI) бог ветра и дождя, дружинник Индры, Марутов насчитывалось семь, позже девять (см. V вып., ч. 1 этой серии, гл. 330)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

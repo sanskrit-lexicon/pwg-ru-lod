@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pAka-2> a ontolex:LexicalEntry ;
+  rdfs:label "pāka"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pAka> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पाक II /pāka/ m. тот, кто готовит еду (пекарь, повар)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "पाक I /pāka/ 1. 1) очень молодой 2) простой 3) неосведомлённый- невежественный 4) честный 2. 1) m. детёныш 2) nom. pr. демон, убитый Индрой"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "pāka m.; приготовление пищи, переваривание пищи, созревание"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAka-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(IV) “зрелый”, сваренный; название рода жертвоприношения; готовый; отсюда дитя, отрок; имя одного дайтья. (V) “Печение”, “переваривание”; “юный”, “неопытный”, “бычок”; имя одного данава, воспитанника Индры, “воспитатель Паки” (пакасашана) эпитет Индры, 228, 84; также “убийца Паки”, 228, 7. (VI) малыш, птенец, щенок; имя дайтья, которого, по легенде, вскормил Индра."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

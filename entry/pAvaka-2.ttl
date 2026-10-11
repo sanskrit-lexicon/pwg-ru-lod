@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pAvaka-2> a ontolex:LexicalEntry ;
+  rdfs:label "pāvaka"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pAvaka> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पावक /pāvaka/ 1. 1) чистый 2) яркий 2. m. огонь"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "पावक\t/pāvaka/\t/pAvaka/\t/павака/\tpāvaka m. огонь. — [отъ pū].\tс. 241"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "pāvaka; чистый, сияющий; m. огонь"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pAvaka-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 23; XV, 6; прил. чистый, ясный, светлый; согласно комментаторам, обычно об Агни: очищающий, просветляющий огонь, бог огня (X, 23). (II-1) (Pāvaka) «очиститель», так называют все стихии, но в особенности огонь и ветер. (III) “очиститель”, так именуются четыре стихии, в частности Огонь, Ветер. (IV) очиститель, общее название стихий, но в особенности Огня. (V) Очиститель; так называют великие сути (махабхутов) вообще, в особенности огонь и ветер; П. сжигает весь преходящий мир, 257, 17; свободный от заблуждений восходит к П., 323, 62; П. охраняет Шиву, 329, 23; П. принадлежит доля возлияния хавис, 344, 92. (VI) очиститель; так назывались 5 “основ”, элементов или стихий. Все эти элементы образуются по принципу кратностей: от менее плотного “кха” (пространство) к наиболее плотному (земля). Ко всем элементам можно отнести термин “павака”, но особенно часто он применяется относительно “мужских” элементов: воздуха, точнее ветра (ваю) и огня (агни), хотя во всех ритуалах главную роль очистителя играет вода. Без очистительного омовения даже брамин не защищён от нечистых духов (ср., например, историю о гибели брамина, “из молодых, да ранних”, Явакри в “Хождении по криницам”, гл. 136)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

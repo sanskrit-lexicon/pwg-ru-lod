@@ -1,0 +1,51 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/tapas> a ontolex:LexicalEntry ;
+  rdfs:label "tapas"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/tapas> ;
+  pwglex:key2 "ta/pas" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "तपस् /tapas/ n. 1) см. तप 2- 2) назв. месяца, соотв. январю—февралю"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "तपस्\t/tapas/\t\t/тапас/\ttapas n. жаръ, жара; умерщвленіе плоти, покаяніе, самоистязаніе, страданіе, аскетическая жизнь. — [лат. tepor „теплота“].\tс. 225"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "tapas n. ; зной, жар, страдание, мучение, раскаяние, аскетизм"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(V) см. тапас."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tapas/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IV, 10, 28; V, 29; VII, 9; VIII, 28; X, 5; XI, 48, 53; XVI, 1; XVII, 5, 7, 14, 15, 16, 17, 18, 19, 24, 25, 28; XVIII, 3, 5, 42; м. р. жар, горе, страдание, истязание, аскеза, сопряженное с аскезой самоуглубление (но не покаяние в христианском смысле), VIII, 28; XI, 48; XVII, 14. (III) жар, накаливание, аскеза, закалка воли и тела. По мифологическим взглядам арийцев тапасом осуществлено мироздание и он является средством к достижению любой цели (ср. также введение к Санатсуджатапарван). (IV) нагревание. накаливание, теплота как миросозерцательное начало; изнурение плоти, аскеза. (V) возогревание, накаливание, усердный труд, духовный подвиг, самоистязание, аскеза, умерщвление плоти; т. как основа миропроявления, 188, 2; 217, 15; 297, 15; через т. совершается жертва, 196, 11; отречение и смирение высший т., 221, 5; т. есть благо существ, 232, 22; согласно здоровью, способностям, времени надо совершать т., 268, 36; мало людей совершают т., 297, 13; путь в небо открывает т., 297, 14; в трёх мирах нет ничего недостижимого для т., 297, 23; при утрате счастья надо совершать т., 297, 26. (VI) одно из самых многогранных в смысловом отношении слов санскритского языка. Основное его значение по корню глагола накалять, нагревать, возогревать и физически и психически творить аскезу, подвиг. Традиционная философия Индии утверждает, что тапасом можно достичь всего, вплоть до владычества над всем миром, причём под тапасом понимается какое-либо самоистязание, например, стоять у пяти огней: самоистязатель стоит среди четырёх костров, расположенных по сторонам света, на открытом месте, таким образом, палящие лучи солнца являются пятым огнём. Иные дают обет стоять на пальцах одной ноги и т. д. Аскет не задаётся целью умилостивить бога или богов. Сплошь и рядом боги стараются помешать тапасу тем или иным путём. Тапас не религиозен, в него не вкладывается ничего мистического, он не ищет сближения с божеством, он самоцелен. Не ясно, почему боги обязаны вознаграждать совершающих тапас, даже вопреки своим интересам, вопреки здравому смыслу и вопреки “благу мира”, о котором так часть говорится."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

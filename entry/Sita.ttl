@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/sItA> a ontolex:LexicalEntry ;
+  rdfs:label "sītā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/sItA> ;
+  pwglex:key2 "sI/tA" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "सीता /sītā/ f. 1) борозда 2) морщина, складка 3) nom. pr. Сита — дочь Джанаки и супруга Рамы- см. जनक 2 3), राम 2 2)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "सीता\t/sītā/\t/sItA/\t/сита/\tѕītā f. борозда; nom. pr. женщины.\tс. 280"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "sītā f.; борозда; n. pr. имя супруги Рамы"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sItA/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(III) “Борозда”, дочь митхилийского царя Джанаки, жена Рамы. Сита была вынута отцом из проведенной плугом борозды; отождествляется с Лакшми, женой Вишну. (IV) “борозда”, имя жены Рамы; название города. (VI) борозда; имя дочери митхилийского царя Джанаки (“Родитель”), который вынул её из борозды. Имя жены Рамы, похищенной Раваной. Поход Рамы на Ланку (Цейлон) описывается во втором великом эпосе Индии “Рамаяне”. Позже Сита была отождествлена с Лакшми, богиней счастья, женой Вишну."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

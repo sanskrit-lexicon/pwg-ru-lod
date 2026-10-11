@@ -1,0 +1,60 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/i-2> a ontolex:LexicalEntry ;
+  rdfs:label "i"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/i> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/kna/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/fri/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/smirnov/7> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अधिरुह् /I/ adhiruh (формы см. रुह् I) 1) подниматься 2) достигать чего-л. (Acc. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "इ I /i/ третья буква алфавита деванагари- см. देवनागरी"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "इ II /i/ (P. pr. /ayati/ — I- /eti/ —II- imp. /ihi/- /ehi/- fut. /eṣyati/- pf. /iyāya/- aor. /īyāt/) 1) идти- отправляться 2) приходить, достигать 3) проходить (о времени) 4) просить о (Acc. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/koch/4> a ontolex:LexicalSense ;
+  skos:definition "तरी /I/ tari_ f. см. तरि"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/kna/5> a ontolex:LexicalSense ;
+  skos:definition "इ\t/i/\t\t/и/\ti (ēti, 3. pl. yanti, 2. sg. imp. ihi; med. itē, 3. pl. iyatē; 3. sg. p. īyatē, conj. act. ayāt; pp. ita, ger. °itya; f. ēṣyati; pf. iyāya, 3. pl. iyur) идти. — ati опережать, проходить мимо, переступать, нарушать, оставлять. — vyati проходить, миновать. — adhi (act. и med.) изучать, штудировать, произносить, читать наизусть; pp. изученный, начитанный, ученый; c. adhyāpayati учить. — samadhi id. — anu посѣщать, послѣдовать, участвовать (N. 2, 9 anvīyatām 3. sg. imp. p. v. l. = anubhūyatām должно послѣдовать, — состояться); pp. снабженный, наполненный, полный. — antar pp. скрывшійся, прикрытый. — apa уходить. — abhi приходить, достигать. — samava убывать (samavāyāt conj.). — ā приходить, идти. — udā выходить. — upā при-, подходить, приближаться. — samā собираться; pp. см. отд. — ud всходить (про свѣтила). — upa подходить, идти на встрѣчу; съ apas купаться; pp. одаренный. — abhyupa id. — samupa под-, приходить; достигать; pp. одаренный, задавшійся, преслѣдующій, имѣющій. — pra умирать, prētya послѣ смерті. — abhipra pp. намѣренный см. yathābhiprētam. — vi исчезать, pp. М. 32 vita° свободный отъ, безъ (печали и страха). — sam собираться. — [εἶμι, лат. eō, itum, цсл. idą, iti „идти“].\tс. 205-206"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/fri/6> a ontolex:LexicalSense ;
+  skos:definition "II i- pron., cf. i-tara, i-tas &c. ;"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/i-2/dict/smirnov/7> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I IV, 9, 31; VII, 27; VIII, 6, 7; IX, 34; XI, 55; XVIII, 65, 68; идти, выходить, приходить (IV, 4), направляться, уходить, исчезать, исходить (с винит.), предпринимать, проявляться, присутствовать, блуждать, бежать; ati IV, 22; VIII, 28; XIV, 20, 21, 25; XV, 18; переходить, превосходить, превозмочь, пренебречь, не принять во внимание (VIII, 28; XIV, 20); p. p. atita прошедший, перешедший, умерший, превзошедший (XIV, 21, 25); vyati IV, 5; переходить, преходить (IV, 5); p. p. умерший; преодолеть, превозмочь, победить; samati VII, 26; XIV, 26; перейти, пройти (VII, 26), преодолеть, превзойти (XIV, 26); adhi V, 24; XVIII, 70; заметить, воспринимать, думать, вспоминать, изучать, возвещать (XVIII, 70); anu IX, 23; XV, 10; XVI, 10, 17; XVII, 1, 5; XVIII, 27; следовать, преследовать, исследовать, искать, повиноваться; p. p. anvita сопровождаемый, окружённый, снабжённый, одарённый; samanu XVIII, 26; p. p. samanvita=anvita следующий, примыкающий; vyapa XI, 49; расходиться, исчезать, прекращаться; p. p. vyapeta исчезнувший (XI, 49); samava I, 1, 25; сходиться, соединяться; p. p. samanveta сошедшийся, соединенный; во множ. все вместе (I, 1); ā V, 28; подходить, проходить, принимать участие, быть причастным, достигать, стремиться; upā VI, 27, 37; VIII, 10, 15, 16, 28; IX, 28; XII, 2; происходить, направляться, приближаться (дружески или враждебно VIII, 10; XV, 28; IX, 28), встречать, предпринимать, предаваться; pra VIII, 5; XVII, 28; вступать, начинать (особенно жертвоприношение), встречать, уходить, умирать (XVII, 28, pretya по ту сторону, по исходе, после смерти); vi II, 56; IV, 10; VIII, 11; исходить, расходиться, поддаваться, переходить; sam сходиться, соединяться; p. p. samita собранный; samanu X, 8; XVIII, 26; посещать, совместно идти, превращаться."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

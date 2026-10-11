@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/alpa> a ontolex:LexicalEntry ;
+  rdfs:label "alpa"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/alpa> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "अल्प /alpa/ 1. маленький- ограниченный- краткий 2. n. немногое, малость- Acc. अल्पम् adv. немного, мало- Instr. अल्पेन, Abl. अल्पाअ adv. легко, быстро"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "अल्प\t/alpa/\t\t/алпа/\tālpa маленькій, немного. — [ср. ἀλαπαδνός, лит. alpnas].\tс. 200"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "alpa; малый, мелкий, незначительный, неважный"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/alpa/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) XVI, 9; XVIII, 22; прил. малый, ничтожный, краткий."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

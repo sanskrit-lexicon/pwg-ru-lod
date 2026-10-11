@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vedAnta> a ontolex:LexicalEntry ;
+  rdfs:label "vedānta"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vedAnta> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "वेदान्त /vedānta/ (/veda + anta/) m. 1) завершение, конец Вед 2) тексты религиозно-философского содержания, примыкающие к Ведам (Упанишады и различные комментарии) 3) назв. одной из шести ортодоксальных филос. систем древней Индии, основным источником к-рой являются вышеназв. тексты. Возникла в начале н.э. как теоретическое обоснование брахманизма в противоположность атеистическим, материалистическим учениям того времени. Придаёт особое значение филос. стороне Вед. По учению веданты, истинным бытием обладает тк. брахма или божеств, субстанция. Мир — проявление божеств, иллюзии или майи, свойственной брахме, и не имеет реального бытия. Идеи веданты изложены в «Брахмасутре» Бодараяны. Этот трактат позже различно комментировался, что привело к созданию нескольких школ веданты"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "वेदान्त\t/vedānta/\t/vedAnta/\t/веданта/\tvēdānta m. такъ наз. веданта (конецъ веды), извѣстные ведійскіе тексты, особ. упанишады (см. ādhyātmika); М. 94 въ см. веды отъ начала до конца, вся ведійская наука или литература.\tс. 268"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "vedānta m.; конец вед, название философской системы"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vedAnta/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) XV, 15; м. р. конец Вед, конец изучения Вед, заключительный их текст Упанишады, излагающий философское учение (XV, 15). (II-1) (Vedānta) конец Вед; в частности, философские трактаты, называемые Упанишадами. (I) “окончание Вед”. В широком смысле это священные книги толкований Вед, но обычно под В. разумеются философские трактаты, излагающие сокровенное учение о Запредельном. Как тайноучение эти трактаты называются Упанишады. Они создавались в разное время. Древнейшие из Упанишад относятся к концу I началу II тысячелетия до н. э. Теперь насчитывается немногим более 100 таких трактатов; они распределены между 4 Ведами и прилагаются в конце каждой из них, откуда и название Веданта. (V) окончание Вед Упанишады; позже монистическая школа Шанкары, 196, 7; 238, 11; 246, 21; 303, 70. (VI) см. Ḍṭда. (VII) окончание Вед, в частности философские трактаты, называемые Упанишадами."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

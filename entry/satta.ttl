@@ -1,0 +1,71 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/sattA> a ontolex:LexicalEntry ;
+  rdfs:label "sattā"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/sattA> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/tr/satt_x5f_a/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/tr/satt_x5f_a/1_x20__x28_PW_x29_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/tr/satt_x5f_a/SCH_x20__x28__xd0__xb4__xd0__xbe__xd0__xbf__x2e__x20__xd0__xba__x20_PW_x29_> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "सत्ता /sattā/ f. существование, бытиё"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/tr/satt_x5f_a/1> a ontolex:LexicalSense ;
+  skos:definition "{#sattA#}¦ (от {#sant#}) <lex>f.</lex> {%бытие, существование%} <ls>HALĀY. 5,64</ls>. <ls n=\"HALĀY. 5,\">82</ls>. <ls>DHĀTUP. 1,1</ls>. <ls>KAṆ. 1,2,7</ls>. <ls n=\"KAṆ. 1,2,\">8</ls>. <ls>TARKAS. 56</ls>. <ls>NĪLAK. 47</ls>. <ls n=\"NĪLAK.\">170</ls>. <ls n=\"NĪLAK.\">225</ls>. <ls>NṚS. TĀP. UP.</ls> в <ls>Ind. St. 9,163</ls>. <ls>WEBER, RĀMAT. UP. 287</ls>. <ls>BHĀṢĀP. 7</ls>. <ls>Spr. (II) 2756</ls>. <ls>ŚAṂK.</ls> к <ls>BṚH. ĀR. UP. S. 41</ls>. <ls n=\"BṚH. ĀR. UP. S.\">308</ls>. <ls>BHĀG. P. 10,3,24</ls>. <ls n=\"BHĀG. P. 10,\">85,7</ls>. <ls n=\"BHĀG. P. 10,\">86,44</ls>. <ls>SĀH. D. 51</ls>. <ls>KULL.</ls> к <ls>M. 2,124</ls>. <ab>Comm.</ab> к <ls>KAP. 1,97</ls>. <ls n=\"KAP. 1,\">121</ls>. <ls>KUSUM. 33,8</ls>. <ls>SARVADARŚANAS. 4,9</ls>. <ls n=\"SARVADARŚANAS.\">12,17</ls>. <ls n=\"SARVADARŚANAS. 12,\">20</ls>. <ls n=\"SARVADARŚANAS.\">143,15</ls>. {#gosattEva gotvam#} <ls n=\"SARVADARŚANAS.\">144,12</ls>. {#BAvaH sattEveti DAtvarTaH sattA#} 16. {#janmasattAvfdDayaH#} <ls>MALLIN.</ls> к <ls>ŚIŚ. 1,46</ls>. В конце <ab>adj. comp.</ab>: {#upAdAnasamasattAka#} <ls>NĪLAK. 180</ls>. {#pramAtfsattAtiriktasattAkatva#} <ls n=\"NĪLAK.\">225</ls>.\n<div n=\"v\">— <ab>Vgl.</ab> {#mahA˚#}."@ru ;
+  pwglex:sourceGloss "{#sattA#}¦ (von {#sant#}) <lex>f.</lex> {%das Sein, Dasein%} <ls>HALĀY. 5,64</ls>. <ls n=\"HALĀY. 5,\">82</ls>. <ls>DHĀTUP. 1,1</ls>. <ls>KAṆ. 1,2,7</ls>. <ls n=\"KAṆ. 1,2,\">8</ls>. <ls>TARKAS. 56</ls>. <ls>NĪLAK. 47</ls>. <ls n=\"NĪLAK.\">170</ls>. <ls n=\"NĪLAK.\">225</ls>. <ls>NṚS. TĀP. UP.</ls>_in_<ls>Ind. St. 9,163</ls>. <ls>WEBER, RĀMAT. UP. 287</ls>. <ls>BHĀṢĀP. 7</ls>. <ls>Spr. (II) 2756</ls>. <ls>ŚAṂK.</ls>_zu_<ls>BṚH. ĀR. UP. S. 41</ls>. <ls n=\"BṚH. ĀR. UP. S.\">308</ls>. <ls>BHĀG. P. 10,3,24</ls>. <ls n=\"BHĀG. P. 10,\">85,7</ls>. <ls n=\"BHĀG. P. 10,\">86,44</ls>. <ls>SĀH. D. 51</ls>. <ls>KULL.</ls>_zu_<ls>M. 2,124</ls>. <ab>Comm.</ab> zu <ls>KAP. 1,97</ls>. <ls n=\"KAP. 1,\">121</ls>. <ls>KUSUM. 33,8</ls>. <ls>SARVADARŚANAS. 4,9</ls>. <ls n=\"SARVADARŚANAS.\">12,17</ls>. <ls n=\"SARVADARŚANAS. 12,\">20</ls>. <ls n=\"SARVADARŚANAS.\">143,15</ls>. {#gosattEva gotvam#} <ls n=\"SARVADARŚANAS.\">144,12</ls>. {#BAvaH sattEveti DAtvarTaH sattA#} 16. {#janmasattAvfdDayaH#} <ls>MALLIN.</ls>_zu_<ls>ŚIŚ. 1,46</ls>. Am Ende eines <ab>adj. comp.</ab>: {#upAdAnasamasattAka#} <ls>NĪLAK. 180</ls>. {#pramAtfsattAtiriktasattAkatva#} <ls n=\"NĪLAK.\">225</ls>.\n<div n=\"v\">— <ab>Vgl.</ab> {#mahA˚#}."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "mixed" ;
+  pwglex:differentia "«das Sein, Dasein» — синонимическая пара немецких абстрактных имён: {%Sein%} акцентирует онтологическое бытие как таковое, {%Dasein%} — конкретный факт наличного существования; передаём той же парой «бытие, существование» с сохранением запятой."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_10_x2c_3_x2c_24>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_10_x2c__x2d_85_x2c_7>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_10_x2c__x2d_86_x2c_44>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80__xe1__xb9__xa2__xc4__x80_P_x2e__x2d_7>, <https://w3id.org/sanskrit-lexicon/repwg/citation/B_xe1__xb9__x9a_H_x2e__x2d__xc4__x80_R_x2e__x2d_UP_x2e__x2d_S_x2e__x2d_308>, <https://w3id.org/sanskrit-lexicon/repwg/citation/B_xe1__xb9__x9a_H_x2e__x2d__xc4__x80_R_x2e__x2d_UP_x2e__x2d_S_x2e__x2d_41>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DH_xc4__x80_TUP_x2e__x2d_1_x2c_1>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HAL_xc4__x80_Y_x2e__x2d_5_x2c_64>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HAL_xc4__x80_Y_x2e__x2d_5_x2c__x2d_82>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Ind_x2e__x2d_St_x2e__x2d_9_x2c_163>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KAP_x2e__x2d_1_x2c_97>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KAP_x2e__x2d_1_x2c__x2d_121>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KA_xe1__xb9__x86__x2e__x2d_1_x2c_2_x2c_7>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KA_xe1__xb9__x86__x2e__x2d_1_x2c_2_x2c__x2d_8>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KULL_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KUSUM_x2e__x2d_33_x2c_8>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MALLIN_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_2_x2c_124>, <https://w3id.org/sanskrit-lexicon/repwg/citation/N_xc4__xaa_LAK_x2e__x2d_170>, <https://w3id.org/sanskrit-lexicon/repwg/citation/N_xc4__xaa_LAK_x2e__x2d_180>, <https://w3id.org/sanskrit-lexicon/repwg/citation/N_xc4__xaa_LAK_x2e__x2d_225>, <https://w3id.org/sanskrit-lexicon/repwg/citation/N_xc4__xaa_LAK_x2e__x2d_47>, <https://w3id.org/sanskrit-lexicon/repwg/citation/N_xe1__xb9__x9a_S_x2e__x2d_T_xc4__x80_P_x2e__x2d_UP_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SARVADAR_xc5__x9a_ANAS_x2e__x2d_12_x2c_17>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SARVADAR_xc5__x9a_ANAS_x2e__x2d_12_x2c__x2d_20>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SARVADAR_xc5__x9a_ANAS_x2e__x2d_143_x2c_15>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SARVADAR_xc5__x9a_ANAS_x2e__x2d_144_x2c_12>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SARVADAR_xc5__x9a_ANAS_x2e__x2d_4_x2c_9>, <https://w3id.org/sanskrit-lexicon/repwg/citation/S_xc4__x80_H_x2e__x2d_D_x2e__x2d_51>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d__x28_II_x29__x2d_2756>, <https://w3id.org/sanskrit-lexicon/repwg/citation/TARKAS_x2e__x2d_56>, <https://w3id.org/sanskrit-lexicon/repwg/citation/WEBER_x2c__x2d_R_xc4__x80_MAT_x2e__x2d_UP_x2e__x2d_287>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a_A_xe1__xb9__x82_K_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a_I_xc5__x9a__x2e__x2d_1_x2c_46> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/tr/satt_x5f_a/1_x20__x28_PW_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#sattA#}¦ <lex>f.</lex> {%существование, бытие%} <ls n=\"Chr.\">234,28</ls>. <ls>KAP. 5,29</ls>."@ru ;
+  pwglex:sourceGloss "{#sattA#}¦ <lex>f.</lex> {%das Dasein, Sein%} <ls n=\"Chr.\">234,28</ls>. <ls>KAP. 5,29</ls>."@de ;
+  pwglex:senseTag "1 (PW)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "mixed" ;
+  pwglex:differentia "Более краткая редакция PW того же значения, что и в PWG (сн. 1), с обратным порядком синонимов «Dasein, Sein»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Chr_x2e__x2d_234_x2c_28>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KAP_x2e__x2d_5_x2c_29> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sattA/tr/satt_x5f_a/SCH_x20__x28__xd0__xb4__xd0__xbe__xd0__xbf__x2e__x20__xd0__xba__x20_PW_x29_> a ontolex:LexicalSense ;
+  skos:definition "{%sattā%}¦ ˚присутствие, <ls>Pūrṇabh. 121,6</ls> (в {%chinnaratnasattāsaṃśayaḥ%}). {part=,seq=26046,type=,n=2}"@ru ;
+  pwglex:sourceGloss "{%sattā%}¦ ˚presence, <ls>Pūrṇabh. 121,6</ls> (in {%chinnaratnasattāsaṃśayaḥ%}). {part=,seq=26046,type=,n=2}"@de ;
+  pwglex:senseTag "SCH (доп. к PW)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Добавочное (Nachtrag) значение Шмидта 1928 г., новое по сравнению с PW (помечено ˚): «presence» — «присутствие» (в составе сложного слова {%chinnaratnasattāsaṃśayaḥ%}), отличное от отвлечённого «бытие, существование» в сн. 1 конкретизацией."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-08-29T08:49:34Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/P_xc5__xab_r_xe1__xb9__x87_abh_x2e__x2d_121_x2c_6> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

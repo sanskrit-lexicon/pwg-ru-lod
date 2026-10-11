@@ -1,0 +1,142 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/nArI> a ontolex:LexicalEntry ;
+  rdfs:label "nārī"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/nArI> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_7> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "नारी /nārī/ f. женщина- жена"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "नारी\t/nārī/\t/nArI/\t/нари/\tnārī f. женщина, жена.\tс. 235"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "nārī f.; женщина, супруга"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/1> a ontolex:LexicalSense ;
+  skos:definition "{#nArI#}¦ см. <ab>s. u.</ab> {#nAra#} ."@ru ;
+  pwglex:sourceGloss "{#nArI#}¦ <ab>s. u.</ab> {#nAra#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Graßmann 1873 (1996) : 725] {#nā́rī#} [Ved , unsp] сущ. f. женщина, супруга. Graßmann 1873 (1996) : 725"@ru ;
+  pwglex:sourceGloss "[NWS: Graßmann 1873 (1996) : 725] {#nā́rī#} [Ved , unsp] Subst f Weib, Eheweib"@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:differentia "нейтральное «женщина» + уточняющее «супруга» — оба члена немецкой синонимической пары сохранены."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hillebrandt 1885 : 97 (s.v. nā́ri)] [Ved , unsp] сущ. f. женщина. <ls n=\"ṚV. 1,92,3\">ṚV 1,92,3</ls> . Hillebrandt 1885 : 97 (s.v. nā́ri )"@ru ;
+  pwglex:sourceGloss "[NWS: Hillebrandt 1885 : 97 (s.v. nā́ri)] [Ved , unsp] Subst f Weib. ṚV 1,92,3 . Hillebrandt 1885 : 97 (s.v. nā́ri )"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "ведийская цитата ṚV — засвидетельствованное употребление."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_92_x2c_3_x2d__xe1__xb9__x9a_V_x2d_1_x2c_92_x2c_3> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Vedic Hymns II : 452] [Ved , unsp] жена, супруга. <ls n=\"ṚV. 1,73,3\">ṚV I,73,3</ls>"@ru ;
+  pwglex:sourceGloss "[NWS: Vedic Hymns II : 452] [Ved , unsp] wife. ṚV I,73,3"@de ;
+  pwglex:senseTag "NWS-3" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "английский оригинал 'wife' → «жена»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_73_x2c_3_x2d__xe1__xb9__x9a_V_x2d_I_x2c_73_x2c_3> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_4> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Geldner 1907 : 99] [Ved , unsp] сущ. f. женщина, жена. Geldner 1907 : 99"@ru ;
+  pwglex:sourceGloss "[NWS: Geldner 1907 : 99] [Ved , unsp] Subst f Frau, Ehefrau"@de ;
+  pwglex:senseTag "NWS-4" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:differentia "нейтральное «женщина» + брачный смысл «жена»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_5> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Windisch 1883 : 131] {#nārī#} [Ved , unsp] сущ. f. женщина, жена. Windisch 1883 : 131"@ru ;
+  pwglex:sourceGloss "[NWS: Windisch 1883 : 131] {#nārī#} [Ved , unsp] Subst f Weib, Frau"@de ;
+  pwglex:senseTag "NWS-5" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_6> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 285] [Śā , Med] женщина. Hoernle 1893-1912 (III) 183.46 . (в медицинском смысле) больная, пациентка. Hoernle 1893-1912 (II) 183.48"@ru ;
+  pwglex:sourceGloss "[NWS: Hoernle 1908 : 285] [Śā , Med] woman. Hoernle 1893-1912 (III) 183.46 . (medically) female patient. Hoernle 1893-1912 (II) 183.48"@de ;
+  pwglex:senseTag "NWS-6" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "медицинский регистр требует «пациентка», а не общее «женщина»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/nArI/tr/n_x5f_ar_x5f_i/NWS_x2d_7> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 285 (s.v. nārī)] {#nārīkṣīra#} [Śā , Med] женское молоко. Hoernle 1893-1912 (II) 66.868 . Hoernle 1908 : 285 (s.v. nārī )"@ru ;
+  pwglex:sourceGloss "[NWS: Hoernle 1908 : 285 (s.v. nārī)] {#nārīkṣīra#} [Śā , Med] woman's milk. Hoernle 1893-1912 (II) 66.868 . Hoernle 1908 : 285 (s.v. nārī )"@de ;
+  pwglex:senseTag "NWS-7" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

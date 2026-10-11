@@ -1,0 +1,70 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vas-3> a ontolex:LexicalEntry ;
+  rdfs:label "vas"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vas> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/kna/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/kna/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/kna/7>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/fri/8>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/smirnov/9> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "वस् I /vas/ (U. pr. /ucchati/ /ucchate/ — VI- pf. /uvāsa/, /ūṣuse/- aor. /avasran/- pp. /uṣṭa/) 1) сиять, сверкать 2) светить"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "वस् II /vas/ (A. pr. /vaste/ — II- pf. /vava-se/- aor. /avasiṣṭa/- pp. /vāsita/) 1) носить одежду 2) одевать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "वस् IV /vas/ (U. pr. /vasayati/ /vasayate/ — X- fut. /vāsayiṣyati/ /vāsayiṣyate/- aor. /avīvasat/ /avīvasata/ ) резать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/koch/4> a ontolex:LexicalSense ;
+  skos:definition "वस् III /vas/ (U. pr. /vasati/ /vasate/ — I- pf. /uvāsa/ /ūṣus/- pfph. /vāsāñ-cakāra/ /cakre/- aor. /avivasat/, /avātsīt/- pp. /uṣita/- p. /uṣyate/) 1) жить, обитать 2) (пере)ночевать 3) проводить время"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/kna/5> a ontolex:LexicalSense ;
+  skos:definition "वस्\t/vas/\t\t/вас/\t1. vas см. tvam. — (лат. vōs, цсл. vy „вы“].\tс. 264"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/kna/6> a ontolex:LexicalSense ;
+  skos:definition "वस्\t/vas/\t\t/вас/\t2. vas (vastē) надѣвать, одѣваться. — [ἕσται, ἕννῡμι, ἐσθης, ἐσθός, лат. vestis, гот. wasjan, wasti „Weste“].\tс. 264"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/kna/7> a ontolex:LexicalSense ;
+  skos:definition "वस्\t/vas/\t\t/вас/\t3. vas (vasati, pp. uṣita, ger. °uṣya; f. vatsyati) жить, обитать, пребывать, оставаться, ночевать. — upa поститься. — ni = прост. vas. — saṁni id. — pra отправляться въ путь, отбывать, prōṣya послѣ путешествія. — prati жить. — [ἑστία, лат. Vesta, vestibulum, гот. wisan, wists „Wesen, gewesen“].\tс. 264"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/fri/8> a ontolex:LexicalSense ;
+  skos:definition "I vas pron., v. yūyam;"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vas-3/dict/smirnov/9> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VI, 41, гл. (по метрическим соображениям в классическом языке часто med.); gerund. uṣitvā оставаться на месте, делать привал, обитать, жить; ni XII, 8; пребывать, обитать (XII,8), покоиться; pari XVII, 10; переночевать; p. p. paryuṣita переночевавший, старый, испорченный (о еде и пр., XVII, 10)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

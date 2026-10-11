@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/SrI-2> a ontolex:LexicalEntry ;
+  rdfs:label "śrī"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/SrI> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/fri/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "श्री III /śrī/ 1. красивый- прекрасный 2. f. 1) счастье 2) успех 3) богатство 4) великолепие 5) наряд, убор 6) знаки царского достоинства 7) nom. pr. см. लक्ष्मी 5), सरस्वती 1)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "श्री II /śrī/ f. смешение"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "श्री I /śrī/ (U. pr. /śrīṇāti/ /śrīṇīte/ — IX- pf. /śiśrāya/ /śiśriye/- aor. /aśraiṣīt/, /aśraiṣṭa/) 1) смешивать 2) готовить, варить 3) кипятить 4) одевать(ся)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "श्री\t/śrī/\t/zrI/\t/шри/\tśrī f. красота, богатство, счастье; богиня красоты и счастья; въ началѣ личныхъ именъ: славный, знаменитый, почтенный.\tс. 272"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/SrI-2/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "II śrī f.; сияние, красота, величие, достоинство, благо, богатство, благосостояние; богиня красоты и блага Лакшми; в титуле: величественный, почтенный"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

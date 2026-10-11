@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/puz-3> a ontolex:LexicalEntry ;
+  rdfs:label "puṣ"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/puz> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/kna/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पुष् II /puṣ/ (P. pr. /poṣati/ —I, /puṣyati/ — IV, /puṣṇāti/— IX- fut. /poṣiṣyati/, /pokṣyati/- pf. /pupoṣa/- aor. /apuṣat/, /apoṣīt/- pp. /puṣṭa/) 1) питаться- кормиться чем-л. (Instr. ) 2) процветать, преуспевать 3) бурно расти 4) развёртываться, раскрываться 5) усиливаться 6) приобретать, добывать 7) осуществлять (желание) 8) услаждаться, наслаждаться 9) толстеть"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "पुष् I /puṣ/ (P. pr. /puṣyati/ — IV- остальные формы см. पुष् II ) делить, распределять"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "पुष् III /puṣ/ 1) питательный 2) приводящий к процветанию 3) приобретающий, получающий"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/puz-3/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "पुष्\t/puṣ/\t/puS/\t/пуш/\tpuṣ (puṣyati intrans. и trans. и puṣṇāti trans.; pp. puṣṭa) intr. пышнѣть, успѣвать, trans. увеличивать, обнаруживать, показывать, проявлять (съ na 167, 28 = таить; 167, 30 athavā kāmam ... na punar... na puṣṇāti или напротивъ: скорѣе, пожалуй, увеличиваетъ).\tс. 242"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+

@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/ruh-3> a ontolex:LexicalEntry ;
+  rdfs:label "ruh"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/ruh> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "रुह् I /ruh/ (P. pr. /rahati/ — I- fut. /ro-kṣyati/- pf. /ruroha/- aor. /arukṣat/- pp. /rūḍha/) 1) расти 2) подниматься"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "रुह् II /ruh/ f. росток, побег"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "रुह्\t/ruh/\t\t/рух/\truh (rōhati, pp. rūḍha, ger. °ruhya; c. rōpayati, древнѣе rōhayati, ger. °rōpya, ppfa. rōpitavant, inf. rōpayitum) лѣзть, подниматься, расти; c. поднимать. — adhi id.; pp. находящійся на, на. — ava сходить внизъ. — ā взлѣзать, подниматься, восходить, влѣзать, достигать; pp. сѣвшій, сидящій, находящійся на, на; c. поднимать, брать, класть. — samā id.; М. 25. 38 c. переносить (домашніе огни на или въ себя: дѣйствіе символическое по установленному обряду). — pra произрасти, взойти (про сѣмя), слѣзать.\tс. 259"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/ruh-3/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) XVIII, 61; гл. возрастать, развиваться; p. p. rūḍha развитой, распространенный, известный; vi XV, 3; возрастать, распространяться, шириться; virūḍha выросший, разросшийся (XV, 3); ā VI, 3, 4; XVIII, 61; восходить, влезать, подниматься; прич. сидящий, находящийся на (XVIII, 61)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

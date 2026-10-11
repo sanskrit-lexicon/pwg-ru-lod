@@ -1,0 +1,35 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/mADava> a ontolex:LexicalEntry ;
+  rdfs:label "mādhava"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/mADava> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mADava/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mADava/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mADava/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "माधव /mādhava/ 1. весенний 2. m. 1) назв. второго весеннего месяца 2) весна 3) patr. см. कृष्ण 2 3)- 4) nom. pr. учёный, живший в XIV— XV в.в.- автор комментария к «Ригведе»"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mADava/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(II-2) I, 14, 37; прил. (от madhu мёд) весенний, потомок Мадху; м. р. второй месяц весны: patr. Кришны. (II-1) (Mādhava) «медвяный», «весенний», потомок рода Мадху, к которому принадлежал и Кришна, откуда и эпитет Кришны «Мадхава». (III) “медвяный”, “весенний”, имя потомков Мадху, в числе их ядавы, предка Кришны, почему и Кришна часто называется Мадхава. (IV) “медвяный”, “весенний”, потомок Мадху, в частности Ядава, предок Кришны и родоначальник ядавов племени, к которому принадлежал Кришна. (V) “Весенний”; потомок Мадху-ядава; эпитет Кришны, Парашурамы, впоследствии перешедший и к Шиве, 351, 73. (VI) относящийся к Мадху. См. также Мадху. (VII) “медвяный”, “весенний”; потомок Мадху эпитет Кришны. М. также имя асура, символизирующего весенний взрыв половой страсти."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

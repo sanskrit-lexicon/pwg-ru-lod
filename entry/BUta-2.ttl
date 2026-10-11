@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/BUta-2> a ontolex:LexicalEntry ;
+  rdfs:label "bhūta"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/BUta> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "भूत /bhūta/ (pp. от भू I ) 1. 1) минувший, прошедший 2) ставший, сделавшийся 2. n. 1) всё сущее 2) злой дух, демон 3) прошлое 4) действительность 5) благополучие- успех 6) филос. составной элемент мира (насчитывается пять элементов: земля, вода, огонь, воздух и эфир) 3. m. грам. аорист"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "भूत\t/bhūta/\t/bhUta/\t/бхута/\tbhuta (pp. отъ bhū, см. тамъ) n. существо (все что есть), міръ; живое существо (человѣкъ, животное, демонъ); элементъ.\tс. 249"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "bhūta (pp. < bhu) ; возникший, созданный, прошедший, существующий, действительный; n. существо, тварь, дух, привидение (m.); бытие, действительность, благосостояние, элемент"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 28, 30, 34, 69; III, 14, 18, 33; IV, 6, 35; V, 25, 29; VI, 27, 29, 31; VII, 5, 6, 9, 10, 11, 26, 27; VIII, 19, 20, 22; IX, 4, 5, 6, 7, 8, 11, 13, 25, 29; X, 5, 20, 22, 39; XI, 2, 15, 55; XII, 4, 13; XIII, 15, 16, 27, 30, 34; XIV, 3; XV, 7, 13, 16; XVI, 2, 6; XVII, 4, 6; XVIII, 20, 21, 46, 54, 61; прич. от bhū в начале сложных слов перед kṛta, на конце сложных слов ставший, бывший; происшедший; ср. р. прошлое, осуществленное; действительность, сущий, в сложных сущ. соединяется со своим предикатом в одно слово: jivabhūta (VII, 5; XV, 7), brahmabhūta (V, 24; XVIII, 54) существование, благосостояние; м. р. сущность, существо, мир (XI, 15), bhūtavi śeṣasamgrahaр; bhūtam carācaram (X, 39); м. р. и ср. р. недоброе существо, привидение, кобольд (XII, 4), навий; ср. р. элемент, особенно грубые элементы 4 стихии: земля, вода и пр., но также и тонкие элементы, то есть танматры. (II-1) (Bhūta от гл. bhū быть) сущность, суть. Санкхья насчитывает 5 бхутов, элементов, из которых строится мир: акаша (пространство), ваю ветер, агни огонь, апас вода и бхуми земля. Эти элементы проистекают один из другого в перечисленном порядке при развитии мира, при пралае они растворяются один в другом в обратном порядке. (См. также «буддхи»). (IV) “существо” (от бху быть), “вещество”, дух стихии, элементаль, стихия; злые духи из свиты Шивы. (V) существо, сущность (от бху быть); духи низшего порядка, свита Рудры-Шивы: пишачи, ракшасы, махабхуты (элементали), 262, 9 и сл.; 286, 132; б. в колеснице Нары-Нараяны, 336, 11 (см. также суть, бхутатма)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/BUta-2/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(V) четыре класса существ в зависимости от способа зарождения, 237, 11."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

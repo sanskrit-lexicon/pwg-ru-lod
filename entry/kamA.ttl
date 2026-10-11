@@ -1,0 +1,51 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/kAma> a ontolex:LexicalEntry ;
+  rdfs:label "kāma"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/kAma> ;
+  pwglex:key2 "kA/ma" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/smirnov/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "काम /kāma/ m. 1) желание (тж. любовное) 2) любовь 3) nom. pr. бог любви- Acc. कामम् adv. а) охотно, с желанием б) наверно, вероятно в) конечно г) хотя"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "काम\t/kāma/\t/kAma/\t/кама/\tkāma m. желаніе, любовь; M. 41 предметъ желанія; °kāma bah. желающій.\tс. 213"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "kāma m.; желание, влечение, вожделение, любовь; имя бога любви; -° а. желающий"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(V) в. возникает от неведения, заблуждения, 211, 10; 254, 1, 8; в. препятствует Освобождению, 272, 46 и сл.; в. приводит к нарушению Дхармы, 274, 5 и сл."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/kAma/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 43, 55, 62, 70, 71; III, 37, 39, 43; IV, 18; V, 12, 23, 26; VI, 18, 24; VII, 11, 20, 22; IX, 21; XV, 5; XVI, 8, 10, 11, 12, 16, 18, 21, 23; XVII, 5; XVIII, 24, 34, 53; м. р. желание, вожделение, страсть, похоть, любовь; персонификация бог любви, сын Дхармы или Брамы; Агни именуется Кама как всепожирающая и горячащая сила, действующая на людей и богов. (II-1) (Kāma) «страсть», «вожделение», особенно половое. Бог страсти, великий соблазнитель. (III) вожделение, страсть, похоть; персонификация этих понятий. (IV) “страсть”, особенно половая; желание, олицетворение страсти, соблазнитель, название особого огня. (V) вожделение, страсть, особенно половая. Воплощение страсти бог Кама, 177, 24 и сл.; К. уничтожен Шивой, 190, 10; свободный от К. восходит на небо, 251, 10."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

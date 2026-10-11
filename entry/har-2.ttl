@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/har-2> a ontolex:LexicalEntry ;
+  rdfs:label "har"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/har> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/har-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/har-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/har-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/har-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "हर् /har/ (U. pr. /harati/ /harate/— I- fut. /hariṣyati/ /hariṣyate/- pf. /jahāra/, /jahe/- aor. /ahārṣīt/ /ahṛta/- pp. /hṛta/) 1) брать 2) лишать чего-л. 3) держать 4) нести 5) получать, приобретать 6) завоёвывать 7) жениться на (Асс.)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/har-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "हर्\t/har/\t\t/хар/\thar (harati, p. hriyatē, pp. hṛta, ger. °hṛtya, pn. hartavya, inf. hartum; f. hariṣyati, pf. jahāra; c. hārayati, pp. hārita) брать, схватывать, уносить (hriyamāṇa M. 59 увлекающійся); c. лишать. — apa уносить, увлекать, отнимать, лишать, преодолѣвать. — abhyava (abhyavaharāsi 2. sg. conj.) уносить къ (въ). — ā приносить, доставлять, собирать. — udā произносить, разсказывать, называть, цитовать. — vyā говорить, — ud (uddhar) вынимать, из-, увлекать, спасать. — samud id. — upa приносить. — pari оставлять, избѣгать. — pra пустить на кого, поражать. — vi проводить (время). — pratisam снимать, положить прочь.\tс. 285"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/har-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 60, 67; VI, 44; VII, 20; гл. harati нести, держать, доставлять, уносить, отнимать, грабить, превозмочь (VI, 44); apa II, 44; VII, 15; уносить. отнимать, уничтожать; ā приносить, доставлять, давать, брать, получать для себя; udā XIII, 6; XV, 17; XVII, 19, 22, 24; XVIII, 22, 24, 25, 39; насадить, наносить, изрекать, цитировать (XIII, 6; XVII, 19, 24); nirā II, 59; в БПС этого префикса нет; Дейссен переводит ā-har приближаться; nir-ā-har не приближаться; p. p. nirāhara; это же начертание по БПС производится от nis+āhara (пища) то есть без пищи, отказавшийся от пищи, не питающийся; samā XI, 32; сносить, складывать, переносить, втягивать, приводить к уничтожению (с locat. XI, 32); ud VI, 5; XIII, 6; исключать, извлекать, творить, укреплять, оживлять (VI, 5), приносить; upa IX, 26; приносить, предлагать (еду), приносить в дар (IX, 26); med. получать; samud XII, 7; черпать, извлекать, спасать, освобождать; vyā VIII, 13; выговаривать, говорить; p. p. vyāhṛta сказанный; ср. р. речь; pra I, 9; отбрасывать, отталкивать, поражать."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

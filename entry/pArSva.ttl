@@ -1,0 +1,41 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/pArSva> a ontolex:LexicalEntry ;
+  rdfs:label "pārśva"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/pArSva> ;
+  pwglex:key2 "pArSva/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pArSva/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pArSva/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pArSva/dict/fri/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pArSva/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "पार्श्व /pārśva/ m., n. 1) бок (туловища) 2) грудная клетка 3) сторона, бок- фланг 4) окрестности- Acc. पार्श्वम् adv. а) сбоку б) вблизи чего-л. (Gen., —о)- Abl. पार्श्वात् от- у- Loc. पार्श्वे около, у- Loc. du. पार्श्वयोस् а) с обеих сторон б) (o—) стоящий сбоку или вблизи"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pArSva/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "पार्श्व\t/pārśva/\t/pArzva/\t/паршва/\tpārśva m. n. бокъ; acc. къ, loc. возлѣ, у.\tс. 241"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/pArSva/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "pārśva n. (m).; ребра, сторона, бок, близость"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+

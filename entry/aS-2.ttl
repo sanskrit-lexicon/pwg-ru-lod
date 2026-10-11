@@ -1,0 +1,55 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/As-2> a ontolex:LexicalEntry ;
+  rdfs:label "ās"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/As> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/fri/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/smirnov/6> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "आस् /ās/ (A. pr. /āste/—II- fut. /āsiṣyate/- pfph. /āsāṁ-cakre/ (/babhūva/, /āsa/)- aor. /āsiṣṭa/) 1) сидеть- садиться на (Loc. ) 2) жить, пребывать- находиться 3) вести себя 4) прилежно заниматься чём-л. (Loc. ) 5) оканчиваться, кончаться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "आस् I /ās/ ij. выраж. радость или негодование."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "आस्\t/ās/\t/As/\t/ас/\t1. ās interj. радости и негодованія.\tс. 205"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "आस्\t/ās/\t/As/\t/ас/\t2. ās (āstē, иногда и āsatē, °ti, 2. sg. imp. āssva и āsva, 2. pl. ādhvam, 2. sg. conj. āsāsāi, pfph. āsām cakrē; ppr. āsīna) садиться, сидѣть (М. 49 сидящій sc. въ извѣстномъ предписанномъ положеніи). — adhi занимать, владѣть. — upa (upāsāsāi 2. sg. conj.) сѣсть, присѣдать, оказывать честь, почтительно служить, ухаживать за (съ acc.). — paryupa окружать, прислуживать. — sam сидѣть вмѣстѣ, сидѣть. — [ἧσται].\tс. 205"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/fri/5> a ontolex:LexicalSense ;
+  skos:definition "I ās interj.; междометие употребляющееся в гневе или воспоминании"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/As-2/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 54, 61; III, 6; V, 13; VI, 14; гл. сидеть, садиться; о зверях и мёртвых телах: покоиться, лежать; неподвижно сидеть, пребывать (с привнесением понятия бездеятельности, длительности), быть в отношении с кем-н., длиться, оттенки разнообразны; II, 61; III, 6; нар. II, 54 (ср. II, 61); ud VI, 9; IX, 9; XII, 16; XIV, 23; сидеть отдельно; быть безучастным, безразличным, пассивным (VI, 9; IX, 9); upa IX, 14, 15; XII, 2, 6; XIII, 25; сидеть около, вблизи (как знак почтения и служения); занять место, обитать, принимать участие в чём-н., приближаться, быть деятельным (XII, 6); gerundivum ждать, приближаться с почтением, чтить (IX, 15; XII, 2); paryupa IV, 25; IX, 22; XII, 1, 3, 20; обсесть, окружить, облечь, приближаться, чтить (IX, 22; XII, 3)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

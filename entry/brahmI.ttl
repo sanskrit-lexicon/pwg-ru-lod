@@ -1,0 +1,102 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/brAhmI> a ontolex:LexicalEntry ;
+  rdfs:label "brāhmī"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/brAhmI> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "ब्राह्मी /brāhmī/ f. 1) творческая сила бога Брахмы 2) nom. pr. см. दुर्गा 3) супруга брахмана 4) назв. типа письма V—III вв. до н.э., из к-рого развились северная и южная группы инд. письма"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/1> a ontolex:LexicalSense ;
+  skos:definition "{#brAhmI#}¦ <ab>s. u.</ab> {#brAhma#} ."@ru ;
+  pwglex:sourceGloss "{#brAhmI#}¦ <ab>s. u.</ab> {#brAhma#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_1> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Renou 1954 (2) : 124] [Kāv, unsp] [{#brāhmī#} ({#dik#})] зенит. Dalal 1934, S. 95, Z. 14 ."@ru ;
+  pwglex:sourceGloss "[NWS: Renou 1954 (2) : 124] [brāhmī (dik)] zenith. Dalal 1934, S. 95, Z. 14 . [Kāv, unsp]"@de ;
+  pwglex:senseTag "NWS 1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_2> a ontolex:LexicalSense ;
+  skos:definition "[NWS: Hoernle 1908 : 301] [Śā., Med] {#Herpestis monieria#}, или {#Hydrocotyle asiatica#}. Hoernle 1893-1912 (I) 5.52 ; {#maṇḍūkaparṇī#}. [растительное лекарственное средство.] (см. Pharmacographia Indica, т. III, с. 8)."@ru ;
+  pwglex:sourceGloss "[NWS: Hoernle 1908 : 301] [Śā, Med] Herpestis monieria, or Hydrocotyle asiatica. Hoernle 1893-1912 (I) 5.52 ; maṇḍūkaparṇī . [ vegetable drug. ] (see Pharmacographia Indica, vol. III. p. 8)."@de ;
+  pwglex:senseTag "NWS 2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_3> a ontolex:LexicalSense ;
+  skos:definition "[NWS: BHSD : 404] [Buddh, unsp] (т. е. {#lipi#}) название алфавита. Mvu i.135.5 . название ракшаси. MM 243.21 ."@ru ;
+  pwglex:sourceGloss "[NWS: BHSD : 404] [Buddh, unsp] (sc. lipi) n. of an alphabet. Mvu i.135.5 . n. of a rākṣasī. MM 243.21 ."@de ;
+  pwglex:senseTag "NWS 3" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_4> a ontolex:LexicalSense ;
+  skos:definition "[NWS: SJS 1 : 28] [Jin, unsp] (1305 A.D., Gujarat) сущ. f богиня {%Сарасвати%}. Prabandh S. 102, Z. 5 ."@ru ;
+  pwglex:sourceGloss "[NWS: SJS 1 : 28] [Jin, unsp] (1305 A.D., Gujarat) Subst f Goddess Sarasvatī. Prabandh S. 102, Z. 5 ."@de ;
+  pwglex:senseTag "NWS 4" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/brAhmI/tr/br_x5f_ahm_x5f_i/NWS_x20_5> a ontolex:LexicalSense ;
+  skos:definition "[NWS: SJS 3 : 80] [Jin, unsp] (1349 A.D., Delhi) сущ. f {%Сарасвати%}, богиня учености. Rajaśekharasuri 1935, S. 13, Z. 21 ."@ru ;
+  pwglex:sourceGloss "[NWS: SJS 3 : 80] [Jin, unsp] (1349 A.D., Delhi) Subst f Sarasvatī, the Goddess of Learning. Rajaśekharasuri 1935, S. 13, Z. 21 ."@de ;
+  pwglex:senseTag "NWS 5" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+

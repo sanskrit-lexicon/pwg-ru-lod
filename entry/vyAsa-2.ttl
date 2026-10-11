@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vyAsa-2> a ontolex:LexicalEntry ;
+  rdfs:label "vyāsa"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vyAsa> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyAsa-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyAsa-2/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyAsa-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyAsa-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "व्यास /vyāsa/ м. 1) отделение 2) сортировка 3) анализ, разбор 4) составитель, собиратель 5) nom. pr. легендарный мудрец, отец Панду, Дхритараштры,Виду. ры, почитается автором «Махабхараты», «Пуран» и некоторых др. работ, а также редактором Вед"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyAsa-2/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "vyāsa m.; букв. \"устроитель\"; имя устроителя многих ведических произведений"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vyAsa-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 13, 37; XVIII, 75; м. р. (as+vi) обстоятельность, обстоятельное изложение, сводка текстов. Мифический мудрец, которому приписываются редакция и сочинение бесчисленного множества памятников (Веды, Веданта, Махабхарата, Рамаяна, Пураны и пр.). Этот мудрец считается сыном Парашары от Сатьявати (X, 13). (II-1) (Vyasa) или Ведавьяса Кришна Двайпаяна (Островитянин) мудрец, которому приписывается создание Махабхараты, многих Пуран и редакция Вед (Вьяса значит распределитель, редактор). Вьяса физический отец Дхритараштры, так как юридический отец вследствие развратного образа жизни не мог оплодотворить своих жён, роду грозило угасание. Старшие представители рода умоляли Вьясу войти к жене раджи и дать ей ребенка, который считался бы сыном раджи (об этом подробнее в «Путешествии Бхагавана», в III вып. Речь Бхагавана гл. 146, 39 и сл.). (IV) “изложение”, “сопоставление”; имя легендарного мудреца, которому приписывается изложение “Махабхараты”, Пуран, Веданты и множества других памятников; сын Парашары от матери Сатьявати. Его отождествляют с Кришной-Двайпаяной. Предок кауравов и пандавов. Так как по преданию В–а распределил гимны Вед по отделам, то он и назван “Вьяса” (“распределитель, редактор”). Создание канонических текстов приписывалось высшему сознанию (Браме), а люди “лишь излагали их”. (V) “изложение”, “сопоставление”; имя легендарного мудреца, которому приписывается изложение “Махабхараты”, Пуран, Веданты и множества других памятников; сын Парашары от Сатьявати, отец Шуки. Его отождествляют с Кришной-Двайпаяной. Предок кауравов и пандавов. Так как, по преданию, В. распределил гимны Вед по отделам, то он и назван “Вьяса” (“распределитель, редактор”). Создание канонических текстов приписывалось высшему сознанию (Браме), а люди “лишь излагали их”, 231; 236; ученики В. (Вайшампаяна, Джаймини, Пайла, Суманту и Шука), 329; 330, 1 и сл.; 342, 18 и сл.; 351, 9 и сл.; его прежние формы существования, 351. (VI) изложение, сопоставление; имя легендарного мудреца, которому приписывается редактирование “Махабхараты”, Пуран, Веданты и множества других памятников. Его отождествляют с Кришной-Двайпаяной. (VII) см. Кришна Двайпаяна."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

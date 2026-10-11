@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/Aditya-3> a ontolex:LexicalEntry ;
+  rdfs:label "āditya"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/Aditya> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/fri/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "आदित्य /āditya/ 1. 1) божественный 2) принадлежащий к роду Адити 2. m. 1) солнце 2) nom. pr. разряд божеств — сыновей Адити- см. अदिति 2 7)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "आदित्य\t/āditya/\t/Aditya/\t/адитья/\tāditya m. солнце; pl. названіе извѣстныхъ боговъ.\tс. 203"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "I āditya m.; сын Адити, бог солнца, солнце, бог (в общем значении)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/fri/4> a ontolex:LexicalSense ;
+  skos:definition "II āditya ; относящийся к Адитиам, божественный"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Aditya-3/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) V, 16; VIII, 9; X, 21; XI, 6, 22; XV, 12; прил. принадлежащий Адата, происходящий от Адити, Āditya м. р. сыновья Адити, семь богов небесного света; Варуна, Митра, Арьяман, Бхага, Дакша, Анша; седьмое имя не определяется точно. Адитьи составляют особый класс богов, наряду с Васу, Рудра и пр. (XI, 6, 22). В Браманах и позднейшей литературе Адитьев насчитывалось 12 (ср. 12 главных богов греко-латинского пантеона). Они ясно сопоставляются с месяцами года. Тексты дают различные варианты имён и порядок их. Так X, 21 помещает во главе богов юнейшего из них Вишну. Словом Адитья обозначаются и боги вообще. (II-1) (Āditya) сын Адити. Эпитет главных богов, которых насчитывали то три, то семь, а позже и ещё больше. В эпический период этот эпитет был применяем главным образом к Солнцу, Сурье. (III) “Сын Адити”. Один из главных богов. В ведические времена их было 7, затем число их расширилось до 12 (ср. 12 главных богов Олимпа). В ведические времена так преимущественно назывался Варуна, в эпические Сурья, бог Солнца. (IV) сын Адити. Так именовались главные боги, число которых определялось различно; в более ранние времена не более 7, позже это число увеличивалось до 11 и больше. В разные времена к Адитьям относили разных богов. В период эпоса Адитьей особенно часто назывался Сурья, солнце. Как об Адитьи, эпос часто говорит об Агни, Индре. (V) сын Адити, так назывались главные боги ведического пантеона; в разные времена число их было разное, оно всё увеличивалось с трёх до семи, двенадцати и больше. В период эпоса А. называется чаще всего Сурья (Солнце), старший брат Савитара, 198, 6; 207, 26; 263, 42; 320, 2, 66; 350, 51; 364, 16; перечисление 12 А., 208, 15, 16, 23; 224, 41; годовой путь А. (Солнца), 225, 35 и сл.; Нараяна 12-й А., 341, 81. (VI) принадлежащий Адити сын Адити. Наиболее ранние тексты называют трёх сыновей Адити: Митру-Варуну и Арьямана, но более поздние знают 7 Адитьев, помимо названных трёх: Бхага, Дакша, Анша; имя седьмого не установлено с достоверностью. В R. V. (11, 27, 1) перечислено 8 Адитьев: Варуна, Митра, Арьяман, Дхатра, Анашу, Бхага, Индра, Вивасвант. Позже насчитывалось 12 Адитьев. Вишну иногда включается в число Адитьев, иногда же, в более поздних текстах, ставится над ними; в “Махабхарате” под Адитьей (в ед. числе), разумеется Сурья (Солнце). (VII) сын Адити (безграничности). Адитьями назывались главные боги ведического пантеона; число их определялось различно: в архаический период истории Индии не более семи; позже это число увеличилось до одиннадцати и больше. В разные времена к Адитьям относили разных богов. В период Эпоса Адитьей особенно часто назывался “Сурья” (Солнце). Как об Адитье, Эпос часто говорит об Агни, Индре. В ведические времена Адитьей преимущественно назывался Варуна. Двенадцать Адитьев олицетворяют двенадцать месяцев года."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

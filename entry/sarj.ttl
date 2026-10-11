@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/sarj> a ontolex:LexicalEntry ;
+  rdfs:label "sarj"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/sarj> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "सर्ज् II /sarj/ (P. pr. /sarjati/—I) 1) трещать- грохотать- скрипеть 2) зарабатывать трудом 3) приобретать, добывать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "सर्ज् I /sarj/ (U. pr. /sṛjati/ /sṛjate/ — VI- fut. /srakṣyati/ /srakṣyate/- pf. /sasarja/ /sasṛje/- aor- /asrākṣīt/ /asṛṣṭa/- pp. /sṛṣṭa/- inf. /sraṣ-ṭum/) 1) освобождать, отпускать 2) позволять, давать 3) идти 4) лететь 5) течь 6) метать 7) испускать, распространять 8) лить, проливать 9) издавать (звуки) 10) бросать 11) подгонять (коня) 12) открывать (дверь) 13) А. оглашать 14) А. вить 15) А. ткать- плести 16) создавать, производить 17) дарить 18) обеспечивать 19) употреблять, использовать 20) возлагать (венок) 21) прикреплять к (Loc. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "सर्ज्\t/sarj/\t\t/сардж/\tsarj (sṛjati 6, pp. sṛṣṭa, ger. °sṛjya; f. srakṣyati, pf. sasarja) пускать, творить. — ud от-, ис-, выпускать, поднимать (голосъ), покидать, бросать. — vi производить, дѣлать, оказывать кому (loc.).\tс. 277"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/sarj/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) III, 10; IV, 13; V, 14; XVII, 13; гл. sṛjati, sṛṣṭha спешить, выводить, производить (IV, 7); прясть, ткать, творить; p. p. sṛṣṭha сотворенный (III, 10); доставлять, наполнять; ud IX, 19; XVI, 23; XVII, 1; спешить, изливать, издавать, отдавать, извергать, пренебрегать (XVI, 23); pra XV, 2, 4; выпускать, посылать, сеять; vi I, 47; V, 9; IX, 7, 8; торопить, стрелять, метать, струить, проливать (слёзы), разрешать, выпускать (из рук), I, 47; выносить (IX, 7)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

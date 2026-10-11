@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/mantra-2> a ontolex:LexicalEntry ;
+  rdfs:label "mantra"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/mantra> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "मन्त्र /mantra/ m., n. 1) pl. мантры — назв. священных стихов ведических гимнов, составляющих самхиты- см. संहिता 2)- 2) волшебство 3) заклинание 4) замысел, план 5) совет- наставление"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "मन्त्र\t/mantra/\t\t/мантра/\tmantra m. изреченіе (священное); заклинаніе; совѣтъ.\tс. 251"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "mantra m.; изречение, гимн, ведический текст, волшебство, заклинание, замысел, план, совет"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/mantra-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) IX, 16; XVII, 13; м. р. изречение, молитва, в частности ведические гимны и изречения (IX, 16). (II-1) (Mantra) священное изречение; заклятие, стих из Вед. (III) священное изречение, над которым надлежит размышлять (от “ман” мыслить), особенно изречение Ригведы; в тексте V, 139, 25 употреблено слово “джапа”, произносимая шёпотом молитва, в переводе же дано “шептание мантр”. (IV) священное изречение, заклинательная или медитационная формула, особенно из ведических гимнов. (V) священное изречение, над которым надлежит размышлять (от “ман” мыслить), особенно изречения Ригведы. Ведические жертвоприношения обычно сопровождались м. Юдхиштхира вопрошает о значении м., 201, 4, 5; очистительные м., 214, 13; 285, 24; м. ведут к совершенству, 214, 26; силой м. нельзя достичь Недостижимого, 226, 21, 22; м., несомненно, действенны, 270, 13; 363, 7; нельзя совершать жертву без м., 273, 10; 344, 9; м. входили в обряд приёма гостя, 328, 6; повторение м. признак благочестия, 344, 27; брамин повторяет м. как магическое заклятье, 360, 3. (VI) изречение, особенно из ведического гимна; заклинание."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

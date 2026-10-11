@@ -1,0 +1,36 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/Agastya> a ontolex:LexicalEntry ;
+  rdfs:label "āgastya"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/Agastya> ;
+  pwglex:key2 "Agastya/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Agastya/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Agastya/dict/smirnov/2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Agastya/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "आगस्त्य /āgastya/ 1. относящийся к мудрецу Агастье - см. अगस्त्य - 2. m. потомок Агастьи"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Agastya/dict/smirnov/2> a ontolex:LexicalSense ;
+  skos:definition "(III) имя ведического риши, главы южных отшельников, обитавшего на горе Кунджара, учителя и советника Рамы. (V) имя древнего риши, родившегося в кружке, куда упало семя Митры-Варуны; (звезда Канопа; ср. египетский миф о Сириусе, семени Озириса, откуда родился Гор); сын Митры-Варуны, подвижник, 208, 29; 244, 16. А. проклинает Нахушу, 344, 29. (VI) так называлась звезда Канопус. Фош считает, что миф о риши А., выпившем океан, есть астральный миф; Агастья потомок Агaстьи."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

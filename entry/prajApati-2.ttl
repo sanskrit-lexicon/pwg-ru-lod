@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/prajApati-2> a ontolex:LexicalEntry ;
+  rdfs:label "prajāpati"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/prajApati> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prajApati-2/dict/kna/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prajApati-2/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prajApati-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prajApati-2/dict/kna/1> a ontolex:LexicalSense ;
+  skos:definition "प्रजापति\t/prajāpati/\t/prajApati/\t/праджапати/\tprajāpati m. nom. pr. бога.\tс. 243"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prajApati-2/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "prajāpati m.; господин существ, творец"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/prajApati-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) III, 10; XI, 39; м. р. владыка существ (Сома, Тваштар, Агни и др.); особый гений зарождения, произрождения, ставший впоследствии защитником всего живущего и занявший место наряду с Индрой и Савитаром. Веды мало говорят о Праджапати, но позже в философии браманизма он получает особое значение, окружается легендами и приобретает пантеистический характер. Владыка народа, царь, патриарх (глава рода). (II-1) (Prajāpati) «владыка существ». Это слово употребляется как эпитет того или иного бога, чаще всего Брамы, или в качестве собственного имени слабо персонифицированного бога. (III) “Владыка поколений”, “владыка существ”, мало персонифицированное божество, отвлеченное представление о творческой и организующей сознательной силе. Тексты насчитывают несколько Праджапати различных мировых периодов. Понятию Праджапати близки понятия Тваштар (Творец), Дакша (Благой); в астрономии Праджапати называется “дельта” Возничего (V, 142, 8). (IV) “Владыка существ”, как эпитет некоторых верховных богов и как слабо персонифицированное самостоятельное божество. (V) “Владыка существ”, эпитет Брамы, Ману и прочих; иногда как особая персонификация, 187, 32; 190, 15; 191, 13; 192, 21; 201, 2; 224, 52; 232, 13; 269, 21. (VI) Владыка существ. Мифологически слабоперсонифицированное представление о какой-то верховной, властвующей силе, которой подчинены все существа. На вопрос, можно ли считать П. особым богом индийского пантеона, скорее нужно дать отрицательный ответ. Это видно из таких характерных текстов, как “Бхагавадгита”, III, 10 и сл. Текст даёт понятие о какой-то силе, почти не индивидуализированной, стоящей над “тварями” и над богами. Как эпитет, слово П. часто встречается в отношении разных мифических личностей, особенно он применим к Браме, а также к Ману, даже к Индре (в эпический период редко). Веды знают П., в гимнах встречаются обращения к нему."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

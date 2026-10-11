@@ -1,0 +1,82 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/yAvat> a ontolex:LexicalEntry ;
+  rdfs:label "yāvat"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/yAvat> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/1_x20__x28_PW_x29_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/NWS_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/NWS_x2d_2> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "यावत् /yāvat/ (n. Acc. от यावन्त् ) 1. adv. 1) сколько 2) как долго 3) между тем- наконец 4) сейчас, немедленно 2. conj. пока, до- यावन्न пока не"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "+yāvat adv. rel.; как далеко, поскольку, вплоть до, между тем как, как только"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/1> a ontolex:LexicalSense ;
+  skos:definition "{#yAvat#}¦ см. <ab>indecl.</ab> <ab>s. u.</ab> {#yAvant#} ."@ru ;
+  pwglex:sourceGloss "{#yAvat#}¦ <ab>indecl.</ab> <ab>s. u.</ab> {#yAvant#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/1_x20__x28_PW_x29_> a ontolex:LexicalSense ;
+  skos:definition "{#yA/vat#}¦ <lex>Indecl.</lex> <ab>s. u.</ab> {#yA/vant#}."@ru ;
+  pwglex:sourceGloss "{#yA/vat#}¦ <lex>Indecl.</lex> <ab>s. u.</ab> {#yA/vant#}."@de ;
+  pwglex:senseTag "1 (PW)" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/NWS_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "{#yāvat#} [Gen]: пока, поистине, до тех пор пока. Renou 1997, S. 400 . + Praes. = Fut. Renou 1997, S. 383 . + na : пока не (не совершилось). Renou 1997, S. 709 . Renou 1997 : 1010"@ru ;
+  pwglex:sourceGloss "{#yāvat#} [Gen]: cependant, assurément, jusqu'à ce que. + Präs = Fut. + na : tant que ne pas."@de ;
+  pwglex:senseTag "NWS-1" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/yAvat/tr/y_x5f_avat/NWS_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "{#yāva#} [Buddh]: см. yāvant . BHSD : 447 (s.v. yāvat )"@ru ;
+  pwglex:sourceGloss "{#yāva#} [Buddh]: yāvant"@de ;
+  pwglex:senseTag "NWS-2" ;
+  pwglex:homonym "h?" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-07-05T21:56:56Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

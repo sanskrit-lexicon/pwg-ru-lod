@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/tattva-2> a ontolex:LexicalEntry ;
+  rdfs:label "tattva"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/tattva> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "तत्त्व /tattva/ n. 1) истина, правда 2) действительность, реальность 3) филос. принцип- तत्त्वतस्, Instr. तत्त्वेन adv. a) действительно, точно б) согласно истине"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "तत्त्व\t/tattva/\t/tattha/\t/таттва/\ttattva n. дѣйствительность, истина, правда; °tas abl. adv. дѣйствительно, по правдѣ.\tс. 224"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "tattva n.; настоящее положение, правда, действительность, первый принцип, субстанция"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/tattva-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 16; III, 28; IV, 34; V, 8; IX, 24; XI, 54; XIII, 11; XVIII, 1; м. р. отношение, истинное отношение, истинная природа вещей, правда (IV, 9; IX, 24; XVIII, 1), действительность, пять элементов; в Веданте это слово искусственно разделяется на два: tat tvam это Ты, чем выражается тождественность мира, лишь иллюзорно представляющегося множественным. (IV) основа ткани; индийская философия учит о 24+1 основ ткани Природы (см. введение). (V) кон (ср. доскональный), суть, действительность, истинное соотношение, сущность; кто постигнул т., тот умиротворяется, 179, 28; общее учение о т., 212, 1 и сл.; 304, 15 и сл.; двадцать четыре т., 304, 29; 308, 10; 312, 25; двадцать пятая т., 304, 38; 307, 28, 39; 308, 43; 309, 1 и сл.; 310, 8; 320, 56; 341, 24; двадцать шестая т., 310, 7, 20; 320, 55; восемь творческих т., 308, 29, 30. (VII) “основа ткани”. В позднейших философских спекуляциях, традиционное индийское слово “таттва” разбивалось на два: Tat Tvam “Это Ты” великая мантра Катхака-упанишады. Таттва это то, что натянуто (tan натягивать), технически в производстве ткани это основа, дающая возможность утоку образовывать форму ткани."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

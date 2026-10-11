@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/vij-2> a ontolex:LexicalEntry ;
+  rdfs:label "vij"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/vij> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "विज् I /vij/ (A. pr. /vijate/ — VI- U. pr. /vevekti/ /vevikte/ — III- fut. /vijiṣyati/ /vijiṣyate/- pf. /viveja/ /vivije/- aor. /avijat/, /avai-kṣit/ /avikta/) 1) спешить, торопиться 2) убегать от (Abl. ) 3) отступать 4) смущаться"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "विज् II /vij/ f. ставка (в игре)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "विज्\t/vij/\t\t/видж/\tvij (vijatē 6, pp. vigna; c. vējayati, pp. vējita) смущаться, c. смущать. — ud c. стращать, мучить. — [др.-в.-нѣм. withan „weichen“].\tс. 265"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/vij-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) гл. (vinakti) спешить, бежать обратно; p. p. vikta; позднее vigna; ud II, 56; V, 20; XII, 15; выскакивать, выбегать, пугаться, робеть (причина слабости, робости вещь, лицо стоит в род., редко в instr. XII, 15; V, 20); sam I, 47; бежать, удирать; p. p. saṁvigna взбудораженный, перепуганный; робеющий; śokasaṁvigna I, 47."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

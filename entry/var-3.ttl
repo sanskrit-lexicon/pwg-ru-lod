@@ -1,0 +1,50 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/var-3> a ontolex:LexicalEntry ;
+  rdfs:label "var"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/var> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/smirnov/5> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "वर् II /var/ (U. pr. /vṛṇoti/ /vṛnute/ — V- /vṛnāti/ /vṛṇīte/ — IX- fut. /variṣyati/ /variṣyate/- pf. /vavāra/ /vavre/- aor. /avṛta/ /avari-ṣṭa/) 1) выбирать, отбирать 2) просить кого-л., о чём-л., что-л. (Acc.), у кого-л. (Abl. ) 3) предпочитать чему-л., кому-л. (Abl., Instr. ) 4) любить кого-л., что-л. (Acc. )"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "वर् I /var/ (U. pr. /vṛṇoti/ /vṛṇute/— V- /vṛnāti/ /vṛnīte/—IX- /varati/ /varate/ — I- fut. /variṣyati/ /variṣyate/- pf. /vavāra/ /vavre/- aor. a/va_rit / /avariṣṭa/, /avṛta/) 1) покрывать, прикрывать 2) скрывать, прятать 3) окружать 4) закрывать (напр. дверь) 5) отражать удар 6) останавливать- сдерживать 7) предотвращать 8) подавлять"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "वर्\t/var/\t\t/вар/\t1. var (varati, обыкн. vṛṇōti, °ṇutē, pp. vṛta; c. vārayati, pp. vārita, pn. vārya, ger. °vārya, inf. vārayitum) по-, закрывать, окружать; c. за-, удерживать. — apa открывать, отворять; c. скрывать, ger. см. отд. — ā покрывать, наполнять, окружать. — prā id. — samā id. — ni c. удерживать. — nis p. увлекаться, веселиться. — pari c. окружать. — prati c. отражать, удерживать. — vi рас-, открывать; объяснять. — sam покрывать. — [ἐρυσθαι, лат. opēriō, гот. warjan „wehren“, лит. veriu, цсл. vьrᶏ, vrěti „вереть“; ср. εἰλύω, лат. volvō].\tс. 262"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "वर्\t/var/\t\t/вар/\t2. var (vṝ: varati, обыкн. vṛṇāti, °ṇītē, но и vṛṇōti, °ṇutē, pp. vṛta; c. varayati, °tē, pfph. varayām āsa) выбирать, выбирать себѣ, свататься [S. 1, 29 сватается (за тебя) у меня]; c. id. — [лат. volō, velle, гот. wiljan „wollen“, лит. vẽlyti, valе, цсл. veljᶏ, volja „велю, воля“].\tс. 262"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/var-3/dict/smirnov/5> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VAR 1 III, 38; гл. vṛṇoti окутывать, закрывать, окружать; p. p. vṛta закрытый, окутанный; apa II, 32; открывать, проявлять; ā III, 38, 39, 40; XIII, 13; XIV, 9; XVIII, 32; = просто var, āvṛta III, 38; скрытый, закрытый; sama то же. (Ред.) VAR 2 выбирать (Слово отсутствует в (II-2) и восстановлено согласно следующей статье – прим. ред.)"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

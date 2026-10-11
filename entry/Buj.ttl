@@ -1,0 +1,1429 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/Buj> a ontolex:LexicalEntry ;
+  rdfs:label "bhuj"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/Buj> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/koch/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/kna/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/kna/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/smirnov/6>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_00_x5f_pwg00/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_01_x5f_ava/ava>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_02_x5f_pratyava/pratyava>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_03_x5f__x5f_a/_xc4__x81_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_04_x5f_vy_x5f_a/vy_xc4__x81_>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_05_x5f_nis/nis>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_06_x5f_vinis/vinis>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_07_x5f_pari/pari>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_08_x5f_pra/main>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_09_x5f_vi/vi>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_10_x5f_pravi/pravi>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_11_x5f_sam/sam>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_root>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_pra>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_A>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_upa>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_vi>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_ni>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_apa>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_prati>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_pari>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_sam>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_abhi>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_anu>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_api>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_root_x2d_def>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_def>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_desid_x2d_def>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_desid_x2d_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_desid_x2d_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_intens>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_pra>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_anu>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_A>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam_x2d_bhuj2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_vi>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_upa>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_prati>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_abhi>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_pari>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_pari2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_api>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW4_x2d_def>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam_x2d_desid>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_anu_x2d_ref>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pwkvn/upa_x2d_desid>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pwkvn/para_x2d_ref>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_sch/upa_x2d_desid>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h1_x5f_00_x5f_pwg00/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_01_x5f_sec_x5f_1/caus_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_01_x5f_sec_x5f_1/caus_x2e_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_02_x5f_sec_x5f_2/desid_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_02_x5f_sec_x5f_2/desid_x2e_cross_x2d_ref>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_03_x5f_sec_x5f_3/intens_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_04_x5f_a_x5f_di/adhi_x2b_bhuj_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_05_x5f_anu/anu_x2b_bhuj_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_05_x5f_anu/anu_x2b_bhuj_x2e_2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_05_x5f_anu/anu_x2b_bhuj_x2e_3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_06_x5f_a_x5f_bi/abhi_x2b_bhuj_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_07_x5f__x5f_a/_xc4__x81__x2b_bhuj_x2e_1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/caus>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_09_x5f_pratyupa/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_09_x5f_pratyupa/nachtr>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_10_x5f_samupa/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_10_x5f_samupa/nachtr>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_11_x5f_pari/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_11_x5f_pari/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_11_x5f_pari/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_12_x5f_pra/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_12_x5f_pra/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_13_x5f_prati/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_13_x5f_prati/nachtr>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_14_x5f_vi/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_15_x5f_sam/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_15_x5f_sam/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_15_x5f_sam/caus>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2a>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2b>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2c>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2d>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/nachtr>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h4_x5f_00_x5f_pwg00/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/4>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/5>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h6_x5f_00_x5f_pwg00/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h7_x5f_00_x5f_pwg00/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h8_x5f_00_x5f_pwg00/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "भुज् II /bhuj/ (P. pr. /bhojati/ — I- U. pr. /bhunakti/ /bhuṅkte/ — VII- fut. /bhokṣyati/ /bhokṣyate/- pf. /bubhoja/ /bubhuje/- aor. /abhaukṣīt/ /abhukta/- pp. /bhukta/) 1) есть, пожирать 2) наслаждаться чем-л. 3) владеть чем-л. 4) править, управлять 5) защищать"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "भुज् I /bhuj/ (P. pr. /bhujati/ — VI- pf. /bubhoja/- aor. /abhaukṣīt/- pp. /bhugna/ ) сгибать, гнуть"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/koch/3> a ontolex:LexicalSense ;
+  skos:definition "भुज् III /bhuj/ 1. 1) наслаждающийся 2) кушающий, едящий 3) правящий 2. f. 1) наслаждение 2) польза, благо 3) нужда"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/kna/4> a ontolex:LexicalSense ;
+  skos:definition "भुज्\t/bhuj/\t\t/бхудж/\tbhuj (bhunakti, bhuṅktē, ppr. med. bhuñjāna, pp. bhukta, inf. bhōktum, pn. bhōktavya; c. bhōjayati) наслаждаться, отвѣдать, вкушать, кушать, ѣсть; c. кормить, питать, давать пищу, угощать. — upa вкушать.\tс. 249"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/kna/5> a ontolex:LexicalSense ;
+  skos:definition "॰भुज्\t/-bhuj/\t\t/-бхудж/\t°bhuj кушающій, ѣдящій.\tс. 249"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/dict/smirnov/6> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 5, 37; III, 12, 13; IV, 31; XI, 33; XIII, 21; XV, 10; гл. bhunakti; уже со времени сутр слово приобретает значение есть, пожирать (II, 25 без объекта), вкушать, наслаждаться, владеть землёй."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_00_x5f_pwg00/1> a ontolex:LexicalSense ;
+  skos:definition "1. {#Buj#}¦, {#Buja/ti#} «гнуть, сгибать»\n<ls>DHĀTUP. 28,124.</ls> <ab>partic.</ab> {#Bugna#}\n<ls>P. 8,2,45.</ls>\n<ls>VOP. 26,88. fg.</ls> «согнутый, изогнутый, кривой»\n<ls>AK. 3,2,21.</ls> <ls n=\"AK. 3,2,\">40.</ls>\n<ls>H. 1457.</ls> <ls n=\"H.\">1483.</ls>\n<ls>HALĀY. 4,11.</ls> {#darBAndviguRAnBugnAn#}\n<ls>ĀŚV. GṚHY. 4,7,8.</ls> {#vAyuBugnANga#}\n<ls>MBH. 13,2281.</ls> {#kzuDA BugnaH#}\n<ls n=\"MBH.\">12,4265.</ls> {#BaraBugnavitatabAhu#}\n<ls>VĀSAVAD. 2,4.</ls> {#nyubjo Bugne rujA#}\n<ls>AK. 2,6,2,12.</ls> {#pARiruha#}\n<ls>BHAṬṬ. 11,8.</ls> {#BruvO ca BugnO#} (<ab>masc.</ab>!) «бороздчатый, изборожденный»\n<ls>Spr. 4036.</ls> «отодвинутый в сторону»\n<ls n=\"Spr.\">777.</ls> {#˚netra#} «вывернутые (закатившиеся) глаза»\n<ls>Verz. d. Oxf. H. 319,a,8. b, No. 758</ls> {#(Bagnanetra#} <ab>gedr.</ab>). {#Bugna#} означает «<is>Saṃdhi</is> от {#o#} и {#O#} перед нелабиальными гласными»\n<ls>ṚV. PRĀT. 2,11.</ls>\n<div n=\"v\">— <ab>Vgl.</ab> {#Buji, Bujyu#}, 1. {#Boga#} ."@ru ;
+  pwglex:sourceGloss "1. {#Buj#}¦, {#Buja/ti#} {%biegen%}\n<ls>DHĀTUP. 28,124.</ls> <ab>partic.</ab> {#Bugna#}\n<ls>P. 8,2,45.</ls>\n<ls>VOP. 26,88. fg.</ls> {%gebogen, gekrümmt, krumm%}\n<ls>AK. 3,2,21.</ls> <ls n=\"AK. 3,2,\">40.</ls>\n<ls>H. 1457.</ls> <ls n=\"H.\">1483.</ls>\n<ls>HALĀY. 4,11.</ls> {#darBAndviguRAnBugnAn#}\n<ls>ĀŚV. GṚHY. 4,7,8.</ls> {#vAyuBugnANga#}\n<ls>MBH. 13,2281.</ls> {#kzuDA BugnaH#}\n<ls n=\"MBH.\">12,4265.</ls> {#BaraBugnavitatabAhu#}\n<ls>VĀSAVAD. 2,4.</ls> {#nyubjo Bugne rujA#}\n<ls>AK. 2,6,2,12.</ls> {#pARiruha#}\n<ls>BHAṬṬ. 11,8.</ls> {#BruvO ca BugnO#} (<ab>masc.</ab>!) {%gefurcht%}\n<ls>Spr. 4036.</ls> {%zur Seite gedrängt%}\n<ls n=\"Spr.\">777.</ls> {#˚netra#} {%verdrehte Augen%}\n<ls>Verz. d. Oxf. H. 319,a,8. b, No. 758</ls> {#(Bagnanetra#} <ab>gedr.</ab>). {#Bugna#} heisst {%der%} <is>Saṃdhi</is> {%von%} {#o#} {%und%} {#O#} {%vor nicht-labialen Vocalen%}\n<ls>ṚV. PRĀT. 2,11.</ls>\n<div n=\"v\">— <ab>Vgl.</ab> {#Buji, Bujyu#}, 1. {#Boga#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Физическое действие «гнуть, сгибать», в отличие от bhuj/2 (наслаждаться, пользоваться). PPP: «согнутый» — пространственная деформация; «бороздчатый» — о бровях (следы изгиба); «отодвинутый в сторону» — боковое смещение; «с закатившимися глазами» — вращение/выворачивание."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AK_x2e__x2d_2_x2c_6_x2c_2_x2c_12_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/AK_x2e__x2d_3_x2c_2_x2c_21_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/AK_x2e__x2d_3_x2c_2_x2c__x2d_40_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BHA_xe1__xb9__xac__xe1__xb9__xac__x2e__x2d_11_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DH_xc4__x80_TUP_x2e__x2d_28_x2c_124_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HAL_xc4__x80_Y_x2e__x2d_4_x2c_11_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_1457_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_1483_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_12_x2c_4265_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_2281_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_8_x2c_2_x2c_45_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_4036_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_777_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VOP_x2e__x2d_26_x2c_88_x2e__x2d_fg_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/V_xc4__x80_SAVAD_x2e__x2d_2_x2c_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Verz_x2e__x2d_d_x2e__x2d_Oxf_x2e__x2d_H_x2e__x2d_319_x2c_a_x2c_8_x2e__x2d_b_x2c__x2d_No_x2e__x2d_758>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc4__x80__xc5__x9a_V_x2e__x2d_G_xe1__xb9__x9a_HY_x2e__x2d_4_x2c_7_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_PR_xc4__x80_T_x2e__x2d_2_x2c_11_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_01_x5f_ava/ava> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#ava#} {%загибать вниз, вгибать%}\n<ls>KAUŚ. 19.</ls> {#BagnAvaBugnaBUyizWEH (drumEH)#} {%согнутый вниз, пригнутый%}\n<ls>MBH. 1,5891.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#ava#} {%einbiegen%}\n<ls>KAUŚ. 19.</ls> {#BagnAvaBugnaBUyizWEH (drumEH)#} {%niedergebogen%}\n<ls>MBH. 1,5891.</ls>"@de ;
+  pwglex:senseTag "ava" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "префикс ava- придаёт значение направления «вниз»; root-fallback — значение определяется немецким glossом"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/KAU_xc5__x9a__x2e__x2d_19_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_5891_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_02_x5f_pratyava/pratyava> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pratyava#} {%загибать назад, отгибать%}: {#rwaBAn#}\n<ls>KAUŚ. 20.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pratyava#} {%zurückbiegen%}: {#rwaBAn#}\n<ls>KAUŚ. 20.</ls>"@de ;
+  pwglex:senseTag "pratyava" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "pratyava- придаёт значение «назад»; root-fallback — значение определяется немецким glossом"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/KAU_xc5__x9a__x2e__x2d_20_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_03_x5f__x5f_a/_xc4__x81_> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#A#} вгибать, подгибать: {#paryaNkamABujya#} (сидеть) {%со скрещенными (подогнутыми) ногами%}\n<ls>Lot. de la b. l. 334.</ls> {#ABugna#} согнутый, изогнутый\n<ls>RAGH. 1,83.</ls>\n<ls>PAÑCAR. 3,6,11.</ls> оттесненный в сторону\n<ls>DAŚAK.</ls> in <ls>BENF. Chr. 198,21.</ls>\n<div n=\"v\">— <ab>Vgl.</ab> {#ABoga#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#A#} {%einbiegen%}: {#paryaNkamABujya#} {%mit untergeschlagenen Beinen%} (sitzen)\n<ls>Lot. de la b. l. 334.</ls> {#ABugna#} {%gebogen, gekrümmt%}\n<ls>RAGH. 1,83.</ls>\n<ls>PAÑCAR. 3,6,11.</ls> {%zur Seite gedrängt%}\n<ls>DAŚAK.</ls> in <ls>BENF. Chr. 198,21.</ls>\n<div n=\"v\">— <ab>Vgl.</ab> {#ABoga#} ."@de ;
+  pwglex:senseTag "ā" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "ā+bhuj/1 — вгибать, подгибать (напр., ноги); corpus даёт «приносят пользу» для ābhuj, но German gloss устойчиво указывает на физическое «вгибание»; prefixed-form evidence слабое (n=1)"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BENF_x2e__x2d_Chr_x2e__x2d_198_x2c_21_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DA_xc5__x9a_AK_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Lot_x2e__x2d_de_x2d_la_x2d_b_x2e__x2d_l_x2e__x2d_334_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAR_x2e__x2d_3_x2c_6_x2c_11_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RAGH_x2e__x2d_1_x2c_83_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_04_x5f_vy_x5f_a/vy_xc4__x81_> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#vyA#}, <ab>partic.</ab> {#vyABugna#} {%согнутый, изогнутый%}: {#keSivaktravilagnastu kfzRavAhuraSoBata . vyABugna iva GarmAnte candrArDakiraRErGanaH ..#}\n<ls>HARIV. 4313.</ls>\n<ls>PRAB. 67,11</ls>, <ab>v. l.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#vyA#}, <ab>partic.</ab> {#vyABugna#} {%gebogen%}: {#keSivaktravilagnastu kfzRavAhuraSoBata . vyABugna iva GarmAnte candrArDakiraRErGanaH ..#}\n<ls>HARIV. 4313.</ls>\n<ls>PRAB. 67,11</ls>, <ab>v. l.</ab>"@de ;
+  pwglex:senseTag "vyā" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "vyā+bhuj/1 — сгибать, изгибать (в разные стороны); root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_4313_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PRAB_x2e__x2d_67_x2c_11> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_05_x5f_nis/nis> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#nis#} {%отгибать в сторону, отодвигать в сторону, сдвигать с места%}: {#ozWO nirBujati#} {%кривит губы%}\n<ls>YĀJÑ. 2,14.</ls>\n<ls>SUŚR. 2,331,19. 337,3. 338,1.</ls>\n[Page5-0301]\n{#prAyo nirBujyate SArNgamAyasaM ca#} {%уклоняется в сторону, ускользает%}\n<ls n=\"SUŚR.\">1,99,2.</ls> {#nirBugne netre#} {%скошенные (вращающиеся) глаза%}\n<ls n=\"SUŚR.\">2,402,11. 17.</ls> {#SmaSAne — nirBugnasragviBUzite#} {%согнутый%}\n<ls>MBH. 13,6406.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#nis#} {%bei Seite biegen, — schieben, aus der Stelle rücken%}: {#ozWO nirBujati#} {%verzieht die Lippen%}\n<ls>YĀJÑ. 2,14.</ls>\n<ls>SUŚR. 2,331,19. 337,3. 338,1.</ls>\n[Page5-0301]\n{#prAyo nirBujyate SArNgamAyasaM ca#} {%drückt sich bei Seite, entwischt%}\n<ls n=\"SUŚR.\">1,99,2.</ls> {#nirBugne netre#} {%verdrehte Augen%}\n<ls n=\"SUŚR.\">2,402,11. 17.</ls> {#SmaSAne — nirBugnasragviBUzite#} {%gebogen%}\n<ls>MBH. 13,6406.</ls>"@de ;
+  pwglex:senseTag "nis" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "nis+bhuj/1 — отгибать в сторону, смещать; root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_6406_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_1_x2c_99_x2c_2_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_2_x2c_331_x2c_19_x2e__x2d_337_x2c_3_x2e__x2d_338_x2c_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_2_x2c_402_x2c_11_x2e__x2d_17_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_2_x2c_14_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_06_x5f_vinis/vinis> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#vinis#} {%отгибать в сторону%}: {#vAmenAkzi vinirBujya hastena#}\n<ls>SUŚR. 2,353,12.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#vinis#} {%bei Seite biegen%}: {#vAmenAkzi vinirBujya hastena#}\n<ls>SUŚR. 2,353,12.</ls>"@de ;
+  pwglex:senseTag "vinis" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "vinis+bhuj/1 — отгибать в сторону; усиление nis- за счёт vi-; root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_2_x2c_353_x2c_12_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_07_x5f_pari/pari> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pari#} {%охватывать, обнимать%}: {#tayA\\smAnvi\\Svata\\stvama^ya\\kzmayA pari^ Buja#}\n<ls>VS. 16,11.</ls> {#yasyAja^sra\\M Sava^sA\\ mAna^mu\\kTaM pa^riBu\\jadroda^sI vi\\Svata^H sIm#}\n<ls>ṚV. 1,100,14.</ls> {#pari yadi^ndra\\ roda^sI u\\Be abu^BojIrmahi\\nA vi\\Svata^H sIm#}\n<ls n=\"ṚV. 1,\">33,9.</ls> {#taM zoqaSaBirBogEH paryaBujat#}\n<ls>PAÑCAV. BR. 13,5,22.</ls> {#pariBugna#}\n<ls>P. 8,4,31</ls>, <ab>Sch.</ab>\n{%согнутый, изогнутый%}\n<ls>BHAṬṬ. 10,31.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pari#} {%umspannen, umfangen%}: {#tayA\\smAnvi\\Svata\\stvama^ya\\kzmayA pari^ Buja#}\n<ls>VS. 16,11.</ls> {#yasyAja^sra\\M Sava^sA\\ mAna^mu\\kTaM pa^riBu\\jadroda^sI vi\\Svata^H sIm#}\n<ls>ṚV. 1,100,14.</ls> {#pari yadi^ndra\\ roda^sI u\\Be abu^BojIrmahi\\nA vi\\Svata^H sIm#}\n<ls n=\"ṚV. 1,\">33,9.</ls> {#taM zoqaSaBirBogEH paryaBujat#}\n<ls>PAÑCAV. BR. 13,5,22.</ls> {#pariBugna#}\n<ls>P. 8,4,31</ls>, <ab>Sch.</ab>\n{%gebogen%}\n<ls>BHAṬṬ. 10,31.</ls>"@de ;
+  pwglex:senseTag "pari" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "pari+bhuj/1 — охватывать со всех сторон, обнимать; root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BHA_xe1__xb9__xac__xe1__xb9__xac__x2e__x2d_10_x2c_31_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAV_x2e__x2d_BR_x2e__x2d_13_x2c_5_x2c_22_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_8_x2c_4_x2c_31>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VS_x2e__x2d_16_x2c_11_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_100_x2c_14_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c__x2d_33_x2c_9_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_08_x5f_pra/main> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pra#} «сгибать, нагибать»: {#dakziRaM jAnu praBujya juhoti#}\n<ls>KAUŚ. 1.</ls>\n<ls>KĀṬH.</ls> «подогнув ноги при <ab>Schol.</ab>, к <ls>KĀTY. ŚR. 10,7,4.</ls>» <ls>PAÑCAV. BR. 20,2,4.</ls> {#praBugna#}\n<ls>P. 8,4,29</ls>, <ab>Sch.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pra#} {%beugen%}: {#dakziRaM jAnu praBujya juhoti#}\n<ls>KAUŚ. 1.</ls>\n<ls>KĀṬH.</ls> beim <ab>Schol.</ab> zu <ls>KĀTY. ŚR. 10,7,4.</ls> <ls>PAÑCAV. BR. 20,2,4.</ls> {#praBugna#}\n<ls>P. 8,4,29</ls>, <ab>Sch.</ab>"@de ;
+  pwglex:senseTag "main" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Приставка pra- придаёт направленность «вперёд/вниз»; PPP описывает позу со скрещёнными (подогнутыми) ногами при сидении — конкретная телесная поза, а не абстрактный изгиб."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/KAU_xc5__x9a__x2e__x2d_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_TY_x2e__x2d__xc5__x9a_R_x2e__x2d_10_x2c_7_x2c_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80__xe1__xb9__xac_H_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAV_x2e__x2d_BR_x2e__x2d_20_x2c_2_x2c_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_8_x2c_4_x2c_29> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_09_x5f_vi/vi> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#vi#}, <ab>partic.</ab> {#viBugna#} {%загнутый, отогнутый%}\n<ls>VYUTP. 101.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#vi#}, <ab>partic.</ab> {#viBugna#} {%umgebogen%}\n<ls>VYUTP. 101.</ls>"@de ;
+  pwglex:senseTag "vi" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "vi+bhuj/1 — отгибать в стороны, изгибать; PPP «загнутый, отогнутый»; root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/VYUTP_x2e__x2d_101_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_10_x5f_pravi/pravi> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pravi#} {%изгибать, загибать%}: {#SalyavAraNgam#}\n<ls>SUŚR. 1,101,6.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pravi#} {%umbiegen%}: {#SalyavAraNgam#}\n<ls>SUŚR. 1,101,6.</ls>"@de ;
+  pwglex:senseTag "pravi" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "pravi+bhuj/1 — изгибать, загибать (pra+vi-); root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_1_x2c_101_x2c_6_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_11_x5f_sam/sam> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#sam#}, <ab>partic.</ab> {#saMBugna#} {%сложенный, согнутый вместе%}\n<ls>BHAṬṬ. 4,42.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#sam#}, <ab>partic.</ab> {#saMBugna#} {%zusammengebogen%}\n<ls>BHAṬṬ. 4,42.</ls>"@de ;
+  pwglex:senseTag "sam" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "sam+bhuj/1 — сгибать вместе, складывать; PPP «сложенный, согнутый вместе»; root-fallback"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BHA_xe1__xb9__xac__xe1__xb9__xac__x2e__x2d_4_x2c_42_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_root> a ontolex:LexicalSense ;
+  skos:definition "<hom>1.</hom> √{#Buj#}¦, {#Bu/jati#} «гнуть, сгибать».\n<div n=\"m\">— <ab>Pass.</ab> {#Bujyate#} «быть согнутым —, упасть духом». — {#Bugna#}\n<div n=\"1\">— 1〉 «согнутый, изогнутый, бороздчатый» (о бровях), «отодвинутый в сторону, вывернутый» (о глазах).\n<div n=\"1\">— 2〉 «согнутый, поникший, упавший духом».\n<div n=\"1\">— 3〉 <ab>Bez.</ab> «формы <is>Saṃdhi</is> от {#o#} и {#O#} перед нелабиальными гласными»."@ru ;
+  pwglex:sourceGloss "<hom>1.</hom> √{#Buj#}¦, {#Bu/jati#} {%biegen%}.\n<div n=\"m\">— <ab>Pass.</ab> {#Bujyate#} {%gebeugt —, entmuthigt werden%}. — {#Bugna#}\n<div n=\"1\">— 1〉 {%gebogen, gekrümmt, gefurcht%} (Brauen), {%Seitwärts gedrängt, verdreht%} (Augen).\n<div n=\"1\">— 2〉 {%gebeugt, entmuthigt%}.\n<div n=\"1\">— 3〉 <ab>Bez.</ab> {%des%} <is>Saṃdhi</is> {%von%} {#o#} und {#O#} {%vor nicht-labialen Vocalen%}."@de ;
+  pwglex:senseTag "PW1-root" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "PPP 1〉 — пространственно-физическое: «согнутый, бороздчатый» (брови), «отодвинутый, вывернутый» (глаза); 2〉 — переносное психологическое «поникший, упавший духом»; 3〉 — фонологическая/грамматическая заметка."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_pra> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#ava#} {%сгибать внутрь, пригибать%}. {#˚Bugna#} {%пригнутый, опущенный вниз%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#ava#} {%einbiegen%}. {#˚Bugna#} {%niedergebogen%}."@de ;
+  pwglex:senseTag "PW1-pra" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_A> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pratyava#} {%сгибать назад, отгибать%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pratyava#} {%zurückbiegen%}."@de ;
+  pwglex:senseTag "PW1-A" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_upa> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#A#} {%сгибать, подгибать%}. {#paryaNkamABujya#} {%со скрещенными (подогнутыми) ногами в позе сидения%} <ls>VAJRACCH. 19,9. 10</ls>. <ls>KĀRAṆḌ. 85,8. 86,8</ls>. {#ABugna#} {%согнутый, изогнутый, отодвинутый в сторону%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#A#} {%einbiegen%}. {#paryaNkamABujya#} {%die Beine beim Sitzen unterschlagend%} <ls>VAJRACCH. 19,9. 10</ls>. <ls>KĀRAṆḌ. 85,8. 86,8</ls>. {#ABugna#} {%gebogen, gekrümmt, zur Seite gedrängt%}."@de ;
+  pwglex:senseTag "PW1-upa" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_RA_xe1__xb9__x86__xe1__xb8__x8c__x2e__x2d_85_x2c_8_x2e__x2d_86_x2c_8>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAJRACCH_x2e__x2d_19_x2c_9_x2e__x2d_10> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_vi> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#vyA#}, {#˚Bugna#} {%согнутый, изогнутый%}. <lex>n.</lex>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#vyA#}, {#˚Bugna#} {%gebogen%}. <lex>n.</lex>"@de ;
+  pwglex:senseTag "PW1-vi" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_ni> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#ni#} {%сгибать, опускать, клонить%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#ni#} {%beugen, senken%}."@de ;
+  pwglex:senseTag "PW1-ni" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_apa> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#nis#} {%откладывать в сторону, отодвигать, смещать с места, выдвигать из%} (<ab>Abl.</ab> <ls>ṚV. 6,62,6</ls>). {#ozWO#} {%кривить губы%}. <ab>Pass.</ab> {%отклоняться в сторону, ускользать%}. {#nirBugna#} {%согнутый, вывернутый%} (о глазах)."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#nis#} {%bei Seite legen, — schieben, aus der Stelle rücken, herausschieben aus%} (<ab>Abl.</ab> <ls>ṚV. 6,62,6</ls>). {#ozWO#} {%die Lippen verziehen%}. <ab>Pass.</ab> {%sich bei Seite drücken, entwischen%}. {#nirBugna#} {%gebogen, verdreht%} (Augen)."@de ;
+  pwglex:senseTag "PW1-apa" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_6_x2c_62_x2c_6> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_prati> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#vinis#} {%изгибать в сторону%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#vinis#} {%bei Seite biegen%}."@de ;
+  pwglex:senseTag "PW1-prati" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_pari> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pari#} {%охватывать, обнимать%}. {#˚Bugna#} {%согнутый, изогнутый%} <ls>BHAṬṬ.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pari#} {%umspannen, umfangen%}. {#˚Bugna#} {%gebogen%} <ls>BHAṬṬ.</ls>"@de ;
+  pwglex:senseTag "PW1-pari" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BHA_xe1__xb9__xac__xe1__xb9__xac__x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_sam> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pra#} {%сгибать; складывать, сворачивать%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pra#} {%beugen; falten, zusammenlegen%}."@de ;
+  pwglex:senseTag "PW1-sam" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_abhi> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С *{#vi#}, {#˚Bugna#} {%загнутый, отогнутый%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit *{#vi#}, {#˚Bugna#} {%umgebogen%}."@de ;
+  pwglex:senseTag "PW1-abhi" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_anu> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pravi#} {%отгибать, заворачивать%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pravi#} {%umbiegen%}."@de ;
+  pwglex:senseTag "PW1-anu" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW1_x2d_api> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#sam#} {%обвивать, обматывать%} <ls>Comm. zu ĀPAST. ŚR. 7,11,5</ls>. {#saMBugna#} {%согнутый, свернутый вместе%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#sam#} {%umwinden%} <ls>Comm. zu ĀPAST. ŚR. 7,11,5</ls>. {#saMBugna#} {%zusammengebogen%}."@de ;
+  pwglex:senseTag "PW1-api" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Comm_x2e__x2d_zu_x2d__xc4__x80_PAST_x2e__x2d__xc5__x9a_R_x2e__x2d_7_x2c_11_x2c_5> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW2> a ontolex:LexicalSense ;
+  skos:definition "<hom>2.</hom> {#Buj#}¦ в {#triBuj#}."@ru ;
+  pwglex:sourceGloss "<hom>2.</hom> {#Buj#}¦ in {#triBuj#}."@de ;
+  pwglex:senseTag "PW2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_root_x2d_def> a ontolex:LexicalSense ;
+  skos:definition "<hom>3.</hom> √{#Buj#}¦, {#BA/jati#}, {#Bunakti#}, {#BuNkte#}, {#BuYjati#} ({#BuYjatI/#} <ab>Partic.</ab> <lex>f.</lex>). {#˚te#}, {#Bukta#} <ab>Partic.</ab>"@ru ;
+  pwglex:sourceGloss "<hom>3.</hom> √{#Buj#}¦, {#BA/jati#}, {#Bunakti#}, {#BuNkte#}, {#BuYjati#} ({#BuYjatI/#} <ab>Partic.</ab> <lex>f.</lex>). {#˚te#}, {#Bukta#} <ab>Partic.</ab>"@de ;
+  pwglex:senseTag "PW3-root-def" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Вводная словарная статья с грамматическими характеристиками глагола."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 1〉 {%наслаждаться, иметь нечто в пользование%}, как {%извлекать пользу, владеть с пользой, пользоваться, предаваться наслаждению чем-либо%}, так и применительно к {%вкушению пищи%}; в более древнем языке с <ab>Instr.</ab>, в позднейшем по большей части с <ab>Acc.</ab> без дополнения — {%принимать пищу и есть%} (о животных: {%поедать%}); землю, страну, город (<ab>Acc.</ab>) {%вкушать, извлекать из нее пользу%}, то есть <ab>v. a.</ab> {%властвовать%} и {%овладевать%} (говорится о государе); кого-либо (<ab>Acc.</ab>) {%вкушать%}, то есть <ab>v. a.</ab> {%использовать в своих целях, эксплуатировать%} и {%вкушать плотски%}. В позднейшем языке обычно <ab>Med.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 1〉 {%geniessen, Etwas zu geniessen haben,%} sowohl {%zu Nutzen haben, mit Nutzen besitzen, benutzen, sich dem Genuss von Etwas hingeben,%} als vom {%Genuss von Speisen;%} in der älteren Sprache mit <ab>Instr.</ab>, in der späteren meistentheils mit <ab>Acc.</ab> ohne Object {%seine Mahlzeit halten und fressen%} (von Thieren); die Erde, ein Land, eine Stadt (<ab>Acc.</ab>) {%geniessen, den Nutzen von ihr haben,%} so <ab>v. a.</ab> {%beherrschen%} und {%sich in den Besitz setzen%} (von einem Fürsten gesagt); {%Jmd%} (<ab>Acc.</ab>) {%geniessen,%} so <ab>v. a.</ab> {%sich zu Nutzen machen, ausbeuten%} und {%geschlechtlich geniessen%}. In der späteren Sprache gewöhnlich <ab>Med.</ab>"@de ;
+  pwglex:senseTag "PW3-1" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Центральное значение корня bhuj/2 (и bhuj/1 по Whitney). «Наслаждаться» охватывает: (a) пользование/владение имуществом; (b) вкушение пищи; (c) политическое господство над землёй; (d) использование/эксплуатацию людей; (e) плотское наслаждение."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2〉 «иметь нечто» (<ab>Acc.</ab>, в виде исключения <ab>Instr.</ab>) «в удел, в пользование», то есть <ab>v. a.</ab> «нести наказание у кого-либо»; (<ab>Gen.</ab>) «пожинать плоды чего-либо» (<ab>Acc.</ab>)."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 {%Etwas%} (<ab>Acc.</ab>, ausnahmsweise <ab>Instr.</ab>) {%zu geniessen haben,%} so <ab>v. a.</ab> {%zu büssen haben bei Jmd%}. (<ab>Gen.</ab>) {%den Lohn für Etwas%} (<ab>Acc.</ab>) {%davontragen%}."@de ;
+  pwglex:senseTag "PW3-2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Значение кармического воздаяния — «пожинать (плоды прошлых деяний)», как положительные, так и отрицательные."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 3〉 <ab>Act.</ab> {%быть полезным кому-либо%} (<ab>Acc.</ab>), {%идти на пользу, приносить благо, служить%}. Единожды <ab>v. l.</ab> <ab>Med.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 3〉 <ab>Act.</ab> {%Jmd%} (<ab>Acc.</ab>) {%zu [Page4-270-b] Nutzen sein, zu Gute kommen, frommen, dienen%}. Einmal <ab>v. l.</ab> <ab>Med.</ab>"@de ;
+  pwglex:senseTag "PW3-3" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Значение с обращённой валентностью: субъект не получает пользу, а сам является источником пользы для объекта."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_4> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 4〉 в <ab>Astr.</ab> «проходить, протекать», с <ab>Acc.</ab> <ls>Spr. 7740</ls> (одновременно «наслаждаться, расходовать») определенный <ab>best.</ab> период времени «проживать, длиться, наполнять, продолжаться». — Смешивается с {#yuj#}."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 4〉 in der <ab>Astr.</ab> {%durchlaufen,%} mit <ab>Acc.</ab> <ls>Spr. 7740</ls> (zugleich {%geniessen, verzehren%}) Eine <ab>best.</ab> Zeit {%durchlaufen,%} so <ab>v. a.</ab> {%verleben, währen, erfüllen, dauern%}. — Wird mit {#yuj#} verwechselt."@de ;
+  pwglex:senseTag "PW3-4" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Временно́е употребление: «проводить (срок, период)», «длиться»; в астрологическом языке — «проходить (период планеты)»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_7740> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_def> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"m\">— <ab>Caus.</ab> {#Bojayati#}. {#˚te#} (метрически)"@ru ;
+  pwglex:sourceGloss "<div n=\"m\">— <ab>Caus.</ab> {#Bojayati#}. {#˚te#} (metrisch)"@de ;
+  pwglex:senseTag "PW3-caus-def" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 1〉 {%кормить кого-либо чем-либо, угощать%}; с двойным <ab>Acc.</ab> или с <ab>Acc.</ab> лица и <ab>Instr.</ab> вещи."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 1〉 {%Jmd Etwas essen lassen, speisen mit;%} mit doppeltem <ab>Acc.</ab> oder mit <ab>Acc.</ab> der Person und <ab>Instr.</ab> der Sache."@de ;
+  pwglex:senseTag "PW3-caus-1" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Каузатив: «давать есть, кормить» — побудительное к значению «вкушать пищу»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2〉 в виде исключения {%давать кому-либо наслаждаться чем-либо%} <ab>überh.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 ausnahmsweise {%Jmd Etwas geniessen lassen%} <ab>überh.</ab>"@de ;
+  pwglex:senseTag "PW3-caus-2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_caus_x2d_3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 3〉 {%употреблять в пищу, использовать как питание%} <ls>CARAKA. 6,18</ls>."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 3〉 {%als Nahrung geniessen, — gebrauchen%} <ls>CARAKA. 6,18</ls>."@de ;
+  pwglex:senseTag "PW3-caus-3" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/CARAKA_x2e__x2d_6_x2c_18> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_desid_x2d_def> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"m\">— <ab>Desid.</ab> {#buBukzati#} (единожды), {#˚te#}"@ru ;
+  pwglex:sourceGloss "<div n=\"m\">— <ab>Desid.</ab> {#buBukzati#} (einmal), {#˚te#}"@de ;
+  pwglex:senseTag "PW3-desid-def" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_desid_x2d_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 1〉 {%желать есть, быть голодным%}."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 1〉 {%zu essen wünschen, hungrig sein%}."@de ;
+  pwglex:senseTag "PW3-desid-1" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Дезидератив: желание вкусить пищу — «быть голодным»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_desid_x2d_2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2〉 {%желать насладиться —, желать приобщиться к чему-либо%} <ls>NAIṢ. 6,100</ls>. — {#buBukzita#} <ab>s.</ab> <ab>bes.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2〉 {%zu geniessen —, theilhaftig zu werden wünschen%} <ls>NAIṢ. 6,100</ls>. — {#buBukzita#} <ab>s.</ab> <ab>bes.</ab>"@de ;
+  pwglex:senseTag "PW3-desid-2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/NAI_xe1__xb9__xa2__x2e__x2d_6_x2c_100> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_intens> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"m\">— <ab>Intens.</ab>\n<div n=\"1\">— 1〉 {#boBujIti#} {%наслаждаться (с усилением)%}.\n<div n=\"1\">— 2〉 {#boBujyate#} {%быть многократно поедаемым%}."@ru ;
+  pwglex:sourceGloss "<div n=\"m\">— <ab>Intens.</ab>\n<div n=\"1\">— 1〉 {#boBujIti#} {%geniessen%}.\n<div n=\"1\">— 2〉 {#boBujyate#} {%vielfach verspeist werden%}."@de ;
+  pwglex:senseTag "PW3-intens" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Интенсив: 1〉 активный «наслаждаться (многократно/интенсивно)»; 2〉 пассивный «быть многократно поедаемым»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_pra> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#aDi#} {%съедать, поедать, наслаждаться%} <ab>überh.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#aDi#} {%verspeisen, geniessen%} <ab>überh.</ab>"@de ;
+  pwglex:senseTag "PW3-pra" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_anu> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">С {#anu#}\n<div n=\"1\">— 1〉 {%пожинать плоды чего-либо%} (<ab>Acc.</ab>), {%получать вознаграждение за%}.\n<div n=\"1\">— 2〉 {%наслаждаться, приобщаться, принимать участие в%}.\n<div n=\"1\">— 3〉 в <ab>Astr.</ab> {%проходить (период)%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">Mit {#anu#}\n<div n=\"1\">— 1〉 {%den Lohn für Etwas%} (<ab>Acc.</ab>) {%geniessen%}.\n<div n=\"1\">— 2〉 {%geniessen, theilhaftig werden, theilnehmen an%}.\n<div n=\"1\">— 3〉 in der <ab>Astr.</ab> {%durchlaufen%}."@de ;
+  pwglex:senseTag "PW3-anu" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_A> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#aBi#} {%быть полезным кому-либо%} (<ab>Acc.</ab>), {%служить%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#aBi#} {%Jmd%} (<ab>Acc.</ab>) {%nützlich sein, dienen%}."@de ;
+  pwglex:senseTag "PW3-A" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam_x2d_bhuj2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#A#} во 2. *{#ABoga#}, {#ABogaya/#} <ab>u. s. w.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#A#} in 2. *{#ABoga#}, {#ABogaya/#} <ab>u. s. w.</ab>"@de ;
+  pwglex:senseTag "PW3-sam-bhuj2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_vi> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#samA#} {%наслаждаться%}, то есть <ab>v. a.</ab> {%властвовать над%} (<ab>Acc.</ab>)."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#samA#} {%geniessen,%} so <ab>v. a.</ab> {%herrschen über%} (<ab>Acc.</ab>)."@de ;
+  pwglex:senseTag "PW3-vi" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_upa> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#upa#}\n<div n=\"1\">— 1〉 «наслаждаться, есть, поедать, пожирать; наслаждаться» также в смысле <ab>v. a.</ab> «пользоваться, применять, извлекать пользу из, жить за счет, властвовать; приобщаться» (также о неприятном). «Использовать кого-либо» также в смысле <ab>v. a.</ab> «предаваться любви с» (вм. <ab>Acc.</ab> лица — также {#SarIram#}).\n<div n=\"1\">— 2〉 «иметь вознаграждение за что-либо» (<ab>Acc.</ab>).\n<div n=\"1\">— 3〉 <ab>Act.</ab> «быть полезным кому-либо» (<ab>Acc.</ab>), «служить»."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#upa#}\n<div n=\"1\">— 1〉 {%geniessen, essen, verspeisen, verzehren; geniessen%} auch so <ab>v. a.</ab> {%benutzen, gebrauchen, Nutzen ziehen aus, leben von, beherrschen; theilhaftig werden%} (auch von Unangenehmem). {%Jmd benutzen%} auch so <ab>v. a.</ab> {%der Liebe pflegen mit%} (statt des <ab>Acc.</ab> der Person auch {#SarIram#}).\n<div n=\"1\">— 2〉 {%den Lohn für Etwas%} (<ab>Acc.</ab>) {%haben%}.\n<div n=\"1\">— 3〉 <ab>Act.</ab> {%Jmd%} (<ab>Acc.</ab>) {%zu Nutzen sein, dienen%}."@de ;
+  pwglex:senseTag "PW3-upa" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_prati> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pratyupa#} {%наслаждаться, поедать%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pratyupa#} {%geniessen, verspeisen%}."@de ;
+  pwglex:senseTag "PW3-prati" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#samupa#} {%предаваться любви с%} (<ab>Acc.</ab>)"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#samupa#} {%der Liebe pflegen mit%} (<ab>Acc.</ab>)"@de ;
+  pwglex:senseTag "PW3-sam2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_abhi> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pari#}\n<div n=\"1\">— 1〉 {%есть заранее, есть прежде других%}.\n<div n=\"1\">— 2〉 {%обходить кого-либо%} (<ab>Acc.</ab>) {%при еде, оставлять без угощения%}.\n<div n=\"1\">— 3〉 {%поедать, съедать, пожирать, истреблять%} <ls>KĀD. 2,118,1</ls>. (<ls n=\"KĀD. 2,\">145,6</ls>).\n<div n=\"1\">— 4〉 {%наслаждаться, пользоваться, употреблять%}. — {#pariBujyantam#} <ls>MBH. 11,97</ls> ошибочно вм. {#˚Bfjjyantam#}. — {#paribuBukzita#} <ab>s.</ab> <ab>bes.</ab> (<ls>Nachtr. 4</ls>)"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pari#}\n<div n=\"1\">— 1〉 {%Etwas vorweg essen%}.\n<div n=\"1\">— 2〉 {%Jmd%} (<ab>Acc.</ab>) {%beim Essen übergehen, ohne Essen lassen%}.\n<div n=\"1\">— 3〉 {%verspeisen, auf-, verzehren%} <ls>KĀD. 2,118,1</ls>. (<ls n=\"KĀD. 2,\">145,6</ls>).\n<div n=\"1\">— 4〉 {%geniessen, benutzen, gebrauchen%}. — {#pariBujyantam#} <ls>MBH. 11,97</ls> fehlerhaft für {#˚Bfjjyantam#}. — {#paribuBukzita#} <ab>s.</ab> <ab>bes.</ab> (<ls>Nachtr. 4</ls>)"@de ;
+  pwglex:senseTag "PW3-abhi" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_D_x2e__x2d_2_x2c_118_x2c_1>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_D_x2e__x2d_2_x2c__x2d_145_x2c_6>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_11_x2c_97>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Nachtr_x2e__x2d_4> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_pari> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#pra#}\n<div n=\"1\">— 1〉 *{%приступать к еде, начинать есть%}.\n<div n=\"1\">— 2〉 <ab>Act.</ab> {%быть услужливым, быть готовым к услугам%}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#pra#}\n<div n=\"1\">— 1〉 *{%zu essen anfangen%}.\n<div n=\"1\">— 2〉 <ab>Act.</ab> {%dienstfertig sein%}."@de ;
+  pwglex:senseTag "PW3-pari" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_pari2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#prati#}\n<div n=\"1\">— 1〉 «наслаждаться».\n<div n=\"1\">— 2〉 «принимать пищу наряду с лечением» <ls>CARAKA. 1,13</ls>. {#pratiBukta#} «соблюдавший диету» <ls n=\"CARAKA.\">6,26</ls>. «питавшийся во время лечения» (<ab>Instr.</ab>) <ls n=\"CARAKA. 6,\">20</ls>.\n<div n=\"m\">— <ab>Caus.</ab> {#laGvannapratiBojita#} «тот, кому при лечении давали принимать легкую пищу» <ls>BHĀVAPR. 3,21,38</ls>."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#prati#}\n<div n=\"1\">— 1〉 {%geniessen%}.\n<div n=\"1\">— 2〉 {%neben der Cur Etwas geniessen%} <ls>CARAKA. 1,13</ls>. {#pratiBukta#} {%Diät gehalten habend%} <ls n=\"CARAKA.\">6,26</ls>. {%neben der Cur von%} — (<ab>Instr.</ab>) {%gelebt habend%} <ls n=\"CARAKA. 6,\">20</ls>.\n<div n=\"m\">— <ab>Caus.</ab> {#laGvannapratiBojita#} {%den man neben der Cur leichte Speisen geniessen liess%} <ls>BHĀVAPR. 3,21,38</ls>."@de ;
+  pwglex:senseTag "PW3-pari2" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Медицинский контекст: еда, дозволенная во время лечебного курса; термин диетологии аюрведы."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_VAPR_x2e__x2d_3_x2c_21_x2c_38>, <https://w3id.org/sanskrit-lexicon/repwg/citation/CARAKA_x2e__x2d_1_x2c_13>, <https://w3id.org/sanskrit-lexicon/repwg/citation/CARAKA_x2e__x2d_6_x2c_26>, <https://w3id.org/sanskrit-lexicon/repwg/citation/CARAKA_x2e__x2d_6_x2c__x2d_20> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_api> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#vi#} в *{#BuktaviBukta#}."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#vi#} in *{#BuktaviBukta#}."@de ;
+  pwglex:senseTag "PW3-api" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— С {#sam#}\n<div n=\"1\">— 1〉 {%наслаждаться вместе, держать общую трапезу%} <ls>AV. 3,10,7. 11,2,31</ls>. <ls>ĀPAST. 2,17,9</ls>. (вероятно, следует читать {#saMBuYjatAM#}).\n<div n=\"1\">— 2〉 {%наслаждаться, наслаждаться плотски%}.\n<div n=\"1\">— 3〉 в <ab>Astr.</ab> {%проходить (период)%}. {#saMBukta#} <ls>MAṆITTHA</ls> у <ls>UTPALA zu VARĀH. BṚH. 26 (24),4</ls>.\n<div n=\"m\">— <ab>Caus.</ab> {%кормить кого-либо%} (<ab>Acc.</ab>) {%вместе с%} (<ab>Instr.</ab>)."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— Mit {#sam#}\n<div n=\"1\">— 1〉 {%zusammen geniessen, ein gemeinsames Mahl halten%} <ls>AV. 3,10,7. 11,2,31</ls>. <ls>ĀPAST. 2,17,9</ls>. (wohl {#saMBuYjatAM#} zu lesen).\n<div n=\"1\">— 2〉 {%geniessen, fleischlich geniessen%}.\n<div n=\"1\">— 3〉 in der <ab>Astr.</ab> {%durchlaufen%}. {#saMBukta#} <ls>MAṆITTHA</ls> bei <ls>UTPALA zu VARĀH. BṚH. 26 (24),4</ls>.\n<div n=\"m\">— <ab>Caus.</ab> {%Jmd%} (<ab>Acc.</ab>) {%speisen mit%} (<ab>Instr.</ab>)."@de ;
+  pwglex:senseTag "PW3-sam3" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AV_x2e__x2d_3_x2c_10_x2c_7_x2e__x2d_11_x2c_2_x2c_31>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MA_xe1__xb9__x86_ITTHA>, <https://w3id.org/sanskrit-lexicon/repwg/citation/UTPALA_x2d_zu_x2d_VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_26_x2d__x28_24_x29__x2c_4>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc4__x80_PAST_x2e__x2d_2_x2c_17_x2c_9> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW4_x2d_def> a ontolex:LexicalSense ;
+  skos:definition "<hom>4.</hom> {#Bu/j#}¦\n<div n=\"1\">— 1〉 <lex>f.</lex> {%принесение пользы, содействие благу, служение на благо; наслаждение, выгода, польза; обладание, имущество%}. <ab>Dat.</ab> {#Bje/#} также как <ab>Infin.</ab>\n<div n=\"1\">— 2〉 <lex>Adj.</lex> в конце <ab>Comp.</ab>\n<div n=\"2\">— a〉 {%наслаждающийся, вкушающий, приобщающийся, плотски наслаждающийся%}. В сочетании со словами, обозначающими землю, — то есть <ab>v. a.</ab> {%властвующий, государь, царь%}.\n<div n=\"2\">— b〉 {%пожинающий плоды чего-либо%}.\n<div n=\"2\">— c〉 {%приносящий пользу, содействующий благу%}.\n<div n=\"2\">— d〉 {%проходящий, наполняющий%} (о времени)."@ru ;
+  pwglex:sourceGloss "<hom>4.</hom> {#Bu/j#}¦\n<div n=\"1\">— 1〉 <lex>f.</lex> {%das Nutzenbringen, Zugutekommen, Frommen; Genuss, Vortheil, Nutzen; das Haben, die Habe%}. <ab>Dat.</ab> {#Bje/#} auch als <ab>Infin.</ab>\n<div n=\"1\">— 2〉 <lex>Adj.</lex> am Ende eines <ab>Comp.</ab>\n<div n=\"2\">— a〉 {%geniessend, essend, theilhaftig, fleischlich geniessend%}. In Verbindung mit Wörtern, die Erde bedeuten, so <ab>v. a.</ab> {%beherrschend, Fürst, König%}.\n<div n=\"2\">— b〉 {%den Lohn für Etwas geniessend%}.\n<div n=\"2\">— c〉 {%Nutzen bringend, frommend%}.\n<div n=\"2\">— d〉 {%durchlaufend, erfüllend%} (von der Zeit)."@de ;
+  pwglex:senseTag "PW4-def" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Номинальное производное от bhuj/2. 1〉 — абстрактное существительное (польза, наслаждение, имущество); 2〉 — причастное прилагательное в четырёх значениях, соответствующих четырём значениям глагола."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_sam_x2d_desid> a ontolex:LexicalSense ;
+  skos:definition "<hom>3.</hom> √{#Buj#}¦ с {#upa#} <ab>Desid.</ab> «намереваться вкусить (в супружеском смысле)» <ls>HEM. PAR. 1,380</ls>.<info n=\"sup_5\"/>"@ru ;
+  pwglex:sourceGloss "<hom>3.</hom> √{#Buj#}¦ mit {#upa#} <ab>Desid.</ab> {%zu geniessen%} (ehelich) {%Willens sein%} <ls>HEM. PAR. 1,380</ls>.<info n=\"sup_5\"/>"@de ;
+  pwglex:senseTag "PW3-sam-desid" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Дезидератив с приставкой: «желать / намереваться насладиться (супружески)» — юридически-ритуальный контекст."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/HEM_x2e__x2d_PAR_x2e__x2d_1_x2c_380> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pw/PW3_x2d_anu_x2d_ref> a ontolex:LexicalSense ;
+  skos:definition "<hom>3.</hom> √{#Buj#}¦ с {#upa#} <ab>Desid.</ab> 5.<info n=\"sup_7\"/>"@ru ;
+  pwglex:sourceGloss "<hom>3.</hom> √{#Buj#}¦ mit {#upa#} <ab>Desid.</ab> 5.<info n=\"sup_7\"/>"@de ;
+  pwglex:senseTag "PW3-anu-ref" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Отсылка к словарной статье 5 для формы с приставкой anu-."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pwkvn/upa_x2d_desid> a ontolex:LexicalSense ;
+  skos:definition "<hom>3.</hom> {#Buj#}¦ с {#upa#} <ab>Desid.</ab> {%намереваться вкусить%} (супружески) <ls>HEM. PAR. 1,380</ls>."@ru ;
+  pwglex:sourceGloss "<hom>3.</hom> {#Buj#}¦ mit {#upa#} <ab>Desid.</ab> {%zu geniessen%} (ehelich) {%Willens sein%} <ls>HEM. PAR. 1,380</ls>."@de ;
+  pwglex:senseTag "upa-desid" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/HEM_x2e__x2d_PAR_x2e__x2d_1_x2c_380> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_pwkvn/para_x2d_ref> a ontolex:LexicalSense ;
+  skos:definition "<hom>3.</hom> {#Buj#}¦ с {#upa#} <ab>Desid.</ab> 5."@ru ;
+  pwglex:sourceGloss "<hom>3.</hom> {#Buj#}¦ mit {#upa#} <ab>Desid.</ab> 5."@de ;
+  pwglex:senseTag "para-ref" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h0_x5f_zz_x5f_sch/upa_x2d_desid> a ontolex:LexicalSense ;
+  skos:definition "3. {%bhuj%}¦ с {%upa%} Desid. намереваться (супружески) вкусить, <ls>Hem. Par. 1,380.</ls> {part=,seq=20923,type=,n=2}"@ru ;
+  pwglex:sourceGloss "3. {%bhuj%}¦ mit {%upa%} Desid. (ehelich) zu genießen willens sein, <ls>Hem. Par. 1,380.</ls> {part=,seq=20923,type=,n=2}"@de ;
+  pwglex:senseTag "upa-desid" ;
+  pwglex:homonym "h0" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Hem_x2e__x2d_Par_x2e__x2d_1_x2c_380_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h1_x5f_00_x5f_pwg00/2> a ontolex:LexicalSense ;
+  skos:definition "2. {#Buj#}¦ (= 1. {#Buj)#} <ab>s.</ab> {#tri˚#} ."@ru ;
+  pwglex:sourceGloss "2. {#Buj#}¦ (= 1. {#Buj)#} <ab>s.</ab> {#tri˚#} ."@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h1" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Homonym 2 — отсылка к homonym 1 с уточнением; corpus-synonyms указывают на значение «вкушать, наслаждаться, пользоваться», характерное для bhuj/2 (class VII)"@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_01_x5f_sec_x5f_1/caus_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\"> 1) {#Bojayati#} (\n<ls>P. 1,3,87.</ls>\n<ls>VOP. 22,2</ls>) {%кормить кого-либо чем-либо, угощать%}; с двойным <ab>acc.</ab> (\n<ls>P. 1,4,52.</ls>\n<ls>VOP. 5,5</ls>) или с <ab>acc.</ab> лица и <ab>instr.</ab> предмета.\n<ls>KĀTY. ŚR. 4,6,10.</ls> <ls n=\"KĀTY. ŚR.\">25,8,1.</ls> {#sarpirmaDuByAmftvijo Bojayet#}\n<ls>LĀṬY. 3,6,8.</ls> {#ftvijo brahmOdanaM BojayitvA#}\n<ls n=\"LĀṬY.\">9,9,8.</ls> <ls>KAUŚ. 6. 17. 24. 43. 61.</ls> <ls>ĀŚV. GṚHY. 1,22,18. 2,3,13.</ls> <ls>PĀR. GṚHY. 2,2.</ls> {#vESyaSUdrO Bojayet#}\n<ls>M. 3,112</ls> — <ls n=\"M. 3,\">114.</ls> <ls n=\"M. 3,\">125.</ls> <ls n=\"M. 3,\">129.</ls> <ls>YĀJÑ. 1,108.</ls> <ls>MBH. 1,4965.</ls> <ls n=\"MBH.\">4,539</ls> {#(pAtrIhastA — Bojayantyuta#} следует читать с <ls>ed. Bomb.</ls>).\n<ls n=\"MBH. 4,\">595.</ls> <ls>HARIV. 9753.</ls> <ls>DAŚ. 2,33.</ls> <ls>R. 2,61,12.</ls> <ls>KATHĀS. 36,22.</ls> <ls>PAÑCAR. 3,14,24.</ls> <ls>PAÑCAR. 3,14,24.</ls> <ls>RĀJA-TAR. 1,164.</ls> <ls>BHĀG. P. 7,15,3.</ls> <ls>PAÑCAT. 26,20.</ls> <ls>ŚUK. in LA. (II) 34,19.</ls> {#na vE svayaM tadaSnIyAdatiTiM yanna Bojayet#}\n<ls>Spr. 4355.</ls>\n<ls>MBH. 14,1852.</ls>\n<ls>R. 3,16,15.</ls> {#svadu ca BojitA#}\n<ls>KATHĀS. 21,51.</ls>\n<ls>BHĀG. P. 9,4,34.</ls>\n<ls>PAÑCAR. 1,6,52</ls> {#(nAradaM#} <ab>st.</ab> {#nArada#} следует читать). {#dvijAteH saMsTitasya tu . adEvaM BojayecCrAdDam#}\n<ls>M. 3,247.</ls> {#hayAn — aBojayan — Bojyam#}\n<ls>R. 2,91,53. fg.</ls> (<ls n=\"GORR. 2,\">100,52</ls> <ls>GORR.</ls>). {#Bojayet — annAdyenAsakfccEtAn#}\n<ls>M. 3,233.</ls>\n<ls>MBH. 3,1007.</ls>\n<ls>VARĀH. BṚH. S. 46,32.</ls> <ls>PAÑCAT. 121,12.</ls> <ls>HIT. 25,16</ls>, <ab>v. l.</ab> <ls n=\"HIT.\">31,21.</ls>\n[Page5-0304]\n{#Bojayate#} (без дополнения) из метрических соображений {#(BuYjApayati#} <ab>v. l.</ab>)\n<ls>Spr. 1103.</ls> {%позволять кому-либо наслаждаться чем-либо%}: {#(daMpatI) BogAnizwAn — BojayAmAsa#} ad\n<ls>MEGH. 113.</ls> {#BojayizyAmi BavatIM Buvanatrayam#}\n<ls>BHAṬṬ. 8,83.</ls> <ab>Vgl.</ab> {#BojanIya#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"1\"> 1) {#Bojayati#} (\n<ls>P. 1,3,87.</ls>\n<ls>VOP. 22,2</ls>) {%Jmd Etwas essen lassen, speisen mit%}; mit doppeltem <ab>acc.</ab> (\n<ls>P. 1,4,52.</ls>\n<ls>VOP. 5,5</ls>) oder mit <ab>acc.</ab> der Person und <ab>instr.</ab> der Sache.\n<ls>KĀTY. ŚR. 4,6,10.</ls> <ls n=\"KĀTY. ŚR.\">25,8,1.</ls> {#sarpirmaDuByAmftvijo Bojayet#}\n<ls>LĀṬY. 3,6,8.</ls> {#ftvijo brahmOdanaM BojayitvA#}\n<ls n=\"LĀṬY.\">9,9,8.</ls> <ls>KAUŚ. 6. 17. 24. 43. 61.</ls> <ls>ĀŚV. GṚHY. 1,22,18. 2,3,13.</ls> <ls>PĀR. GṚHY. 2,2.</ls> {#vESyaSUdrO Bojayet#}\n<ls>M. 3,112</ls> — <ls n=\"M. 3,\">114.</ls> <ls n=\"M. 3,\">125.</ls> <ls n=\"M. 3,\">129.</ls> <ls>YĀJÑ. 1,108.</ls> <ls>MBH. 1,4965.</ls> <ls n=\"MBH.\">4,539</ls> {#(pAtrIhastA — Bojayantyuta#} mit der <ls>ed. Bomb.</ls> zu lesen).\n<ls n=\"MBH. 4,\">595.</ls> <ls>HARIV. 9753.</ls> <ls>DAŚ. 2,33.</ls> <ls>R. 2,61,12.</ls> <ls>KATHĀS. 36,22.</ls> <ls>PAÑCAR. 3,14,24.</ls> <ls>PAÑCAR. 3,14,24.</ls> <ls>RĀJA-TAR. 1,164.</ls> <ls>BHĀG. P. 7,15,3.</ls> <ls>PAÑCAT. 26,20.</ls> <ls>ŚUK. in LA. (II) 34,19.</ls> {#na vE svayaM tadaSnIyAdatiTiM yanna Bojayet#}\n<ls>Spr. 4355.</ls>\n<ls>MBH. 14,1852.</ls>\n<ls>R. 3,16,15.</ls> {#svadu ca BojitA#}\n<ls>KATHĀS. 21,51.</ls>\n<ls>BHĀG. P. 9,4,34.</ls>\n<ls>PAÑCAR. 1,6,52</ls> {#(nAradaM#} <ab>st.</ab> {#nArada#} zu lesen). {#dvijAteH saMsTitasya tu . adEvaM BojayecCrAdDam#}\n<ls>M. 3,247.</ls> {#hayAn — aBojayan — Bojyam#}\n<ls>R. 2,91,53. fg.</ls> (<ls n=\"GORR. 2,\">100,52</ls> <ls>GORR.</ls>). {#Bojayet — annAdyenAsakfccEtAn#}\n<ls>M. 3,233.</ls>\n<ls>MBH. 3,1007.</ls>\n<ls>VARĀH. BṚH. S. 46,32.</ls> <ls>PAÑCAT. 121,12.</ls> <ls>HIT. 25,16</ls>, <ab>v. l.</ab> <ls n=\"HIT.\">31,21.</ls>\n[Page5-0304]\n{#Bojayate#} (ohne Ergänzung) aus metrischen Rücksichten {#(BuYjApayati#} <ab>v. l.</ab>)\n<ls>Spr. 1103.</ls> {%Jmd Etwas geniessen lassen%}: {#(daMpatI) BogAnizwAn — BojayAmAsa#} ad\n<ls>MEGH. 113.</ls> {#BojayizyAmi BavatIM Buvanatrayam#}\n<ls>BHAṬṬ. 8,83.</ls> <ab>Vgl.</ab> {#BojanIya#} ."@de ;
+  pwglex:senseTag "caus.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Каузативное: субъект заставляет другого есть/наслаждаться. Отличается от основного значения (сам вкушает) каузативной структурой."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BHA_xe1__xb9__xac__xe1__xb9__xac__x2e__x2d_8_x2c_83_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_7_x2c_15_x2c_3_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_9_x2c_4_x2c_34_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DA_xc5__x9a__x2e__x2d_2_x2c_33_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/GORR_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/GORR_x2e__x2d_2_x2c__x2d_100_x2c_52>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_9753_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_25_x2c_16>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_31_x2c_21_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_21_x2c_51_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_36_x2c_22_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KAU_xc5__x9a__x2e__x2d_6_x2e__x2d_17_x2e__x2d_24_x2e__x2d_43_x2e__x2d_61_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_TY_x2e__x2d__xc5__x9a_R_x2e__x2d_25_x2c_8_x2c_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/K_xc4__x80_TY_x2e__x2d__xc5__x9a_R_x2e__x2d_4_x2c_6_x2c_10_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/L_xc4__x80__xe1__xb9__xac_Y_x2e__x2d_3_x2c_6_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/L_xc4__x80__xe1__xb9__xac_Y_x2e__x2d_9_x2c_9_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_14_x2c_1852_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_4965_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_3_x2c_1007_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_4_x2c_539>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_4_x2c__x2d_595_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MEGH_x2e__x2d_113_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c_112>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c_233_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c_247_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c__x2d_114_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c__x2d_125_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c__x2d_129_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAR_x2e__x2d_1_x2c_6_x2c_52>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAR_x2e__x2d_3_x2c_14_x2c_24_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_121_x2c_12_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_26_x2c_20_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_1_x2c_3_x2c_87_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_1_x2c_4_x2c_52_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/P_xc4__x80_R_x2e__x2d_G_xe1__xb9__x9a_HY_x2e__x2d_2_x2c_2_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_2_x2c_61_x2c_12_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_2_x2c_91_x2c_53_x2e__x2d_fg_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_3_x2c_16_x2c_15_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_1_x2c_164_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1103_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_4355_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_46_x2c_32_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VOP_x2e__x2d_22_x2c_2>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VOP_x2e__x2d_5_x2c_5>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_1_x2c_108_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc4__x80__xc5__x9a_V_x2e__x2d_G_xe1__xb9__x9a_HY_x2e__x2d_1_x2c_22_x2c_18_x2e__x2d_2_x2c_3_x2c_13_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a_UK_x2e__x2d_in_x2d_LA_x2e__x2d__x28_II_x29__x2d_34_x2c_19_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/ed_x2e__x2d_Bomb_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_01_x5f_sec_x5f_1/caus_x2e_2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) {#BuYjApayati#}\n<ls>Spr. 1103</ls>, <ab>v. l.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) {#BuYjApayati#}\n<ls>Spr. 1103</ls>, <ab>v. l.</ab>"@de ;
+  pwglex:senseTag "caus.2" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:differentia "Отсылка."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1103> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_02_x5f_sec_x5f_2/desid_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— <ab>desid.</ab> {%желать есть, быть голодным%}: {#annaM buBukzamARaH#}\n<ls>MBH. 13,5009.</ls> {#rAjanme dIyatAmannaM sagaRAya buBukzate#}\n<ls>BHĀG. P. 9,21,8.</ls> {%желать наслаждаться%}: {#na sa rAjyaM buBukzati#}\n<ls>MBH. 1,5667.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— <ab>desid.</ab> {%zu essen wünschen, hungrig sein%}: {#annaM buBukzamARaH#}\n<ls>MBH. 13,5009.</ls> {#rAjanme dIyatAmannaM sagaRAya buBukzate#}\n<ls>BHĀG. P. 9,21,8.</ls> {%zu geniessen wünschen%}: {#na sa rAjyaM buBukzati#}\n<ls>MBH. 1,5667.</ls>"@de ;
+  pwglex:senseTag "desid.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Дезидеративное: желание вкушать (пищу — «быть голодным») или наслаждаться в более широком смысле."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_9_x2c_21_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_5009_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_5667_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_02_x5f_sec_x5f_2/desid_x2e_cross_x2d_ref> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#buBukzA, buBukzita#} (также\n<ls>NIR. 7,13.</ls>\n<ls>SUŚR. 1,242,1. 244,15.</ls>\n<ls>PAÑCAR. 4,3,202</ls>), {#buBukzu#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#buBukzA, buBukzita#} (auch\n<ls>NIR. 7,13.</ls>\n<ls>SUŚR. 1,242,1. 244,15.</ls>\n<ls>PAÑCAR. 4,3,202</ls>), {#buBukzu#} ."@de ;
+  pwglex:senseTag "desid.cross-ref" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:differentia "Отсылка."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/NIR_x2e__x2d_7_x2c_13_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAR_x2e__x2d_4_x2c_3_x2c_202>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_1_x2c_242_x2c_1_x2e__x2d_244_x2c_15_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_03_x5f_sec_x5f_3/intens_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— <ab>intens.</ab> {#boBujyate#} с <ab>pass.</ab> <ab>Bed.</ab> {%многократно поедаться%}: {#boBujyate 'tiTisuhftsvajanEH sahAnnam#}\n<ls>VARĀH. BṚH. S. 19,18</ls> {#(pepIyate#} там же также <ab>pass.</ab>; согласно этому в <ab>u.</ab> 2. {#pA#} <ab>intens.</ab> слова {%с <ab>pass.</ab> <ab>Bed.</ab>%} следует переставить строкой выше перед {#pepIyate#})."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— <ab>intens.</ab> {#boBujyate#} mit <ab>pass.</ab> <ab>Bed.</ab> {%vielfach verspeist werden%}: {#boBujyate 'tiTisuhftsvajanEH sahAnnam#}\n<ls>VARĀH. BṚH. S. 19,18</ls> {#(pepIyate#} ebendas. ist gleichfalls <ab>pass.</ab>; hiernach sind <ab>u.</ab> 2. {#pA#} <ab>intens.</ab> die Worte «mit <ab>pass.</ab> <ab>Bed.</ab>» eine Zeile höher vor {#pepIyate#} zu stellen)."@de ;
+  pwglex:senseTag "intens.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Интенсивное: многократное или усиленное поедание (пассивный залог). Текстологическое примечание о перестановке слов."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_19_x2c_18> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_04_x5f_a_x5f_di/adhi_x2b_bhuj_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#aDi#} {%поедать, пожирать%}: {#SrAdDAni no 'DibuBuje prasaBaM tanUjErdattAni#} (слова манов)\n<ls>BHĀG. P. 7,8,44.</ls> {%наслаждаться%}: {#aDiBujyamAnam — rikTaM pitfpEtAmaham#}\n<ls>BHĀG. P. 5,7,8.</ls> {#rAjyamidaM svecCayADiBujyatAm (upaBujyatAm#} <ab>v. l.</ab>)\n<ls>HIT. 130,4.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#aDi#} {%verspeisen%}: {#SrAdDAni no 'DibuBuje prasaBaM tanUjErdattAni#} (Worte der Manen)\n<ls>BHĀG. P. 7,8,44.</ls> {%geniessen%}: {#aDiBujyamAnam — rikTaM pitfpEtAmaham#}\n<ls>BHĀG. P. 5,7,8.</ls> {#rAjyamidaM svecCayADiBujyatAm (upaBujyatAm#} <ab>v. l.</ab>)\n<ls>HIT. 130,4.</ls>"@de ;
+  pwglex:senseTag "adhi+bhuj.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "С префиксом adhi: 1) поедать (пищу), 2) наслаждаться в более широком смысле. Prefixed form; corpus-fallback — перевод по немецкому глоссу."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_5_x2c_7_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_7_x2c_8_x2c_44_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_130_x2c_4_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_05_x5f_anu/anu_x2b_bhuj_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#anu#}\n<div n=\"1\"> 1) {%вкушать награду за что-либо%} (<ab>acc.</ab>): {#eko 'nuBuNkte sukf- tamekaH eva ca duzkftam#}\n<ls>Spr. 3822.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#anu#}\n<div n=\"1\"> 1) {%den Lohn für Etwas%} (<ab>acc.</ab>) {%geniessen%}: {#eko 'nuBuNkte sukf- tamekaH eva ca duzkftam#}\n<ls>Spr. 3822.</ls>"@de ;
+  pwglex:senseTag "anu+bhuj.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "С префиксом anu: пожинать плоды, получать вознаграждение за что-либо."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_3822_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_05_x5f_anu/anu_x2b_bhuj_x2e_2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) {%наслаждаться%}: {#durvinayavfkzaPalamanu- BuNkzva#}\n<ls>PAÑCAT. 259,15.</ls> {#BogAn#}\n<ls>BHĀG. P. 7,10,10.</ls> {#anvaBuNkta — candrikAm#}\n<ls>RAGH. 19,39.</ls> {#maRqanAnmaRqanamanvaBuNkta#} {%она получала одно украшение за другим%}\n<ls>KUMĀRAS. 7,5.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) {%geniessen%}: {#durvinayavfkzaPalamanu- BuNkzva#}\n<ls>PAÑCAT. 259,15.</ls> {#BogAn#}\n<ls>BHĀG. P. 7,10,10.</ls> {#anvaBuNkta — candrikAm#}\n<ls>RAGH. 19,39.</ls> {#maRqanAnmaRqanamanvaBuNkta#} {%sie ward eines Schmuckes nach dem andern theilhaftig%}\n<ls>KUMĀRAS. 7,5.</ls>"@de ;
+  pwglex:senseTag "anu+bhuj.2" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Наслаждаться (в широком смысле), последовательно получать что-либо."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_7_x2c_10_x2c_10_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KUM_xc4__x80_RAS_x2e__x2d_7_x2c_5_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_259_x2c_15_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RAGH_x2e__x2d_19_x2c_39_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_05_x5f_anu/anu_x2b_bhuj_x2e_3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 3) {%проходить%} (в <ab>astr.</ab> смысле): {#(aNgArakaH) triBistriBiH pakzErekEkaSo rASIndvAdaSAnuBuNkte#}\n<ls>BHĀG. P. 5,22,14.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 3) {%durchlaufen%} (in <ab>astr.</ab> Sinne): {#(aNgArakaH) triBistriBiH pakzErekEkaSo rASIndvAdaSAnuBuNkte#}\n<ls>BHĀG. P. 5,22,14.</ls>"@de ;
+  pwglex:senseTag "anu+bhuj.3" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Астрологическое значение: проходить (о периодах). Параллельно основному значению 4 без префикса."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_5_x2c_22_x2c_14_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_06_x5f_a_x5f_bi/abhi_x2b_bhuj_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#aBi#} {%быть полезным кому-либо%} (<ab>acc.</ab>), {%служить%}: {#ime lokA anyo'nyamaBiBuYjanti#}\n<ls>ŚĀṄKH. ŚR. 16,21,21.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#aBi#} {%Jmd%} (<ab>acc.</ab>) {%nützlich sein, dienen%}: {#ime lokA anyo'nyamaBiBuYjanti#}\n<ls>ŚĀṄKH. ŚR. 16,21,21.</ls>"@de ;
+  pwglex:senseTag "abhi+bhuj.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "С префиксом abhi: быть полезным, служить кому-либо. Параллельно основному значению 3 без префикса."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a__xc4__x80__xe1__xb9__x84_KH_x2e__x2d__xc5__x9a_R_x2e__x2d_16_x2c_21_x2c_21_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_07_x5f__x5f_a/_xc4__x81__x2b_bhuj_x2e_1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#A#} <ab>s.</ab> {#ABogi#} и <ab>vgl.</ab> {#ABojin#} в {#BujagABojin#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#A#} <ab>s.</ab> {#ABogi#} und <ab>vgl.</ab> {#ABojin#} in {#BujagABojin#} ."@de ;
+  pwglex:senseTag "ā+bhuj.1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "С префиксом ā: приносить пользу (ведийск.). Прямое корпусное свидетельство: «приносят пользу»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#upa#}\n<div n=\"1\"> 1) вкушать, есть, поедать, пожирать: {#yaTA kaTaMcitpiRqAnAM catvAriMSacCatadvayam . mAsenEvopaBuYjIta#}\n<ls>YĀJÑ. 3,325.</ls> {#rasAyanam#}\n<ls>Spr. 2951.</ls> {#tAnmftAnapi kravyAdAH kftaGnAnnopaBuYjate#}\n<ls n=\"Spr.\">5124.</ls> {#GftaM maDu payastoyaM daDIni rasavanti ca . PalaM mUlaM ca susvAdu dvijAstatropaBuYjate ..#}\n<ls>MBH. 7,2311.</ls>\n<ls>HARIV. 7839.</ls>\n<ls>R. 2,30,16.</ls> <ls n=\"R. 2,\">61,5</ls> (<ab>med.</ab> <ls>ed. Bomb.</ls>). {#taruRAH saMtaptA nopaBuYjate#} не есть\n<ls n=\"R. 2,\">114,12.</ls> <ls>R. GORR. 2,55,19.</ls> <ls>RAGH. 2,65.</ls> <ls>BHAṬṬ. 8,40.</ls> {#so (mArjAraH) 'Ta qiRqikaM (mUzikaM) hyupaBuktavAn#}\n<ls>MBH. 5,5443.</ls> <ls n=\"MBH.\">13,227.</ls>\n<ls>MĀRK. P. 23,72.</ls> {#payaH pUrvEH svaniSvAsakavozRamupaBujyate#}\n<ls>RAGH. 1,67.</ls>\n<ls>Spr. 3848.</ls>\n<ls>RĀJA-TAR. 1,217.</ls>\n<ls>MĀRK. P. 14,85.</ls>\n<ls>HIT. 122,15.</ls> {#arDopaBuktena bisena#}\n<ls>KUMĀRAS. 3,37.</ls>\n<ls>PAÑCAT. 104,6.</ls> {#tvaNgatturaMgasaMGAtaKurAgrANkanaKakzatA . paTi tasyABavadBUmirupaBukteva BUyateH ..#} как бы поглощенный\n<ls>KATHĀS. 18,7.</ls> {#ASayA saMcitaM dravyaM kAlenEvopaBujyate#}\n<ls>MBH. 13,7592.</ls> {#anupaBujyamAnaSca nizprayojana eva saH (arTaH)#}\n<ls>HIT. 46,8</ls>, <ab>v. l.</ab> {#tapasAmupaBuYjAnAH PalAni#} вкушая\n<ls>KUMĀRAS. 6,16.</ls> {#Bogam#}\n<ls>KATHĀS. 28,118.</ls>\n<ls>PAÑCAT. 130,21.</ls> {#vizayAn#}\n<ls>Spr. 1652.</ls> {#pitrA dattaM yaTABAgamupaBoktuM tvamarhasi#}\n<ls>R. 2,101,26. fg.</ls>\n<ls>KATHĀS. 38,36.</ls>\n<ls>BHĀG. P. 7,14,7.</ls> {#yuzmadAyattaM rAjyamidaM svecCayopaBujyatAm#}\n<ls>HIT. 130,4</ls>, <ab>v. l.</ab> {#pARqaveyAni ratnAni tvamadyApyupaBuYjase#}\n<ls>MBH. 3,15118.</ls>\n<ls>HARIV. 7193</ls> (<ab>act.</ab>). {#upaBokzyAmi tadvanam#}\n<ls n=\"HARIV.\">8271.</ls> {#nAnyopaBuktanavayOvanaBArasArA#}\n<ls>CAURAP. 33.</ls> {#ratakrIqAsuKam#}\n<ls>KATHĀS. 45,181.</ls> {#duHKam#}\n<ls>R. GORR. 2,34,25.</ls> <ls>MĀRK. P. 21,40.</ls> {#lokAnupaBokzyasi puzkalAn#}\n<ls>MBH. 1,8343.</ls> {#mama praBAvAcca gavAmayutAnyupaBokzyaTa#}\n<ls>HARIV. 3881.</ls> {#kzitipatirupaBuNkte trivargaM cirAya#}\n<ls>KATHĀS. 13,95.</ls> {#pAnaSayyAsanAnyasya kUpodyAnagfhARi ca . adattAnyupaBuYjAnaH#} пользуясь,\n[Page5-0305]\nупотребляя\n<ls>M. 4,202.</ls> {#upaBuktaM yaTA vAsaH#}\n<ls>R. 3,37,19.</ls>\n<ls>DAŚAK.</ls> в <ls>BENF. Chr. 189,21.</ls> {#rAzwram#} так <ab>v. a.</ab> взимать подати в государстве\n<ls>Spr. 2951.</ls> {#DarmavARijakA hyete ye DarmamupaBuYjate#} жить от\n<ls>MBH. 13,7595.</ls> {#tayopaBujyamAnAM purIm#} так <ab>v. a.</ab> управляет\n<ls>BHĀG. P. 4,28,4.</ls> пользоваться кем-либо: {#ahaM ca kururAjyaM ca yaTezwamupaBujyatAm#}\n<ls>MBH. 1,5392.</ls> {#prezyavatpARqupAYcAlAnupaBokzyAmahe tataH#}\n<ls n=\"MBH.\">7,8267.</ls> {#strIratnamupaBuNkzvemAm#} так <ab>v. a.</ab> предаваться любви\n<ls>HARIV. 11262.</ls>\n<ls>KATHĀS. 17,91.</ls> <ls n=\"KATHĀS.\">32,150.</ls> <ls n=\"KATHĀS. 32,\">152.</ls> <ls n=\"KATHĀS. 32,\">168.</ls> <ls n=\"KATHĀS.\">45,360.</ls>\n<ls>Spr. 3833.</ls>\n<ls>MĀRK. P. 70,7.</ls>\n<ls>PAÑCAT. 45,12</ls> (<ls>ed. orn. 53,20</ls>). <ls>MALLIN.</ls> к <ls>RAGH. 19,3.</ls> {#yA (lakzmIH) na veSyeva sAmAnyA paTikErupaBujyate#}\n<ls>Spr. 677</ls>, <ab>v. l.</ab> {#taTemAmupaBuYjataH#} (<ab>gen.</ab> <ab>partic.</ab>)\n<ls>MĀRK. P. 113,21.</ls> {#tenopaBujyamAnaM SarIram (striyAH)#}\n<ls>KATHĀS. 38,36.</ls> Соблазнительно там, где {#yuj#} с {#upa#} имеет значение есть, поедать, усматривать смешение с {#Buj#}, но во многих местах, которые\nприводит <ls>WESTERGAARD</ls>, <ls>ed. Bomb.</ls> <ls>MBH.</ls> читает лишь <ls n=\"MBH.\">1,6221</ls> {#upaBokzyati#} <ab>st.</ab> {#upayokzyati#}; <ab>vgl.</ab> <ab>u.</ab> {#Buj#} <ab>simpl.</ab> в конце."@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#upa#}\n<div n=\"1\"> 1) {%geniessen, essen, verspeisen, verzehren%}: {#yaTA kaTaMcitpiRqAnAM catvAriMSacCatadvayam . mAsenEvopaBuYjIta#}\n<ls>YĀJÑ. 3,325.</ls> {#rasAyanam#}\n<ls>Spr. 2951.</ls> {#tAnmftAnapi kravyAdAH kftaGnAnnopaBuYjate#}\n<ls n=\"Spr.\">5124.</ls> {#GftaM maDu payastoyaM daDIni rasavanti ca . PalaM mUlaM ca susvAdu dvijAstatropaBuYjate ..#}\n<ls>MBH. 7,2311.</ls>\n<ls>HARIV. 7839.</ls>\n<ls>R. 2,30,16.</ls> <ls n=\"R. 2,\">61,5</ls> (<ab>med.</ab> <ls>ed. Bomb.</ls>). {#taruRAH saMtaptA nopaBuYjate#} {%essen nicht%}\n<ls n=\"R. 2,\">114,12.</ls> <ls>R. GORR. 2,55,19.</ls> <ls>RAGH. 2,65.</ls> <ls>BHAṬṬ. 8,40.</ls> {#so (mArjAraH) 'Ta qiRqikaM (mUzikaM) hyupaBuktavAn#}\n<ls>MBH. 5,5443.</ls> <ls n=\"MBH.\">13,227.</ls>\n<ls>MĀRK. P. 23,72.</ls> {#payaH pUrvEH svaniSvAsakavozRamupaBujyate#}\n<ls>RAGH. 1,67.</ls>\n<ls>Spr. 3848.</ls>\n<ls>RĀJA-TAR. 1,217.</ls>\n<ls>MĀRK. P. 14,85.</ls>\n<ls>HIT. 122,15.</ls> {#arDopaBuktena bisena#}\n<ls>KUMĀRAS. 3,37.</ls>\n<ls>PAÑCAT. 104,6.</ls> {#tvaNgatturaMgasaMGAtaKurAgrANkanaKakzatA . paTi tasyABavadBUmirupaBukteva BUyateH ..#} {%wie verzehrt%}\n<ls>KATHĀS. 18,7.</ls> {#ASayA saMcitaM dravyaM kAlenEvopaBujyate#}\n<ls>MBH. 13,7592.</ls> {#anupaBujyamAnaSca nizprayojana eva saH (arTaH)#}\n<ls>HIT. 46,8</ls>, <ab>v. l.</ab> {#tapasAmupaBuYjAnAH PalAni#} {%geniessend%}\n<ls>KUMĀRAS. 6,16.</ls> {#Bogam#}\n<ls>KATHĀS. 28,118.</ls>\n<ls>PAÑCAT. 130,21.</ls> {#vizayAn#}\n<ls>Spr. 1652.</ls> {#pitrA dattaM yaTABAgamupaBoktuM tvamarhasi#}\n<ls>R. 2,101,26. fg.</ls>\n<ls>KATHĀS. 38,36.</ls>\n<ls>BHĀG. P. 7,14,7.</ls> {#yuzmadAyattaM rAjyamidaM svecCayopaBujyatAm#}\n<ls>HIT. 130,4</ls>, <ab>v. l.</ab> {#pARqaveyAni ratnAni tvamadyApyupaBuYjase#}\n<ls>MBH. 3,15118.</ls>\n<ls>HARIV. 7193</ls> (<ab>act.</ab>). {#upaBokzyAmi tadvanam#}\n<ls n=\"HARIV.\">8271.</ls> {#nAnyopaBuktanavayOvanaBArasArA#}\n<ls>CAURAP. 33.</ls> {#ratakrIqAsuKam#}\n<ls>KATHĀS. 45,181.</ls> {#duHKam#}\n<ls>R. GORR. 2,34,25.</ls> <ls>MĀRK. P. 21,40.</ls> {#lokAnupaBokzyasi puzkalAn#}\n<ls>MBH. 1,8343.</ls> {#mama praBAvAcca gavAmayutAnyupaBokzyaTa#}\n<ls>HARIV. 3881.</ls> {#kzitipatirupaBuNkte trivargaM cirAya#}\n<ls>KATHĀS. 13,95.</ls> {#pAnaSayyAsanAnyasya kUpodyAnagfhARi ca . adattAnyupaBuYjAnaH#} {%benutzend,%}\n[Page5-0305]\n{%gebrauchend%}\n<ls>M. 4,202.</ls> {#upaBuktaM yaTA vAsaH#}\n<ls>R. 3,37,19.</ls>\n<ls>DAŚAK.</ls> in <ls>BENF. Chr. 189,21.</ls> {#rAzwram#} so <ab>v. a.</ab> {%Abgaben im Reiche erheben%}\n<ls>Spr. 2951.</ls> {#DarmavARijakA hyete ye DarmamupaBuYjate#} {%leben von%}\n<ls>MBH. 13,7595.</ls> {#tayopaBujyamAnAM purIm#} so <ab>v. a.</ab> {%beherrscht%}\n<ls>BHĀG. P. 4,28,4.</ls> {%Jmd benutzen%}: {#ahaM ca kururAjyaM ca yaTezwamupaBujyatAm#}\n<ls>MBH. 1,5392.</ls> {#prezyavatpARqupAYcAlAnupaBokzyAmahe tataH#}\n<ls n=\"MBH.\">7,8267.</ls> {#strIratnamupaBuNkzvemAm#} so <ab>v. a.</ab> {%der Liebe pflegen%}\n<ls>HARIV. 11262.</ls>\n<ls>KATHĀS. 17,91.</ls> <ls n=\"KATHĀS.\">32,150.</ls> <ls n=\"KATHĀS. 32,\">152.</ls> <ls n=\"KATHĀS. 32,\">168.</ls> <ls n=\"KATHĀS.\">45,360.</ls>\n<ls>Spr. 3833.</ls>\n<ls>MĀRK. P. 70,7.</ls>\n<ls>PAÑCAT. 45,12</ls> (<ls>ed. orn. 53,20</ls>). <ls>MALLIN.</ls> zu <ls>RAGH. 19,3.</ls> {#yA (lakzmIH) na veSyeva sAmAnyA paTikErupaBujyate#}\n<ls>Spr. 677</ls>, <ab>v. l.</ab> {#taTemAmupaBuYjataH#} (<ab>gen.</ab> <ab>partic.</ab>)\n<ls>MĀRK. P. 113,21.</ls> {#tenopaBujyamAnaM SarIram (striyAH)#}\n<ls>KATHĀS. 38,36.</ls> Es liegt nahe da, wo {#yuj#} mit {#upa#} die <ab>Bed.</ab> {%essen, verspeisen%} hat, eine Verwechselung mit {#Buj#} anzunehmen, aber an den vielen Stellen, die\n<ls>WESTERGAARD</ls> anführt, liest die <ls>ed. Bomb.</ls> des\n<ls>MBH.</ls> nur <ls n=\"MBH.\">1,6221</ls> {#upaBokzyati#} <ab>st.</ab> {#upayokzyati#}; <ab>vgl.</ab> <ab>u.</ab> {#Buj#} <ab>simpl.</ab> am Ende."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "вкушать — преобладающий эквивалент для пищевого употребления; расплачиваться/имеет последствия — для переносного смысла «пожинать плоды»; пользоваться/употреблять — для нематафорического применения."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BENF_x2e__x2d_Chr_x2e__x2d_189_x2c_21_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BHA_xe1__xb9__xac__xe1__xb9__xac__x2e__x2d_8_x2c_40_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_4_x2c_28_x2c_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_7_x2c_14_x2c_7_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/CAURAP_x2e__x2d_33_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/DA_xc5__x9a_AK_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_11262_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_3881_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_7193>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_7839_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_8271_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_122_x2c_15_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_130_x2c_4>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_46_x2c_8>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_13_x2c_95_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_17_x2c_91_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_18_x2c_7_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_28_x2c_118_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_32_x2c_150_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_32_x2c__x2d_152_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_32_x2c__x2d_168_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_38_x2c_36_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_45_x2c_181_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_45_x2c_360_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KUM_xc4__x80_RAS_x2e__x2d_3_x2c_37_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KUM_xc4__x80_RAS_x2e__x2d_6_x2c_16_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MALLIN_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_227_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_7592_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_7595_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_5392_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_6221>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_1_x2c_8343_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_3_x2c_15118_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_5_x2c_5443_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_7_x2c_2311_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_7_x2c_8267_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_4_x2c_202_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_113_x2c_21_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_14_x2c_85_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_21_x2c_40_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_23_x2c_72_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_70_x2c_7_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_104_x2c_6_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_130_x2c_21_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_45_x2c_12>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RAGH_x2e__x2d_19_x2c_3_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RAGH_x2e__x2d_1_x2c_67_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RAGH_x2e__x2d_2_x2c_65_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_2_x2c_101_x2c_26_x2e__x2d_fg_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_2_x2c_30_x2c_16_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_2_x2c__x2d_114_x2c_12_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_2_x2c__x2d_61_x2c_5>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_3_x2c_37_x2c_19_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_GORR_x2e__x2d_2_x2c_34_x2c_25_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_GORR_x2e__x2d_2_x2c_55_x2c_19_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_1_x2c_217_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1652_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_2951_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_3833_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_3848_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_5124_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_677>, <https://w3id.org/sanskrit-lexicon/repwg/citation/WESTERGAARD>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_3_x2c_325_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/ed_x2e__x2d_Bomb_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/ed_x2e__x2d_orn_x2e__x2d_53_x2c_20> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) получать вознаграждение за что-либо (<ab>acc.</ab>): {#mAnasaM manasEvAyamupaBuNkte SuBASuBam . vAcA vAcA kftaM karma kAyenEva ca kAyikam ..#}\n<ls>M. 12,8.</ls> {#svakftaM hyupaBujyate#}\n<ls>R. 6,98,29.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) {%den Lohn für Etwas%} (<ab>acc.</ab>) {%haben%}: {#mAnasaM manasEvAyamupaBuNkte SuBASuBam . vAcA vAcA kftaM karma kAyenEva ca kAyikam ..#}\n<ls>M. 12,8.</ls> {#svakftaM hyupaBujyate#}\n<ls>R. 6,98,29.</ls>"@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "расплачиваться/получать вознаграждение — смещение от пищевого к юридически-экономическому смыслу под влиянием upasarga upa."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_12_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_6_x2c_98_x2c_29_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 3) <ab>act.</ab> быть полезным кому-либо (<ab>acc.</ab>), служить: {#upa vayaM taM BuYjAmo (= pAlayAmaH#}\n<ls>ŚAṂK.</ls>) {#'smiMSca loke 'muzmiMSca#}\n<ls>CHĀND. UP. 4,11,2.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 3) <ab>act.</ab> {%Jmd%} (<ab>acc.</ab>) {%zu Nutzen sein, dienen%}: {#upa vayaM taM BuYjAmo (= pAlayAmaH#}\n<ls>ŚAṂK.</ls>) {#'smiMSca loke 'muzmiMSca#}\n<ls>CHĀND. UP. 4,11,2.</ls>"@de ;
+  pwglex:senseTag "3" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "служить/быть полезным — функциональный, а не пищевой смысл; cp. «имеет последствия» из корпуса."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/CH_xc4__x80_ND_x2e__x2d_UP_x2e__x2d_4_x2c_11_x2c_2_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a_A_xe1__xb9__x82_K_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_08_x5f_upa/caus> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#upaBuktaDana, upaBoktar#} <ab>fgg.</ab> — <ab>caus.</ab> {%давать вкушать, угощать%}: {#rasAnupaBojayet#}\n<ls>SUŚR. 2,441,11.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#upaBuktaDana, upaBoktar#} <ab>fgg.</ab> — <ab>caus.</ab> {%zu geniessen geben%}: {#rasAnupaBojayet#}\n<ls>SUŚR. 2,441,11.</ls>"@de ;
+  pwglex:senseTag "caus" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "каузативное значение: побуждать вкушать / угощать — производное от основного смысла 1)."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_2_x2c_441_x2c_11_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_09_x5f_pratyupa/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pratyupa#} {%вкушать, поедать%}: {#gfhezu balikarmARi pretAH samupaBuYjate#}\n<ls>R. 6,11,39.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pratyupa#} {%geniessen, verspeisen%}: {#gfhezu balikarmARi pretAH samupaBuYjate#}\n<ls>R. 6,11,39.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_6_x2c_11_x2c_39_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_09_x5f_pratyupa/nachtr> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#pratyupaBoga#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#pratyupaBoga#} ."@de ;
+  pwglex:senseTag "nachtr" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_10_x5f_samupa/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#samupa#} вкушать, так <ab>v. a.</ab> предаваться любви с (<ab>acc.</ab>): {#vaSyAM kumArIM balato ye tAM samupaBuYjate#}\n<ls>MBH. 13,2482.</ls> <ls>Verz. d. Oxf. H. 259,b,26.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#samupa#} {%geniessen%} so <ab>v. a.</ab> {%der Liebe pflegen mit%} (<ab>acc.</ab>): {#vaSyAM kumArIM balato ye tAM samupaBuYjate#}\n<ls>MBH. 13,2482.</ls> <ls>Verz. d. Oxf. H. 259,b,26.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "вкушать — общее; «предаваться любви» — специализированное эротическое употребление под двойным upasarga sam+upa."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_2482_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Verz_x2e__x2d_d_x2e__x2d_Oxf_x2e__x2d_H_x2e__x2d_259_x2c_b_x2c_26_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_10_x5f_samupa/nachtr> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#samupaBoga#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#samupaBoga#} ."@de ;
+  pwglex:senseTag "nachtr" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_11_x5f_pari/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pari#}\n<div n=\"1\"> 1) {%съесть что-либо%} (<ab>acc.</ab>) {%наперед, поесть первым%}: {#parocCizwaM ca yadBuktaM pariBuktaM ca yadBavet#}\n<ls>MBH. 13,1579.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pari#}\n<div n=\"1\"> 1) {%Etwas%} (<ab>acc.</ab>) {%vorweg essen%}: {#parocCizwaM ca yadBuktaM pariBuktaM ca yadBavet#}\n<ls>MBH. 13,1579.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«съесть наперёд» — специфическое значение pari-: опередить других в еде."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_13_x2c_1579_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_11_x5f_pari/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) {%обойти кого-либо%} (<ab>acc.</ab>) {%при раздаче еды, оставить без еды%}: {#api svitparyaBuNkTAstvaM saMBojyAnvfdDabAlakAn#}\n<ls>BHĀG. P. 1,14,43.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) {%Jmd%} (<ab>acc.</ab>) {%beim Essen übergehen, ohne Essen lassen%}: {#api svitparyaBuNkTAstvaM saMBojyAnvfdDabAlakAn#}\n<ls>BHĀG. P. 1,14,43.</ls>"@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«обойти при раздаче» — социально-ритуальный смысл, отличный от простого «съесть»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_1_x2c_14_x2c_43_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_11_x5f_pari/3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 3) {%поедать%}: {#(SarIraM me) balimiva pariBoktuM vAyasAstarkayanti#}\n<ls>MṚCCH. 157,11.</ls> {%вкушать, пользоваться, употреблять%}: {#yadi me sa putra imaM DanaskanDaM pariBuYjIyAt#}\n<ls>SADDH. P. 4,11,a.</ls> {#apariBukta#}\n<ls n=\"SADDH. P. 4,\">10,b.</ls> {#suravaDUpariBuktalatAgfhAH#}\n<ls>KIR. 5,5.</ls>\n<ls>ŚĀK. 41,17.</ls> <ls n=\"ŚĀK.\">115.</ls> {#priyeRa pariBuktamavekzya gAtram#}\n<ls>ṚT. 4. 16.</ls> {#priyajanapariBukta (dukUla)#}\n<ls>SĀH. D. 43,10.</ls> {#pariBuktAmiva srajam#}\n<ls>R. GORR. 2,62,24.</ls> {#nirmAlyadAma pariBuktamanojYaganDam#} (так следует читать)\n<ls>ṚT. 4. 15.</ls> {#jIrRaM ca pariBuktaM ca yAtayAmamidaM dvayam#}\n<ls>AK. 3,4,23,147.</ls> — <ab>st.</ab> {#pariBujyantam#}\n<ls>MBH. 11,97</ls> читает <ls>ed. Bomb.</ls> {#pariBfjjantam#} (<ab>d. i.</ab> {#˚Bfjjyantam)#} . <ab>Vgl.</ab> {#pariBoktar#} <ab>fg.</ab> — <ab>desid.</ab> <ab>partic.</ab> {#paribuBukzita#} {%чрезвычайно голодный%}\n<ls>MBH. 9,1483.</ls> Может быть разложено и в {#pari + bu˚#}."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 3) {%verspeisen%}: {#(SarIraM me) balimiva pariBoktuM vAyasAstarkayanti#}\n<ls>MṚCCH. 157,11.</ls> {%geniessen, benutzen, gebrauchen%}: {#yadi me sa putra imaM DanaskanDaM pariBuYjIyAt#}\n<ls>SADDH. P. 4,11,a.</ls> {#apariBukta#}\n<ls n=\"SADDH. P. 4,\">10,b.</ls> {#suravaDUpariBuktalatAgfhAH#}\n<ls>KIR. 5,5.</ls>\n<ls>ŚĀK. 41,17.</ls> <ls n=\"ŚĀK.\">115.</ls> {#priyeRa pariBuktamavekzya gAtram#}\n<ls>ṚT. 4. 16.</ls> {#priyajanapariBukta (dukUla)#}\n<ls>SĀH. D. 43,10.</ls> {#pariBuktAmiva srajam#}\n<ls>R. GORR. 2,62,24.</ls> {#nirmAlyadAma pariBuktamanojYaganDam#} (so ist zu lesen)\n<ls>ṚT. 4. 15.</ls> {#jIrRaM ca pariBuktaM ca yAtayAmamidaM dvayam#}\n<ls>AK. 3,4,23,147.</ls> — <ab>st.</ab> {#pariBujyantam#}\n<ls>MBH. 11,97</ls> liest die <ls>ed. Bomb.</ls> {#pariBfjjantam#} (<ab>d. i.</ab> {#˚Bfjjyantam)#} . <ab>Vgl.</ab> {#pariBoktar#} <ab>fg.</ab> — <ab>desid.</ab> <ab>partic.</ab> {#paribuBukzita#} {%überaus hungrig%}\n<ls>MBH. 9,1483.</ls> Kann auch in {#pari + bu˚#} zerlegt werden."@de ;
+  pwglex:senseTag "3" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "поедать — пищевое; вкушать/пользоваться/употреблять — обобщённое; «пользоваться» ближе к функциональному значению."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AK_x2e__x2d_3_x2c_4_x2c_23_x2c_147_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KIR_x2e__x2d_5_x2c_5_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_11_x2c_97>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_9_x2c_1483_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xe1__xb9__x9a_CCH_x2e__x2d_157_x2c_11_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_GORR_x2e__x2d_2_x2c_62_x2c_24_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SADDH_x2e__x2d_P_x2e__x2d_4_x2c_11_x2c_a_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SADDH_x2e__x2d_P_x2e__x2d_4_x2c__x2d_10_x2c_b_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/S_xc4__x80_H_x2e__x2d_D_x2e__x2d_43_x2c_10_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a__xc4__x80_K_x2e__x2d_115_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a__xc4__x80_K_x2e__x2d_41_x2c_17_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_T_x2e__x2d_4_x2e__x2d_15_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_T_x2e__x2d_4_x2e__x2d_16_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/ed_x2e__x2d_Bomb_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_12_x5f_pra/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#pra#}\n<div n=\"1\"> 1) {%начинать есть%}: {#praBukta odanaH#}\n<ls>P. 1,2,21</ls>, <ab>Sch.</ab>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#pra#}\n<div n=\"1\"> 1) {%zu essen anfangen%}: {#praBukta odanaH#}\n<ls>P. 1,2,21</ls>, <ab>Sch.</ab>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "инхоативное значение pra-: начало действия еды."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_1_x2c_2_x2c_21> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_12_x5f_pra/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) {%быть услужливым, готовым к услугам%}: {#A GA\\ yoze^va sU\\naryu\\zA yA^ti praBuYja\\tI#}\n<ls>ṚV. 1,48,5.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) {%dienstfertig sein%}: {#A GA\\ yoze^va sU\\naryu\\zA yA^ti praBuYja\\tI#}\n<ls>ṚV. 1,48,5.</ls>"@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«быть услужливым» — переносное значение, далёкое от пищевого; cp. sense 3 upaBuj."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_48_x2c_5_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_13_x5f_prati/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#prati#} {%вкушать%}: {#asyAvahAsasya PalaM pratiBokzyaTa#}\n<ls>MBH. 9,1863.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#prati#} {%geniessen%}: {#asyAvahAsasya PalaM pratiBokzyaTa#}\n<ls>MBH. 9,1863.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_9_x2c_1863_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_13_x5f_prati/nachtr> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#pratiBoga#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#pratiBoga#} ."@de ;
+  pwglex:senseTag "nachtr" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_14_x5f_vi/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#vi#} . <ab>partic.</ab> в {#BuktaviBukta#} <is>gaṇa</is> {#SAkapArTivAdi#} из\n<ls>SIDDH. K.</ls> к <ls>P. 2,1,69.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#vi#} . <ab>partic.</ab> in {#BuktaviBukta#} <is>gaṇa</is> {#SAkapArTivAdi#} aus\n<ls>SIDDH. K.</ls> zu <ls>P. 2,1,69.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/P_x2e__x2d_2_x2c_1_x2c_69_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SIDDH_x2e__x2d_K_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_15_x5f_sam/1> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#sam#}\n<div n=\"1\"> 1) {%совместно вкушать, вкушать%}: {#daDyodanaM saMBuYjIyAtAm#}\n<ls>ŚĀṄKH. ŚR. 1. 17,7.</ls> {#apaTyEH saha saMBukte vyADirannarase yaTA#}\n<ls>DAŚ. 2,57.</ls> {#saMBoktuM vizayAn#}\n<ls>Spr. 1337.</ls> {#parEH saMBujyate rAjyam#}\n<ls n=\"Spr.\">1728.</ls> {%вкушать плотски%}: {#samaBujyata tABiH sa yaTecCam#}\n<ls>RĀJA-TAR. 2,106.</ls> {#suganDAdityam — saMbuBuje#}\n<ls n=\"RĀJA-TAR.\">5,283.</ls>\n[Page5-0306]\n{#saMBuktaBUrijArA#}\n<ls n=\"RĀJA-TAR.\">6,321.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#sam#}\n<div n=\"1\"> 1) {%zusammen geniessen, geniessen%}: {#daDyodanaM saMBuYjIyAtAm#}\n<ls>ŚĀṄKH. ŚR. 1. 17,7.</ls> {#apaTyEH saha saMBukte vyADirannarase yaTA#}\n<ls>DAŚ. 2,57.</ls> {#saMBoktuM vizayAn#}\n<ls>Spr. 1337.</ls> {#parEH saMBujyate rAjyam#}\n<ls n=\"Spr.\">1728.</ls> {%fleischlich geniessen%}: {#samaBujyata tABiH sa yaTecCam#}\n<ls>RĀJA-TAR. 2,106.</ls> {#suganDAdityam — saMbuBuje#}\n<ls n=\"RĀJA-TAR.\">5,283.</ls>\n[Page5-0306]\n{#saMBuktaBUrijArA#}\n<ls n=\"RĀJA-TAR.\">6,321.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«совместно вкушать» — sam- подчёркивает совместность; «вкушать плотски» — специализированное эротическое употребление."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/DA_xc5__x9a__x2e__x2d_2_x2c_57_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_2_x2c_106_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_5_x2c_283_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_6_x2c_321_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1337_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1728_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xc5__x9a__xc4__x80__xe1__xb9__x84_KH_x2e__x2d__xc5__x9a_R_x2e__x2d_1_x2e__x2d_17_x2c_7_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_15_x5f_sam/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) {%оказываться полезным%}: {#sarvA^nya\\jYAnsa^MBuYja\\tI#} {%служа при всех жертвоприношениях%}\n<ls>AV. 3,10,7.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) {%sich nützlich erweisen%}: {#sarvA^nya\\jYAnsa^MBuYja\\tI#} {%bei allen Opfern dienend%}\n<ls>AV. 3,10,7.</ls>"@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«оказываться полезным» — функциональный смысл, отличный от пищевого."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AV_x2e__x2d_3_x2c_10_x2c_7_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h2_x5f_15_x5f_sam/caus> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#saMBoga#} <ab>u. s. w.</ab> — <ab>caus.</ab> {%потчевать кого-либо%} (<ab>acc.</ab>) {%чем-либо%} (<ab>instr.</ab>)\n<ls>YĀJÑ. 1,105.</ls>\n<ls>BHĀG. P. 9,5,18.</ls> {#atiTInannapAnena BftyAnatyaSanena ca . saMBojya#}\n<ls>MBH. 3,12672.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#saMBoga#} <ab>u. s. w.</ab> — <ab>caus.</ab> {%Jmd%} (<ab>acc.</ab>) {%speisen mit%} (<ab>instr.</ab>)\n<ls>YĀJÑ. 1,105.</ls>\n<ls>BHĀG. P. 9,5,18.</ls> {#atiTInannapAnena BftyAnatyaSanena ca . saMBojya#}\n<ls>MBH. 3,12672.</ls>"@de ;
+  pwglex:senseTag "caus" ;
+  pwglex:homonym "h2" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "каузатив: угощать едой кого-либо чем-либо."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_9_x2c_5_x2c_18_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/MBH_x2e__x2d_3_x2c_12672_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_1_x2c_105_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/1> a ontolex:LexicalSense ;
+  skos:definition "4. {#Buj#}¦ (= 3. {#Buj)#}\n<div n=\"1\"> 1) <lex>f.</lex> польза, услуга, угода: наслаждение, выгода, польза (<ab>dat.</ab> рассматривать одновременно как <ab>inf.</ab>): {#hu\\ve tu\\vizwa^mA Bu\\je#}\n<ls>ṚV. 5,73,2.</ls> {#kasta^ upo Bu\\je marto^ amartye#}\n<ls n=\"ṚV.\">1,30,20.</ls> {#Bu\\je maMhi^zWama\\Bi vipra^marcata#}\n<ls n=\"ṚV. 1,\">51,1.</ls> <ls n=\"ṚV. 1,\">127,8.</ls> <ls n=\"ṚV. 1,127,\">11.</ls> {#ni mA\\tarA^ nayati reta^se Bu\\je#} seminis profectui (через аттракцию)\n<ls n=\"ṚV. 1,\">155,3.</ls> {#i\\ze Bu\\je#}\n<ls n=\"ṚV.\">8,20,8.</ls> <ls n=\"ṚV.\">10,48,9.</ls> <ls n=\"ṚV.\">5,48,11.</ls> {#yezA\\M nAma^ tve\\zaM SaSva^tA\\meka\\midBu\\je#}\n<ls n=\"ṚV.\">8,20,13.</ls> {#A jA\\miratke^ avyata Bu\\je#}\n(сведено от <ls>BENFEY</ls> к {#Buja#}) {#na pu\\tra o\\Ryo^H#}\n<ls n=\"ṚV.\">9,101,14.</ls> {#indra\\ dfhya^ maGava\\ntvAva\\didgu\\je#}\n<ls n=\"ṚV.\">10,100,1.</ls> {#tAsA\\mekA\\mada^Du\\rmartye Buja^m#}\n<ls n=\"ṚV.\">3,2,9.</ls> {#yA i^ndra Buja\\ ABa^ra\\H sva^rvA~ asu^reByaH#}\n<ls n=\"ṚV.\">8,86,1.</ls> {#mAnta^rA\\M Buja\\mA rI^rizo naH#}\n<ls n=\"ṚV.\">1,104,6.</ls> {#vasvI^rU\\ pu vA\\M Buja^H#}\n<ls n=\"ṚV.\">5,74,10.</ls> {#a\\gnimI^Le Bu\\jAM yavi^zWam#}\n<ls n=\"ṚV.\">10,20,2.</ls> {#vi\\dyAma\\ yAsA\\M Bujo^ DenU\\nAM na#}\n<ls n=\"ṚV. 10,\">22,13.</ls> {#indre\\ Buja^M SaSamA\\nAsa^ ASata#}\n<ls n=\"ṚV. 10,\">92,7.</ls> {#A\\tmanA\\ Buja^maSnutAm#} так <ab>v. a.</ab> да возрадуется он своей жизни\n<ls>AV. 8,2,8.</ls>"@ru ;
+  pwglex:sourceGloss "4. {#Buj#}¦ (= 3. {#Buj)#}\n<div n=\"1\"> 1) <lex>f.</lex> {%das Nutzenbringen, Zugutekommen, Frommen: Genuss, Vortheil, Nutzen%} (<ab>dat.</ab> zugleich als <ab>inf.</ab> zu betrachten): {#hu\\ve tu\\vizwa^mA Bu\\je#}\n<ls>ṚV. 5,73,2.</ls> {#kasta^ upo Bu\\je marto^ amartye#}\n<ls n=\"ṚV.\">1,30,20.</ls> {#Bu\\je maMhi^zWama\\Bi vipra^marcata#}\n<ls n=\"ṚV. 1,\">51,1.</ls> <ls n=\"ṚV. 1,\">127,8.</ls> <ls n=\"ṚV. 1,127,\">11.</ls> {#ni mA\\tarA^ nayati reta^se Bu\\je#} {%seminis profectui%} (durch Attraction)\n<ls n=\"ṚV. 1,\">155,3.</ls> {#i\\ze Bu\\je#}\n<ls n=\"ṚV.\">8,20,8.</ls> <ls n=\"ṚV.\">10,48,9.</ls> <ls n=\"ṚV.\">5,48,11.</ls> {#yezA\\M nAma^ tve\\zaM SaSva^tA\\meka\\midBu\\je#}\n<ls n=\"ṚV.\">8,20,13.</ls> {#A jA\\miratke^ avyata Bu\\je#}\n(von <ls>BENFEY</ls> auf {#Buja#} zurückgeführt) {#na pu\\tra o\\Ryo^H#}\n<ls n=\"ṚV.\">9,101,14.</ls> {#indra\\ dfhya^ maGava\\ntvAva\\didgu\\je#}\n<ls n=\"ṚV.\">10,100,1.</ls> {#tAsA\\mekA\\mada^Du\\rmartye Buja^m#}\n<ls n=\"ṚV.\">3,2,9.</ls> {#yA i^ndra Buja\\ ABa^ra\\H sva^rvA~ asu^reByaH#}\n<ls n=\"ṚV.\">8,86,1.</ls> {#mAnta^rA\\M Buja\\mA rI^rizo naH#}\n<ls n=\"ṚV.\">1,104,6.</ls> {#vasvI^rU\\ pu vA\\M Buja^H#}\n<ls n=\"ṚV.\">5,74,10.</ls> {#a\\gnimI^Le Bu\\jAM yavi^zWam#}\n<ls n=\"ṚV.\">10,20,2.</ls> {#vi\\dyAma\\ yAsA\\M Bujo^ DenU\\nAM na#}\n<ls n=\"ṚV. 10,\">22,13.</ls> {#indre\\ Buja^M SaSamA\\nAsa^ ASata#}\n<ls n=\"ṚV. 10,\">92,7.</ls> {#A\\tmanA\\ Buja^maSnutAm#} so <ab>v. a.</ab> {%möge er seines Lebens froh werden%}\n<ls>AV. 8,2,8.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h3" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "наслаждение/польза — абстрактное отглагольное имя; «польза» акцентирует функциональный аспект, «наслаждение» — гедонический."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/AV_x2e__x2d_8_x2c_2_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BENFEY>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_10_x2c_100_x2c_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_10_x2c_20_x2c_2_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_10_x2c_48_x2c_9_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_10_x2c__x2d_22_x2c_13_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_10_x2c__x2d_92_x2c_7_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_104_x2c_6_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_127_x2c__x2d_11_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c_30_x2c_20_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c__x2d_127_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c__x2d_155_x2c_3_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_1_x2c__x2d_51_x2c_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_3_x2c_2_x2c_9_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_5_x2c_48_x2c_11_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_5_x2c_73_x2c_2_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_5_x2c_74_x2c_10_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_8_x2c_20_x2c_13_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_8_x2c_20_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_8_x2c_86_x2c_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/_xe1__xb9__x9a_V_x2e__x2d_9_x2c_101_x2c_14_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2a> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"1\">— 2) <lex>adj.</lex> в конце <ab>comp.</ab>\n<div n=\"2\"> a) вкушающий, едящий\n<ls>H. 7.</ls> {#yajYaSizwAmfta˚#}\n<ls>BHAG. 4,31.</ls> {#Seza˚#}\n<ls>M. 3,117.</ls> {#SrAdDa˚#}\n<ls n=\"M. 3,\">250.</ls> <ls n=\"M.\">4,109.</ls> {#kAlapakva˚#}\n<ls n=\"M.\">6,17.</ls> {#BEkza˚#}\n<ls n=\"M.\">11,178.</ls> <ls n=\"M. 11,\">255.</ls> {#viqBuj#}\n<ls n=\"M.\">12,56.</ls> {#pUya˚#}\n<ls n=\"M. 12,\">72.</ls> {#Gfta˚#}\n<ls>YĀJÑ. 3,26.</ls> {#anirdizwa˚#}\n<ls>HARIV. 11136.</ls> {#amfzwa˚#}\n<ls>R. 1,6,8.</ls> {#kfmi˚#}\n<ls>Spr. 411.</ls> {#apaTya˚#}\n<ls n=\"Spr.\">1195.</ls> {#tfRANkura˚#}\n<ls n=\"Spr.\">2460.</ls> {#pavana˚#}\n<ls n=\"Spr.\">4723.</ls> {#asfkpiSita˚#}\n<ls>VARĀH. BṚH. S. 15,27.</ls> {#mfzwAnnamaDura˚#}\n<ls n=\"VARĀH. BṚH. S.\">16,28.</ls> {#mAMsa˚#}\n<ls n=\"VARĀH. BṚH. S.\">45,15.</ls> <ls n=\"VARĀH. BṚH. S. 45,\">47.</ls> <ls n=\"VARĀH. BṚH. S. 45,\">25.</ls> — <ls>VID. 247.</ls> <ls>KATHĀS. 33,134.</ls> <ls>RĀJA-TAR. 4,643.</ls> <ls n=\"RĀJA-TAR.\">6,69.</ls> <ls>BHĀG. P. 4,7,4.</ls> <ls>MĀRK. P. 14,84.</ls> <ls>PAÑCAT. 102,4.</ls> <ls>LA. (II) 87,2.</ls> {#viviDAhArapAnageyAdiBoga˚#} вкушающий\n<ls>KATHĀS. 44,81.</ls> {#SamasOKya˚#}\n<ls>Spr. 1055.</ls> {#paradAra˚#}\n<ls>MĀRK. P. 14,74.</ls> в сочетании со словами, означающими землю, — царь, государь\n<ls>H. 4.</ls> {#kASyazI˚#}\n<ls>RĀJA-TAR. 1,45.</ls> В виде исключения не скомпоновано со своим <ab>obj.</ab>: {#na prakAmaBujaH SrAdDe#}\n<ls>RAGH. 1,66</ls>; <ab>vgl.</ab> {#agra˚#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"1\">— 2) <lex>adj.</lex> am Ende eines <ab>comp.</ab>\n<div n=\"2\"> a) {%geniessend, essend%}\n<ls>H. 7.</ls> {#yajYaSizwAmfta˚#}\n<ls>BHAG. 4,31.</ls> {#Seza˚#}\n<ls>M. 3,117.</ls> {#SrAdDa˚#}\n<ls n=\"M. 3,\">250.</ls> <ls n=\"M.\">4,109.</ls> {#kAlapakva˚#}\n<ls n=\"M.\">6,17.</ls> {#BEkza˚#}\n<ls n=\"M.\">11,178.</ls> <ls n=\"M. 11,\">255.</ls> {#viqBuj#}\n<ls n=\"M.\">12,56.</ls> {#pUya˚#}\n<ls n=\"M. 12,\">72.</ls> {#Gfta˚#}\n<ls>YĀJÑ. 3,26.</ls> {#anirdizwa˚#}\n<ls>HARIV. 11136.</ls> {#amfzwa˚#}\n<ls>R. 1,6,8.</ls> {#kfmi˚#}\n<ls>Spr. 411.</ls> {#apaTya˚#}\n<ls n=\"Spr.\">1195.</ls> {#tfRANkura˚#}\n<ls n=\"Spr.\">2460.</ls> {#pavana˚#}\n<ls n=\"Spr.\">4723.</ls> {#asfkpiSita˚#}\n<ls>VARĀH. BṚH. S. 15,27.</ls> {#mfzwAnnamaDura˚#}\n<ls n=\"VARĀH. BṚH. S.\">16,28.</ls> {#mAMsa˚#}\n<ls n=\"VARĀH. BṚH. S.\">45,15.</ls> <ls n=\"VARĀH. BṚH. S. 45,\">47.</ls> <ls n=\"VARĀH. BṚH. S. 45,\">25.</ls> — <ls>VID. 247.</ls> <ls>KATHĀS. 33,134.</ls> <ls>RĀJA-TAR. 4,643.</ls> <ls n=\"RĀJA-TAR.\">6,69.</ls> <ls>BHĀG. P. 4,7,4.</ls> <ls>MĀRK. P. 14,84.</ls> <ls>PAÑCAT. 102,4.</ls> <ls>LA. (II) 87,2.</ls> {#viviDAhArapAnageyAdiBoga˚#} {%geniessend%}\n<ls>KATHĀS. 44,81.</ls> {#SamasOKya˚#}\n<ls>Spr. 1055.</ls> {#paradAra˚#}\n<ls>MĀRK. P. 14,74.</ls> in Verbindung mit Wörtern, die {%Erde%} bedeuten, {%König, Fürst%}\n<ls>H. 4.</ls> {#kASyazI˚#}\n<ls>RĀJA-TAR. 1,45.</ls> Ausnahmsweise nicht mit seinem <ab>obj.</ab> componirt: {#na prakAmaBujaH SrAdDe#}\n<ls>RAGH. 1,66</ls>; <ab>vgl.</ab> {#agra˚#} ."@de ;
+  pwglex:senseTag "2a" ;
+  pwglex:homonym "h3" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "в составе сложных слов — «вкушающий/едящий»; в сочетании со словами «земля» → «царь/государь» (экзоцентрический бахуврихи)."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BHAG_x2e__x2d_4_x2c_31_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_4_x2c_7_x2c_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/HARIV_x2e__x2d_11136_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/H_x2e__x2d_7_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_33_x2c_134_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_44_x2c_81_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/LA_x2e__x2d__x28_II_x29__x2d_87_x2c_2_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_11_x2c_178_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_11_x2c__x2d_255_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_12_x2c_56_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_12_x2c__x2d_72_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c_117_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_3_x2c__x2d_250_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_4_x2c_109_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_x2e__x2d_6_x2c_17_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_14_x2c_74_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_14_x2c_84_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAT_x2e__x2d_102_x2c_4_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/RAGH_x2e__x2d_1_x2c_66>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_1_x2c_6_x2c_8_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_1_x2c_45_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_4_x2c_643_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/R_xc4__x80_JA_x2d_TAR_x2e__x2d_6_x2c_69_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1055_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_1195_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_2460_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_411_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_4723_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_15_x2c_27_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_16_x2c_28_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_45_x2c_15_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_45_x2c__x2d_25_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VAR_xc4__x80_H_x2e__x2d_B_xe1__xb9__x9a_H_x2e__x2d_S_x2e__x2d_45_x2c__x2d_47_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/VID_x2e__x2d_247_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Y_xc4__x80_J_xc3__x91__x2e__x2d_3_x2c_26_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2b> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"2\">— b) {%пожинающий плоды чего-либо%}: {#kilviza˚#}\n<ls>MĀRK. P. 29,30.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"2\">— b) {%den Lohn für Etwas geniessend%}: {#kilviza˚#}\n<ls>MĀRK. P. 29,30.</ls>"@de ;
+  pwglex:senseTag "2b" ;
+  pwglex:homonym "h3" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "переносный смысл: «пожинать плоды» — воздаяние/последствие."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/M_xc4__x80_RK_x2e__x2d_P_x2e__x2d_29_x2c_30_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2c> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"2\">— c) {%приносящий пользу, полезный%}: {#viSva˚#}\n<ls>MAITRYUP. 5,1. 6. 9.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"2\">— c) {%Nutzen bringend, frommend%}: {#viSva˚#}\n<ls>MAITRYUP. 5,1. 6. 9.</ls>"@de ;
+  pwglex:senseTag "2c" ;
+  pwglex:homonym "h3" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "активный смысл: «приносящий пользу» vs. пассивного «вкушающий» в a)."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/MAITRYUP_x2e__x2d_5_x2c_1_x2e__x2d_6_x2e__x2d_9_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/2d> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"2\">— d) {%пробегающий, наполняющий%}: {#vyakta˚ (kAla)#}\n<ls>BHĀG. P. 3,11,3.</ls> {#aviSeza˚ (kAla)#} 4."@ru ;
+  pwglex:sourceGloss "<div n=\"2\">— d) {%durchlaufend, erfüllend%}: {#vyakta˚ (kAla)#}\n<ls>BHĀG. P. 3,11,3.</ls> {#aviSeza˚ (kAla)#} 4."@de ;
+  pwglex:senseTag "2d" ;
+  pwglex:homonym "h3" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "пространственно-динамическое значение, семантически удалённое от пищевого."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_3_x2c_11_x2c_3_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h3_x5f_00_x5f_pwg00/nachtr> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"v\">— <ab>Vgl.</ab> {#a˚, agra˚, anna˚, amfta˚, kaRa˚, kaRwaka˚#}\n(<ls>HIT. 121,16</ls>). {#kravya˚, kziti˚, kzitilava˚, kzORI˚, kzmA˚, jagatI˚, taru˚, deha˚, DArA˚, pARi˚, piSita˚, puru˚, pfTivI˚, pfTvI˚, PaRi˚, vali˚, bahu˚#} (также\n<ls>SUŚR. 2,542. 5</ls>), {#BAga˚, BikzA˚, BujaMga˚, BU˚, BUmi˚, Beka˚, BEkza˚, mita˚, yajYa˚, yajYAMSa˚, lepa˚, vetana˚, stana˚, havirBuj, havizya˚#} ."@ru ;
+  pwglex:sourceGloss "<div n=\"v\">— <ab>Vgl.</ab> {#a˚, agra˚, anna˚, amfta˚, kaRa˚, kaRwaka˚#}\n(<ls>HIT. 121,16</ls>). {#kravya˚, kziti˚, kzitilava˚, kzORI˚, kzmA˚, jagatI˚, taru˚, deha˚, DArA˚, pARi˚, piSita˚, puru˚, pfTivI˚, pfTvI˚, PaRi˚, vali˚, bahu˚#} (auch\n<ls>SUŚR. 2,542. 5</ls>), {#BAga˚, BikzA˚, BujaMga˚, BU˚, BUmi˚, Beka˚, BEkza˚, mita˚, yajYa˚, yajYAMSa˚, lepa˚, vetana˚, stana˚, havirBuj, havizya˚#} ."@de ;
+  pwglex:senseTag "nachtr" ;
+  pwglex:homonym "h3" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/HIT_x2e__x2d_121_x2c_16>, <https://w3id.org/sanskrit-lexicon/repwg/citation/SU_xc5__x9a_R_x2e__x2d_2_x2c_542_x2e__x2d_5> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h4_x5f_00_x5f_pwg00/1> a ontolex:LexicalSense ;
+  skos:definition "1. {#Buj#}¦, сюда относит\n<ls>BENFEY</ls> {#Bujyate#} со значением <ab>Bed.</ab> склоняется (лучше: падает духом)\n<ls>Spr. 938</ls>, каковое место у нас стоит под 3. {#Buj#}\n(<ls>Sp. 302, Z. 9. fgg.</ls>). {#pratyavaskandaBugna#} согнутый, павший духом\n<ls>KATHĀS. 71,109.</ls>"@ru ;
+  pwglex:sourceGloss "1. {#Buj#}¦, hierher zieht\n<ls>BENFEY</ls> {#Bujyate#} mit der <ab>Bed.</ab> {%verneigt sich%} (besser {%wird entmuthigt)%}\n<ls>Spr. 938</ls>, welche Stelle bei uns unter 3. {#Buj#}\n(<ls>Sp. 302, Z. 9. fgg.</ls>) steht. {#pratyavaskandaBugna#} {%gebeugt, entmuthigt%}\n<ls>KATHĀS. 71,109.</ls>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h4" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«согнутый/павший духом» — значение, связанное с физическим сгибанием/подавленностью, отличное от пищевого bhuj."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BENFEY>, <https://w3id.org/sanskrit-lexicon/repwg/citation/KATH_xc4__x80_S_x2e__x2d_71_x2c_109_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Sp_x2e__x2d_302_x2c__x2d_Z_x2e__x2d_9_x2e__x2d_fgg_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d_938> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/1> a ontolex:LexicalSense ;
+  skos:definition "3. {#Buj#}¦\n<div n=\"1\"> 1)\n<ls>Sp. 302, Z. 9. fgg.</ls> <ab>vgl.</ab> выше <ab>u.</ab> 1. {#Buj#} ."@ru ;
+  pwglex:sourceGloss "3. {#Buj#}¦\n<div n=\"1\"> 1)\n<ls>Sp. 302, Z. 9. fgg.</ls> <ab>vgl.</ab> oben <ab>u.</ab> 1. {#Buj#} ."@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h5" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/Sp_x2e__x2d_302_x2c__x2d_Z_x2e__x2d_9_x2e__x2d_fgg_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/2> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#anu#}\n<div n=\"1\"> 2) {#anuBoktuM mahotsavam#} так <ab>v. a.</ab> {%принимать участие в%}\n<ls>R. 7,91,10.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#anu#}\n<div n=\"1\"> 2) {#anuBoktuM mahotsavam#} so <ab>v. a.</ab> {%Theil nehmen an%}\n<ls>R. 7,91,10.</ls>"@de ;
+  pwglex:senseTag "2" ;
+  pwglex:homonym "h5" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«принимать участие в» — социально-ритуальный смысл участия/соучастия."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_7_x2c_91_x2c_10_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/3> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#samA#} {%вкушать%}: {#samABokzyanti pfTivIm#} так <ab>v. a.</ab> {%будут властвовать над%}\n<ls>BHĀG. P. 12,1,7.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#samA#} {%geniessen%}: {#samABokzyanti pfTivIm#} so <ab>v. a.</ab> {%werden herrschen über%}\n<ls>BHĀG. P. 12,1,7.</ls>"@de ;
+  pwglex:senseTag "3" ;
+  pwglex:homonym "h5" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«властвовать над» — переход от пищевого к политическому смыслу."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/BH_xc4__x80_G_x2e__x2d_P_x2e__x2d_12_x2c_1_x2c_7_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/4> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#samupa#}\n<ls>R. 7,26,21.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#samupa#}\n<ls>R. 7,26,21.</ls>"@de ;
+  pwglex:senseTag "4" ;
+  pwglex:homonym "h5" ;
+  pwglex:equivalenceType "explanatory" ;
+  pwglex:sourceType "attested" ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_7_x2c_26_x2c_21_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h5_x5f_00_x5f_pwg00/5> a ontolex:LexicalSense ;
+  skos:definition "<div n=\"p\">— {#sam#}\n<div n=\"1\"> 1) {%вкушать плотски%}\n<ls>R. 7,17,6.</ls>"@ru ;
+  pwglex:sourceGloss "<div n=\"p\">— {#sam#}\n<div n=\"1\"> 1) {%fleischlich geniessen%}\n<ls>R. 7,17,6.</ls>"@de ;
+  pwglex:senseTag "5" ;
+  pwglex:homonym "h5" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«вкушать плотски» — эротическое употребление, специализированное значение общего «вкушать»."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/R_x2e__x2d_7_x2c_17_x2c_6_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h6_x5f_00_x5f_pwg00/1> a ontolex:LexicalSense ;
+  skos:definition "{#Buj#}¦ с {#ni#} {%сгибать, склонять%}: {#niBujati jAnuSirasI#}\n<ls>PAT. a. a. O. 1,254,a.</ls>\n[Page7-1785]\n<div n=\"p\">— {#pra#} {%складывать, сворачивать%}: {#praBujati vAsasI#} <ab>ebend.</ab>"@ru ;
+  pwglex:sourceGloss "{#Buj#}¦ mit {#ni#} {%beugen, senken%}: {#niBujati jAnuSirasI#}\n<ls>PAT. a. a. O. 1,254,a.</ls>\n[Page7-1785]\n<div n=\"p\">— {#pra#} {%falten, zusammenlegen%}: {#praBujati vAsasI#} <ab>ebend.</ab>"@de ;
+  pwglex:senseTag "1" ;
+  pwglex:homonym "h6" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "Значение «сгибать/склонять» противопоставлено «складывать/сворачивать» как физическое движение книзу vs. соединение краёв; разграничение маркировано тире в источнике."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/PAT_x2e__x2d_a_x2e__x2d_a_x2e__x2d_O_x2e__x2d_1_x2c_254_x2c_a_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h7_x5f_00_x5f_pwg00/3> a ontolex:LexicalSense ;
+  skos:definition "{#Buj#}¦\n<div n=\"1\"> 1) {#BukzizIya#}\n<ls>PAÑCAV. BR. 1,1,1.</ls> —\n<ab>Z.</ab> 4 исправить на {#Bu\\jantA^#} <ab>st.</ab> {#Bu\\YjantA^#} . — <ab>intens.</ab> {#boBujIti#} {%наслаждаться, вкушать%}\n<ls>Spr. (II) 4053.</ls>"@ru ;
+  pwglex:sourceGloss "{#Buj#}¦\n<div n=\"1\"> 1) {#BukzizIya#}\n<ls>PAÑCAV. BR. 1,1,1.</ls> —\n<ab>Z.</ab> 4 lies {#Bu\\jantA^#} <ab>st.</ab> {#Bu\\YjantA^#} . — <ab>intens.</ab> {#boBujIti#} {%geniessen%}\n<ls>Spr. (II) 4053.</ls>"@de ;
+  pwglex:senseTag "3" ;
+  pwglex:homonym "h7" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "attested" ;
+  pwglex:differentia "«Наслаждаться» передаёт geniessen в широком смысле пользования/вкушения; «вкушать» — более конкретный вариант при указании на пищу или жертвенную услаждённость (ведийская страта)."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  dct:references <https://w3id.org/sanskrit-lexicon/repwg/citation/PA_xc3__x91_CAV_x2e__x2d_BR_x2e__x2d_1_x2c_1_x2c_1_x2e_>, <https://w3id.org/sanskrit-lexicon/repwg/citation/Spr_x2e__x2d__x28_II_x29__x2d_4053_x2e_> ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Buj/tr/_x5f_buj_x7e__x7e_h8_x5f_00_x5f_pwg00/4> a ontolex:LexicalSense ;
+  skos:definition "{#Buj#}¦\n<div n=\"1\"> 1) добавить {%обладание, имущество.%}\n<ab>Z.</ab> 5 исправить на 5, 48, 4."@ru ;
+  pwglex:sourceGloss "{#Buj#}¦\n<div n=\"1\"> 1) füge bei {%das Haben, die Habe.%}\n<ab>Z.</ab> 5 lies 5, 48, 4."@de ;
+  pwglex:senseTag "4" ;
+  pwglex:homonym "h8" ;
+  pwglex:equivalenceType "equivalent" ;
+  pwglex:sourceType "lexicographic" ;
+  pwglex:differentia "«Обладание» (das Haben) и «имущество» (die Habe) — два семантически близких существительных, первое абстрактное (состояние), второе конкретное (совокупность владений); PWG перечисляет оба как аддендум."@ru ;
+  pwglex:evidenceGrade gr:machine-preview ;
+  pwglex:model "claude-sonnet-5" ;
+  prov:generatedAtTime "2026-06-30T05:05:08Z"^^xsd:dateTime ;
+  prov:wasAttributedTo <https://w3id.org/sanskrit-lexicon/repwg/prov/export-lod> .

@@ -1,0 +1,45 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/budDi-2> a ontolex:LexicalEntry ;
+  rdfs:label "buddhi"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/budDi> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/kna/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/fri/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "बुद्धि /buddhi/ f. 1) ум, разум 2) взгляд- мнение 3) дух, душа 4) мудрость 5) предположение о чём-л. (Loc. ) 6) размышление, раздумье- Instr. बुद्ध्या ради, из-за"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/kna/2> a ontolex:LexicalSense ;
+  skos:definition "बुद्धि\t/buddhi/\t\t/буддхи/\tbuddhi f. разсудокъ, умъ, разумность, благоусмотрѣніе, благоразуміе, здравомысліе, мысли, смыслъ, — [πύστις, ср. подъ budh].\tс. 246"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/fri/3> a ontolex:LexicalSense ;
+  skos:definition "buddhi f.; восприятие, разум, познание, мысль, мнение, намерение, замысел"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/budDi-2/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) II, 39, 41, 44, 49, 50, 51, 52, 53, 63, 66; III, 1, 2, 26, 40, 42, 43; V, 11, 20, 28; VI, 9, 21, 25, 43; VII, 4, 10; VIII, 7; X, 4, 10; XII, 8, 14; XIII, 5; XVI, 9; XVIII, 17, 29, 30, 31, 32, 37, 51, 57; ж. р. воззрение, разум, интеллект, способность представления, осмышленья (иногда и в смысле, близком к кантовскому «практическому разуму»), дух (III, 42, 43), восприятие, мнение, мысль (II, 39), намерение. (II-1) (Buddhi ж. р.) первая таттва природы (пракрити), развивающаяся по эманационному принципу. Б. разум, но не индивидуальное самосознание. Это, согласно эпической Санкхье, вселенская душа, Махан («Великий»), сама по себе несознательная, но лишь отражающая сознание Пуруши, Познающего поле, её владыки. Согласно системе Санкхье, из буддхи проистекает творец личности, аханкара, из него манас, из манаса 10 индрий, пять воспринимающих (чувства зрения, слуха и пр.) и пять действующих: ноги, руки, речевые органы, органы переваривания и органы выделения и произрождения. Это по линии живых организмов животных и растений, по линии же «неживой» природы аханкара (а по другому варианту манас) производит 5 «стихий», бхутов «сутей»: акашу (пространство), воздух (ваю), огонь (агни), воду (апас) и землю (бхуми). Акаше соответствует слух, ветру (воздуху) осязание, огню зрение, воде вкус, земле обоняние. Так разворачивается пракрити; сворачивание происходит в обратном порядке. В индивидуальном сознании буддхи есть решающая оценивающая способность. Хауэр подчёркивает трудность перевода этого своеобразного термина; сам он переводит его через «Gemцt». Слово происходит от корня «budh» «пробуждаться, бодрствовать». Таким образом «буддхи» значит «состояние бодрствования», «сознательной деятельности» («Йога», с. 370—371 ). (III) “разум”, третий модус души по системе Санкхья (см. введение к Санатсуджатапарван). (IV) ж. р., синтезирующая психическая способность, разумная воля, функция которой принимать решения на основе познания, доставляемого рассудком (манасом); в системе Санкхьи вторая (или третья) психическая суть (таттва), подчинённая основе личности (аханкара). (V) разум, разумная воля, принимающая решения; обычно принимается за 24 таттву как высшее проявление пракрити, первая эманация прадханы или авьякта пракрити. Как правило, отождествляется с Махан или Махан Атма, редко с аханкара. За б., как таттвой пракрити, отрицается сознание; сознание и познание рассматриваются как результат вневременного и внепространственного отражения Пуруши в чистейшей (саттвичной) б., 194, 17 и сл.; 203, 1; 247, 13 и сл.; 248, 2 и сл.; 255, 12; 287, 14; 315, 12, 13; 351, 22 (см. также манас, махан, суть, таттва)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

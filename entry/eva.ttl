@@ -1,0 +1,46 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/eva> a ontolex:LexicalEntry ;
+  rdfs:label "eva"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/eva> ;
+  pwglex:key2 "eva/" ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/koch/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/kna/3>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/smirnov/4> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "एव I /eva/ ind. 1) так 2) едва, только 3) ещё 4) именно 5) же"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/koch/2> a ontolex:LexicalSense ;
+  skos:definition "एव II /eva/ 1. 1) спешащий, торопящийся 2) быстрый, скорый 2. m. 1) бег- ход 2) путь 3. m. pl. 1) способ, манера 2) навык 3) обычай"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/kna/3> a ontolex:LexicalSense ;
+  skos:definition "एव\t/eva/\t\tЭва/\tēva выразит. част.: только, именно, же, или совсѣмъ не переводится. — [cp, οἶος].\tс. 210"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "kna" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/eva/dict/smirnov/4> a ontolex:LexicalSense ;
+  skos:definition "(II-2) VI, 42; нескл. част. только, именно, же; часто не переводится."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+

@@ -1,0 +1,40 @@
+# base IRI: https://w3id.org/sanskrit-lexicon/repwg/   generated: 2026-10-11
+
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:     <http://www.w3.org/ns/lemon/lime#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila:     <http://lila-erc.eu/ontologies/lila/> .
+@prefix pwglex:   <https://w3id.org/sanskrit-lexicon/repwg/vocab#> .
+@prefix gr:       <https://w3id.org/sanskrit-lexicon/repwg/grade/> .
+
+# --- lexicon + provenance ------------------------------------
+
+<https://w3id.org/sanskrit-lexicon/repwg/entry/Candas-2> a ontolex:LexicalEntry ;
+  rdfs:label "chandas"@sa-Latn ;
+  dct:isPartOf <https://w3id.org/sanskrit-lexicon/repwg/lexicon/pwg-ru> ;
+  ontolex:canonicalForm <https://w3id.org/sanskrit-lexicon/repwg/lemma/Candas> ;
+  ontolex:sense <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Candas-2/dict/koch/1>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Candas-2/dict/fri/2>, <https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Candas-2/dict/smirnov/3> .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Candas-2/dict/koch/1> a ontolex:LexicalSense ;
+  skos:definition "छन्दस् /chandas/ n. 1) удовольствие 2) желание 3) песня 4) священный гимн 5) язык священного гимна 6) стихосложение, метрика"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "koch" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Candas-2/dict/fri/2> a ontolex:LexicalSense ;
+  skos:definition "chandas n.; удовольствие, желание, (священное) пение, размер, просодия"@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "fri" .
+
+<https://w3id.org/sanskrit-lexicon/repwg/sense/entry/Candas-2/dict/smirnov/3> a ontolex:LexicalSense ;
+  skos:definition "(II-2) X, 35; XIII, 4; XV, 1; ср. р. желание, воля; священная песнь, особенно не ведическая; текст из шрути; стихотворение, размер, метрика (X, 35; XIII, 4)."@ru ;
+  pwglex:evidenceGrade gr:dict-attested ;
+  dct:source "smirnov" .
+
